@@ -1,0 +1,130 @@
+{
+  "project_id": "20260620_061154_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves des humains sont enregistrés dans un serveur secret.",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "directing_generated",
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective découvre un serveur secret enregistrant les rêves humains, menaçant la réalité même.",
+    "synopsis": "Quand un détective privé découvre une cache sombre enregistrant les rêves de la population, il se retrouve dans une quête pour démasquer l'architecte derrière ce secret. Alors que la réalité commence à vaciller, notre héros devient l'unique défenseur des souvenirs inconscients.",
+    "characters": [
+      {
+        "name": "Alex",
+        "age": "35 ans",
+        "role": "Détective privé",
+        "personality": "Intelligent et perspicace, mais fatigué par ses enquêtes quotidiennes.",
+        "visual_description": "Homme aux cheveux gris coupés court, barbe bien taillée, vêtu d'un costume sombre avec une cravate en soie."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Entretien avec un client",
+        "location": "Bureau de l'agence d'enquêtes privées",
+        "time": "Matin, jour",
+        "description": "Alex discute avec une femme effrayée qui prétend avoir vu des choses impossibles dans ses rêves.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Nous devons parler de vos rêves, madame."
+          },
+          {
+            "character": "Client",
+            "line": "Je... J'ai vu mes propres cauchemars se réaliser. Des personnes disparues, des crimes que je n'ai pas commis."
+          }
+        ],
+        "video_prompt": "Alex et sa cliente assise devant un bureau en bois massif.",
+        "music_prompt": "Musique dramatique avec une touche d'incertitude",
+        "sound_effects": [
+          "Souris grimpant sur le papier"
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Recherche dans des archives",
+        "location": "Bureau de l'agence d'enquêtes privées",
+        "time": "Après-midi, jour",
+        "description": "Alex explore les anciennes archives en quête de quelque chose qui pourrait lui éclairer la voie.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "C'est ici que j'ai vu des traces suspectes."
+          }
+        ],
+        "video_prompt": "Alex feuilletant des dossiers vieux et usés sur une table en bois.",
+        "music_prompt": "Musique mystérieuse avec un sous-fond de bruits indistincts",
+        "sound_effects": [
+          "Crac de papier",
+          "Brusque déclic"
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "Découverte du serveur secret",
+        "location": "Sous-sol d'un immeuble abandonné",
+        "time": "Nuit, jour",
+        "description": "Alex trouve un serveur mal protégé enregistrant les rêves.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "C'est ici. Ils ont enregistré chaque rêve..."
+          }
+        ],
+        "video_prompt": "Alex devant un grand serveur informatique dans une pièce sombre et froide.",
+        "music_prompt": "Musique sinistre avec un bruit de ventilateurs lointains",
+        "sound_effects": [
+          "Bruit de clavier",
+          "Appareil photo déclenché"
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Confrontation avec le chef des agents",
+        "location": "Salle de sécurité d'un immeuble de bureaux",
+        "time": "Matin, jour",
+        "description": "Alex fait face à un responsable qui nie tout, mais révèle une partie du plan.",
+        "dialogues": [
+          {
+            "character": "Chef des agents",
+            "line": "C'est pour la science, monsieur. Rien de mal."
+          },
+          {
+            "character": "Alex",
+            "line": "La science ne justifie pas le manque de respect envers les humains!"
+          }
+        ],
+        "video_prompt": "Alex et le chef des agents debout devant un grand écran montrant l'activité du serveur.",
+        "music_prompt": "Musique tensionnelle avec une voix grave",
+        "sound_effects": [
+          "Appareil photo déclenché",
+          "Ventilateur tournant"
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "Lutte pour sauver les rêves",
+        "location": "Sur un toit de gratte-ciel",
+        "time": "Nuit, jour",
+        "description": "Alex combat le chef des agents pour arrêter la destruction du serveur.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Arrêtez ça! Vous ne pouvez pas jouer avec l'esprit humain!"
+          },
+          {
+            "character": "Chef des agents",
+            "line": "Vous comprendrez un jour."
+          }
+        ],
+        "video_prompt": "Combat entre Alex et le chef des agents sur le toit d'un gratte-ciel.",
+        "music_prompt": "Musique d'action avec une rythmique accélérée",
+        "sound_effects": [
+          "Mouvements de combat",
+          "Explosion lointaine"
+        ]
+      }
+    ]
+  }
+}

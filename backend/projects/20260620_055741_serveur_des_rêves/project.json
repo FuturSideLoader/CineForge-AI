@@ -1,0 +1,122 @@
+{
+  "project_id": "20260620_055741_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves des humains sont enregistrés dans un serveur secret.",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "script_generated",
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective découvre un serveur secret enregistrant les rêves humains, menaçant sa propre conscience.",
+    "synopsis": "Le détective Martin découvre une révolutionnante technologie permettant d'enregistrer et de contrôler les rêves. Alors qu'il tente de résoudre un casse-tête impliquant la disparition d'une célébrité, il se retrouve confronté à son propre passé.",
+    "characters": [
+      {
+        "name": "Martin",
+        "age": "45 ans",
+        "role": "Détective privé",
+        "personality": "Étanche, méthodique et curieux",
+        "visual_description": "Taille moyenne, cheveux gris taillés courts. Vêtu d'un costume sombre."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Dossier en Main",
+        "location": "Bureau de Martin",
+        "time": "Matinée",
+        "description": "Martin examine un dossier sur une célébrité disparue.",
+        "dialogue": [
+          {
+            "character": "Martin",
+            "line": "Quelque chose cloche."
+          }
+        ],
+        "video_prompt": "Détective Martin regardant des documents avec intensité, fronçant les sourcils.",
+        "music_prompt": "Musique dramatique et solennelle",
+        "sound_effects": [
+          "Feuilles rustiques crépitantes"
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Serveur Secret",
+        "location": "Laboratoire secret",
+        "time": "Après-midi",
+        "description": "Martin visite un laboratoire où des scientifiques travaillent sur l'enregistrement de rêves.",
+        "dialogue": [
+          {
+            "character": "Scientifique 1",
+            "line": "Vous avez trouvé le bon homme, détective."
+          },
+          {
+            "character": "Martin",
+            "line": "C'est une technologie révolutionnaire. Mais qui la contrôle?"
+          }
+        ],
+        "video_prompt": "Détective Martin et des scientifiques examinant un serveur énorme.",
+        "music_prompt": "Musique menaçante et dramatique",
+        "sound_effects": [
+          "Éléments informatiques sifflant"
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "Archives de Rêves",
+        "location": "Salle d'archives",
+        "time": "Nuit",
+        "description": "Martin accède aux archives des rêves, découvrant un lien avec sa propre histoire.",
+        "dialogue": [
+          {
+            "character": "Martin",
+            "line": "C'est trop proche de moi..."
+          }
+        ],
+        "video_prompt": "Détective Martin parcourant des écrans pleins d'images flottantes et déformées, puis se regardant dans une image.",
+        "music_prompt": "Musique introspective et inquiétante",
+        "sound_effects": [
+          "Étincelles numériques"
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Confrontation Passée",
+        "location": "Appartement de Martin",
+        "time": "Matin",
+        "description": "Martin revit une scène de son passé, liée à l'affaire actuelle.",
+        "dialogue": [
+          {
+            "character": "Martin (flashback)",
+            "line": "Je dois découvrir la vérité..."
+          },
+          {
+            "character": "Martin",
+            "line": "(regardant la scène en flashback) Je vais trouver ce qui se cache derrière tout ça."
+          }
+        ],
+        "video_prompt": "Détective Martin dans son appartement, revivant des souvenirs à travers des effets de flashback.",
+        "music_prompt": "Musique intense et anxiogène",
+        "sound_effects": [
+          "Bruissement de papier froissé"
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "Révélation",
+        "location": "Salle d'archives",
+        "time": "Matinée",
+        "description": "Martin découvre la vérité derrière l'affaire et la technologie des rêves.",
+        "dialogue": [
+          {
+            "character": "Martin",
+            "line": "C'est pour les supprimer, non? Les rêves sont une faiblesse humaine."
+          }
+        ],
+        "video_prompt": "Détective Martin se penchait sur l'écran, regardant la vérité apparaître sous ses yeux.",
+        "music_prompt": "Musique finale, douce et réfléchie",
+        "sound_effects": [
+          "Appareils sifflant"
+        ]
+      }
+    ]
+  }
+}
