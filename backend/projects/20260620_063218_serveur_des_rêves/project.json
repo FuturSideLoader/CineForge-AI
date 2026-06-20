@@ -1,0 +1,140 @@
+{
+  "project_id": "20260620_063218_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves des humains sont enregistrés dans un serveur secret.",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "directing_generated",
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective enquête sur un serveur secret qui enregistre les rêves des humains, découvrant une vérité plus profonde et trouble.",
+    "synopsis": "L'histoire suit le détective Samuel Harris, qui se mêle à la vie d'un jeune homme afin de découvrir pourquoi ses rêves sont censés rester secrets. Il s'engage dans une quête perplexe pour comprendre l'impact des rêves sur la réalité.",
+    "characters": [
+      {
+        "name": "Samuel Harris",
+        "age": "35 ans",
+        "role": "Détective",
+        "personality": "Introspectif et tenace, Samuel est déterminé à résoudre les énigmes qui se cachent derrière la vérité des rêves.",
+        "visual_description": "Cheveux bruns mi-longs, barbe bien taillée, vêtements professionnels, lunettes."
+      },
+      {
+        "name": "Max",
+        "age": "20 ans",
+        "role": "Etudiant",
+        "personality": "Curieux et naïf, Max est l'adolescent aux rêves troublants qui attirent l’attention du détective.",
+        "visual_description": "Cheveux rasés à la brosse, vêtements informels."
+      },
+      {
+        "name": "Director",
+        "age": "45 ans",
+        "role": "Directeur du serveur des rêves",
+        "personality": "Énigmatique et séduisant, le directeur tient un rôle crucial dans l’intrigue.",
+        "visual_description": "Cheveux courts et noirs, costume impeccable."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Démarrage de l'enquête",
+        "location": "Bureau du commissariat",
+        "time": "Matinée",
+        "description": "Samuel réfléchit intensément, essayant d'imaginer pourquoi un serveur serait dédié aux rêves des gens.",
+        "dialogues": [
+          {
+            "character": "Samuel Harris",
+            "line": "Que cache ce serveur ?"
+          }
+        ],
+        "video_prompt": "Un détective pensif, regardant des dossiers sur son bureau.",
+        "music_prompt": "Musique énigmatique et mystérieuse",
+        "sound_effects": [
+          "Claviers tapotés"
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Rencontre avec Max",
+        "location": "Appartement de Max, quartier résidentiel",
+        "time": "Après-midi",
+        "description": "Samuel se fait passer pour un psychologue et rencontre Max.",
+        "dialogues": [
+          {
+            "character": "Max",
+            "line": "J'ai des rêves qui ne devraient pas exister."
+          },
+          {
+            "character": "Samuel Harris",
+            "line": "Peux-tu m'en parler ?"
+          }
+        ],
+        "video_prompt": "Un adolescent nervosité et un détective professionnel.",
+        "music_prompt": "Musique douce mais intriguante",
+        "sound_effects": [
+          "Respiration saccadée"
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "Appel au directeur du serveur",
+        "location": "Téléphone de Samuel Harris",
+        "time": "Soirée",
+        "description": "Samuel tente d'obtenir plus d'informations auprès du directeur.",
+        "dialogues": [
+          {
+            "character": "Directeur",
+            "line": "N'avez-vous pas été informé ? Les rêves sont sacrés."
+          },
+          {
+            "character": "Samuel Harris",
+            "line": "Qui êtes-vous pour décider de quoi est sacré ?"
+          }
+        ],
+        "video_prompt": "Écran d'appel sur le téléphone, visage flou du directeur.",
+        "music_prompt": "Musique dramatique et menaçante",
+        "sound_effects": [
+          "Désaccord d'orgue"
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Découverte du serveur",
+        "location": "Serveur secret, souterrain",
+        "time": "Nuit",
+        "description": "Samuel pénètre dans le serveur et découvre les enregistrements.",
+        "dialogues": [
+          {
+            "character": "Samuel Harris",
+            "line": "Ici est stockée la vérité."
+          }
+        ],
+        "video_prompt": "Une salle sombre avec des ordinateurs de serveur, écrans clignotants, Samuel écartant le cordon de sécurité.",
+        "music_prompt": "Musique intense et nerveuse",
+        "sound_effects": [
+          "Bruit d'électricité"
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "Confrontation finale",
+        "location": "Appartement de Max, journée suivante",
+        "time": "Matinée",
+        "description": "Samuel confronte le directeur et Max à l'égard des implications des rêves.",
+        "dialogues": [
+          {
+            "character": "Samuel Harris",
+            "line": "Vous manipulez les rêves pour garder la vérité cachée."
+          },
+          {
+            "character": "Directeur",
+            "line": "Et si c'était la seule façon de préserver l'humanité ?"
+          }
+        ],
+        "video_prompt": "Les trois personnages dans un salon, tension palpable.",
+        "music_prompt": "Musique sombre et introspective",
+        "sound_effects": [
+          "Boucles d'oreilles cliquettantes"
+        ]
+      }
+    ]
+  }
+}

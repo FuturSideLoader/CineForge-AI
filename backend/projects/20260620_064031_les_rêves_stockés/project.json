@@ -1,0 +1,174 @@
+{
+  "project_id": "20260620_064031_les_rêves_stockés",
+  "idea": "Un détective découvre que les rêves sont stocké sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "directing_generated",
+  "script": {
+    "title": "Les Rêves Stockés",
+    "logline": "Un détective découvre une sombre vérité derrière le stockage des rêves sur un serveur privé.",
+    "synopsis": "Lorsqu'un mystérieux client lui confie une enquête, un détective se retrouve confronté à la réalité des rêves et à leurs implications profondes. Il découvre un serveur secret où les rêves sont stockés, menant à une quête qui le mène au cœur de ses propres cauchemars.",
+    "characters": [
+      {
+        "name": "Detective Jameson",
+        "age": 45,
+        "role": "Détective privée",
+        "personality": "Expérimenté, perplexe et déterminé",
+        "visual_description": "Costume classique avec un chapeau de detective, barbe légèrement grisonnante."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "L'Enquête Commence",
+        "location": "Bureau du détective Jameson",
+        "time": "Matinée",
+        "description": "Jameson est en train de travailler sur son bureau, examinant divers documents et téléphones.",
+        "dialogues": [
+          {
+            "character": "Detective Jameson",
+            "line": "Quelque chose cloche ici..."
+          }
+        ],
+        "video_prompt": "Un bureau bien organisé avec des écrans de surveillance à l'arrière-plan, un tapis rouge sur le sol.",
+        "music_prompt": "Musique classique et lente",
+        "sound_effects": [
+          "Tic-tac d'une horloge",
+          "Clavier tapoté"
+        ],
+        "directing": {
+          "camera": "Canon EOS R5",
+          "shot_type": "Moyenne planne et gros plan",
+          "camera_movement": "Stable, avec des plans fixes pour une ambiance réfléchie",
+          "lens": "24-70mm f/2.8",
+          "lighting": "Éclairage naturel du jour entrant à travers les fenêtres, complété par des spots indirects pour un éclairage doux et uniforme",
+          "mood": "Sérieux et pensif",
+          "color_grading": "Ton neutre avec une légère surimpression de bleu clair pour renforcer le sentiment d'isolement et de réflexion",
+          "visual_style": "Minimaliste, mettant l'accent sur les éléments du décor et les mouvements des mains du détective",
+          "director_notes": "Insister sur la solennité du moment, avec un regard perçant du détective sur ses documents. Utiliser le tic-tac de l'horloge comme un son répétitif pour souligner la tension silencieuse."
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "La Découverte du Serveur",
+        "location": "Appartement du client mystérieux",
+        "time": "Après-midi",
+        "description": "Jameson est dans l'appartement d'un homme aux allures étranges, cherchant des indices.",
+        "dialogues": [
+          {
+            "character": "Detective Jameson",
+            "line": "Qu'est-ce que ça veut dire ?"
+          },
+          {
+            "character": "Client mystérieux",
+            "line": "C'est juste une petite partie de ce que je peux vous montrer."
+          }
+        ],
+        "video_prompt": "Intérieur d'un appartement luxueux avec des écrans de surveillance, ordinateur portable.",
+        "music_prompt": "Musique suspensive et menaçante",
+        "sound_effects": [
+          "Brusque coup de tonnerre"
+        ],
+        "directing": {
+          "camera": "Caméra subjective",
+          "shot_type": "Plan séquence",
+          "camera_movement": "Caméra stable au début, puis effectuant un lent panoramique vers les écrans de surveillance et l'ordinateur portable.",
+          "lens": "Objectif à grand angle pour capturer la scène dans son intégralité.",
+          "lighting": "Éclairage indirect et diffus, accentuant l'atmosphère mystérieuse avec quelques spots lumineux sur les écrans.",
+          "mood": "Suspense et tension",
+          "color_grading": "Tonalité bleutée et sombre pour renforcer la sensation d'ambiguïté et de danger potentiel.",
+          "visual_style": "Style réaliste avec des touches d'esthétique cyberpunk grâce aux écrans de surveillance modernes.",
+          "director_notes": "Concentrez-vous sur les expressions faciales de Jameson et du client mystérieux, créant une tension entre eux. Utilisez les bruits de fond discrets pour ajouter à l'atmosphère, comme un murmure lointain ou des cliquetis d'un ordinateur en fonctionnement."
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Le Serveur Privé",
+        "location": "Serveur privé caché dans la cave du client",
+        "time": "Nuit",
+        "description": "Jameson découvre un serveur informatique caché dans une pièce de la cave.",
+        "dialogues": [
+          {
+            "character": "Detective Jameson",
+            "line": "C'est ici que vous stockez les rêves ?"
+          }
+        ],
+        "video_prompt": "Intérieur d'une cave, des câbles éparpillés sur le sol avec un serveur informatique.",
+        "music_prompt": "Musique sinistre et tension montante",
+        "sound_effects": [
+          "Détails de la technologie informatique"
+        ],
+        "directing": {
+          "camera": "Caméra de poche ou compacte pour une perspective immersive",
+          "shot_type": "Plan large suivi d'angles dynamiques pour capturer l'environnement et le serveur informatique",
+          "camera_movement": "Démarrage avec un plan large sur la cave, puis une caméra portée par Jameson découvrant progressivement le serveur caché derrière des caisses",
+          "lens": "Prisme rectangulaire pour ajouter une touche tech-thriller",
+          "lighting": "Lumières tamisées et faibles pour créer un ton mystérieux, avec un focus sur les lueurs bleutées du serveur informatique",
+          "mood": "Tension et intrigue",
+          "color_grading": "Teinte de noir et blanc avec des accents bleus pour une ambiance cyberpunk",
+          "visual_style": "Graphisme minimaliste et futuriste, avec un mélange d'éléments réels et virtuels",
+          "director_notes": "Insister sur l'impression d'être dans un monde où les rêves sont numérisés. Utiliser des détails techniques pour renforcer le sentiment de réalisme dans la fiction."
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Rêves Intérieurs",
+        "location": "Studio d'enregistrement",
+        "time": "Matinée du lendemain",
+        "description": "Jameson est dans un studio d’enregistrement, en train de visualiser les rêves.",
+        "dialogues": [
+          {
+            "character": "Detective Jameson",
+            "line": "Ce que je vois ici dépasse l'entendement."
+          }
+        ],
+        "video_prompt": "Studio d'enregistrement avec écrans à haute résolution montrant des images en mouvement.",
+        "music_prompt": "Musique intense et dramatique",
+        "sound_effects": [
+          "Son du rêve en cours de visualisation"
+        ],
+        "directing": {
+          "camera": "Cameraman utilise une caméra de haute résolution pour capturer chaque détail des écrans d'images en mouvement.",
+          "shot_type": "La scène est réalisée en plan large pour mettre en valeur l'environnement du studio et le détective.",
+          "camera_movement": "Caméra fixe avec un léger zoom lent vers les écrans, suivi d'un panoramique lent sur la pièce pour montrer l'ampleur de la situation.",
+          "lens": "Objectif larges angles pour inclure la totalité du studio dans le champ de vision, puis un objectif standard pour se concentrer sur les écrans.",
+          "lighting": "Éclairage indirect et diffus pour créer une atmosphère mystérieuse. Les écrans sont bien illuminés par des projecteurs cachés.",
+          "mood": "Sombre et intense, soulignant l'émotion de Jameson devant ce qu'il voit.",
+          "color_grading": "Tonte sombre avec nuances de bleu et de noir pour renforcer le sentiment d'étrangeté et de mystère.",
+          "visual_style": "Realiste mais avec une touche fantastique, adaptée aux scènes de rêves visualisés.",
+          "director_notes": "Il est important de maintenir un ton grave tout au long du plan pour refléter l'importance et la gravité des images montrées. Jameson doit paraître perplexe et presque effrayé par ce qu'il voit."
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "Confrontation",
+        "location": "Bureau de Jameson, sous un déluge de rêves",
+        "time": "Après-midi",
+        "description": "Jameson est sur le point de découvrir la vérité derrière les rêves stockés.",
+        "dialogues": [
+          {
+            "character": "Detective Jameson",
+            "line": "Vous mentez... Vous manipulatez..."
+          }
+        ],
+        "video_prompt": "Bureau de Jameson avec des images et des données flottant autour de lui dans un tourbillon numérique.",
+        "music_prompt": "Musique intense, atteignant son apogée",
+        "sound_effects": [
+          "Son d'un clavier tapoté frénétiquement"
+        ],
+        "directing": {
+          "camera": "Cameo avec un zoom lent vers la tête de Jameson, suivant ses mouvements d'expression.",
+          "shot_type": "Plan moyenne, puis plan rapproché des yeux de Jameson pour montrer sa réaction intense.",
+          "camera_movement": "Déplacement latéral de la caméra pour inclure l'environnement du bureau avec des images et des données flottant autour.",
+          "lens": "Objektif de grande profondeur de champ pour maintenir à la fois Jameson et les rêves virtuels en focus.",
+          "lighting": "Lighting dramatique avec des spots latéraux créant des ombres nettes sur le visage de Jameson, mettant en évidence ses expressions.",
+          "mood": "Tension et incertitude, suggérant la découverte d'une vérité choquante.",
+          "color_grading": "Contraste élevé avec des tonalités vives et crues pour renforcer l'intensité émotionnelle de la scène.",
+          "visual_style": "Fusion numérique de réalité et de rêves, créant un univers visuellement impressionnant et inquiétant.",
+          "director_notes": "Il est important d'exprimer la révélation progressive dans les expressions faciales de Jameson. Les rêves flottants autour doivent être stylisés pour donner vie à cette idée de manipulation virtuelle."
+        }
+      }
+    ]
+  }
+}

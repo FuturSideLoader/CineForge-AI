@@ -1,43 +1,54 @@
 import json
 import requests
 
+
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:7b"
 
+
+def clean_json_response(raw_text: str) -> dict:
+    cleaned = raw_text.strip()
+    cleaned = cleaned.replace("```json", "")
+    cleaned = cleaned.replace("```", "")
+    cleaned = cleaned.strip()
+
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+
+    if start != -1 and end != -1:
+        cleaned = cleaned[start:end + 1]
+
+    return json.loads(cleaned)
+
+
 def generate_directing_for_scene(scene: dict, language: str = "fr") -> dict:
     prompt = f"""
-Tu est Director AI pour CineForge AI.
+Tu es Director AI pour CineForge AI.
 
 Langue : {language}
 
 Voici une scène :
 {json.dumps(scene, ensure_ascii=False, indent=2)}
 
-Transforme cette scene en instructions de réalisation cinéma.
+Génère les instructions de réalisation cinéma.
 
-Répond uniquement en JSON validen sans markdown.
+Réponds uniquement en JSON valide.
 
 Structure obligatoire :
 {{
-    "camera": "",
-    "shot_type": "",
-    "camera_movement": "",
-    "lens": "",
-    "lighting": "",
-    "mood": "",
-    "color_grading": "",
-    "visual_style": "",
-    "director_notes": ""
+  "camera": "",
+  "shot_type": "",
+  "camera_movement": "",
+  "lens": "",
+  "lighting": "",
+  "mood": "",
+  "color_grading": "",
+  "visual_style": "",
+  "director_notes": ""
 }}
-
-Contraintes :
-- Instruction courtes mais précises.
-- Style cinématographique.
-- Compatible génération vidéo IA.
-- Aucun texte hors JSON.
 """
 
-    response = request.post(
+    response = requests.post(
         OLLAMA_URL,
         json={
             "model": OLLAMA_MODEL,
@@ -48,26 +59,43 @@ Contraintes :
     )
 
     response.raise_for_status()
+    raw_text = response.json()["response"]
 
-    raw_text = response.json()["response"].strip()
-
-    try:
-        return json.loads(raw_text)
-    except json.JSONDecodeError:
-        cleaned = raw_text.replace("```json", "").replace("```", "").strip()
+    return clean_json_response(raw_text)
 
 
 def generate_directing_for_script(script: dict, language: str = "fr") -> dict:
     scenes = script.get("scenes", [])
 
-    for scene in scenes:
+    print(f"[Director AI] Nombre de scènes reçues : {len(scenes)}")
+
+    for index, scene in enumerate(scenes):
+        print(f"[Director AI] Génération directing scène {index + 1}")
+
         if "dialogue" in scene and "dialogues" not in scene:
             scene["dialogues"] = scene.pop("dialogue")
 
-            scene["directing"] = generate_directing_for_scene(
-                scene=scene,
-                language=language
-            )
+        try:
+            directing = generate_directing_for_scene(scene, language)
+        except Exception as error:
+            print(f"[Director AI] Erreur scène {index + 1} : {error}")
+
+            directing = {
+                "camera": "Static cinematic camera",
+                "shot_type": "Medium shot",
+                "camera_movement": "Slow push in",
+                "lens": "50mm",
+                "lighting": "Cinematic soft lighting",
+                "mood": "Mysterious",
+                "color_grading": "Dark blue cinematic tones",
+                "visual_style": "Realistic cinematic style",
+                "director_notes": "Fallback generated because Director AI failed."
+            }
+
+        scene["directing"] = directing
+        scenes[index] = scene
+
+        print(f"[Director AI] Directing ajouté scène {index + 1}")
 
     script["scenes"] = scenes
     return script

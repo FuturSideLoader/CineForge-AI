@@ -1,0 +1,217 @@
+{
+  "project_id": "20260620_064805_rêves_stockés",
+  "idea": "Un détective découvre que les rêves sont stocké sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "storyboard_generated",
+  "script": {
+    "title": "Rêves Stockés",
+    "logline": "Un détective découvre que ses rêves sont stockés sur un serveur privé, le poussant à une quête dangereuse.",
+    "synopsis": "Quand un détective, perdu dans la ville sous les révélations d'un mystérieux cryptage de rêve, commence à soupçonner que ses propres rêves sont stockés sur un serveur privé, il entreprend une enquête qui le mène à des sommets dangereux et inattendus.",
+    "characters": [
+      {
+        "name": "Detecteur Jack",
+        "age": "40 ans",
+        "role": "Détective privé",
+        "personality": "Rational, cautious, and persistent but prone to fits of curiosity",
+        "visual_description": "Costumed in a classic trench coat, glasses perched on his nose. Has a disheveled appearance with dark hair slightly messy."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Le Détective et son Sommeil Troublé",
+        "location": "Chambre d'un hôtel sombre",
+        "time": "Nuit",
+        "description": "Detecteur Jack, en train de dormir malgré lui, est subitement perturbé par des rêves troublants.",
+        "dialogues": [
+          {
+            "character": "Detecteur Jack",
+            "line": "Qu'est-ce que... ce rêve ?"
+          }
+        ],
+        "video_prompt": "Un détective privé dans sa chambre d'hôtel, visage inquiet, dormir malgré lui.",
+        "music_prompt": "Musique étrange et menaçante à la base, avec une progression vers un son plus angoissant.",
+        "sound_effects": [
+          "Respiration saccadée",
+          "Sifflement du vent"
+        ],
+        "directing": {
+          "camera": "Caméra subjective placée à la hauteur du visage de Jack, permettant au spectateur d'entrer dans ses rêves.",
+          "shot_type": "Close-up",
+          "camera_movement": "Stable, se concentre sur les expressions faciales de Jack pour capturer l'anxiété et le désarroi.",
+          "lens": "Prisme largement ouvert (1.8) pour un rendu flou doux autour des yeux de Jack et créer une sensation d'irréalité dans ses rêves.",
+          "lighting": "Lighting intérieur naturel tamisé par les rideaux fermés, avec une source de lumière indirecte provenant du couloir éclairé qui crée des ombres dynamiques sur le visage de Jack.",
+          "mood": "Tension et inquiétude",
+          "color_grading": "Ton nuancé de gris, légèrement bleuté pour un sentiment d'étrangeté et d'angoisse. Les couleurs se rafraîchissent lorsque l'irréalité des rêves commence à se manifester.",
+          "visual_style": "Réaliste mais avec une touche onirique, en utilisant la lumière et les ombres pour souligner le contraste entre la nuit calme de l'hôtel et l'univers trouble du rêve.",
+          "director_notes": "Insister sur le ressenti interne de Jack. Les rêves sont perturbants mais non violents - il doit sembler à la fois confus et intrigué par leur nature. La transition entre la réalité et le rêve doit être fluide, tout en restant claire pour le spectateur."
+        },
+        "storyboard": {
+          "visual_description": "Detecteur Jack, en train de dormir malgré lui dans une chambre d'hôtel sombre. Son visage inquiet exprime anxiété et confusion.",
+          "image_prompt": "Détective privé dans sa chambre d'hôtel, visage inquiet, dormir malgré lui, respiration saccadée, sifflement du vent, lighting tamisé, nuance de gris légèrement bleuté pour un sentiment d'étrangeté et d'angoisse.",
+          "video_prompt": "Un détective privé dans sa chambre d'hôtel, visage inquiet, dormir malgré lui. Caméra subjective placée à la hauteur du visage de Jack, permettant au spectateur d'entrer dans ses rêves. Mouvement caméra stable, se concentre sur les expressions faciales de Jack pour capturer l'anxiété et le désarroi. Transition fluide entre la réalité et le rêve.",
+          "negative_prompt": "Fausse image, mauvaise qualité, défauts IA",
+          "first_frame_description": "Détective Jack, couché sur un lit d'hôtel sombre, visage inquiet, respirant de manière saccadée, sous l'éclairage tamisé.",
+          "last_frame_description": "Détective Jack, maintenant debout dans son rêve onirique, face à une ombre étrange et menaçante, visage dérouté et intrigué par la nature perturbante de ses rêves.",
+          "continuity_notes": "Maintenir une cohérence entre la transition de l'aspect réel à l'onirique pour Jack. Utiliser la lumière et les ombres pour souligner le contraste entre la nuit calme de l'hôtel et l'univers trouble du rêve."
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "Début de l'Enquête",
+        "location": "Bureau d'un détective privé",
+        "time": "Matin",
+        "description": "Jack réfléchit sur ses rêves troublants et commence à enquêter.",
+        "dialogues": [
+          {
+            "character": "Detecteur Jack",
+            "line": "Il y a quelque chose d'étrange ici. Ces rêves ne sont pas normaux."
+          }
+        ],
+        "video_prompt": "Détective Jack, visage concentré, dans un bureau de détective privé.",
+        "music_prompt": "Musique classique et sérieuse, avec une nuance d'incertitude.",
+        "sound_effects": [
+          "Boutons des chaussures qui claquent"
+        ],
+        "directing": {
+          "camera": "Static cinematic camera",
+          "shot_type": "Medium shot",
+          "camera_movement": "Slow push in",
+          "lens": "50mm",
+          "lighting": "Cinematic soft lighting",
+          "mood": "Mysterious",
+          "color_grading": "Dark blue cinematic tones",
+          "visual_style": "Realistic cinematic style",
+          "director_notes": "Fallback generated because Director AI failed."
+        },
+        "storyboard": {
+          "visual_description": "Detecteur Jack, visage concentré, assis à une grande table de bureau dans un bureau de détective privé. Les rideaux sont légèrement tirés, laissant entrer une lumière tamisée qui crée des ombres fascinantes.",
+          "image_prompt": "Détective Jack, visage fermé et pensif, en costume sombre avec une cravate, assis derrière un bureau de détective privé. Les murs sont couverts d'affiches de cas passés, une grande fenêtre laisse entrer une lumière douce.",
+          "video_prompt": "Détective Jack, visage concentré, dans un bureau de détective privé. La caméra fait un slow push in sur lui, dévoilant peu à peu son expression sérieuse. Les boutons de ses chaussures claquent doucement au sol tandis qu'il fixe une feuille de papier.",
+          "negative_prompt": "brouillon, mauvaise qualité, artificiel, mal dessiné, ombres mal définies",
+          "first_frame_description": "Détective Jack, assis derrière son bureau dans un bureau de détective privé. Il fixe une feuille de papier avec un air pensif.",
+          "last_frame_description": "Détective Jack, visage concentré et sérieux sur sa chaise, l'image se stabilise sur son expression grave.",
+          "continuity_notes": "Le mouvement caméra devrait être doux pour maintenir une ambiance sérieuse et mystérieuse. Le slow push in permet de montrer progressivement la tension dans les traits du détective."
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Le Serveur Privé",
+        "location": "Serveur de données dans un sous-sol secret",
+        "time": "Nuit",
+        "description": "Jack parvient à accéder au serveur privé et découvre une base de données sur ses rêves.",
+        "dialogues": [
+          {
+            "character": "Detecteur Jack",
+            "line": "C'est impossible. Comment est-ce possible ?"
+          }
+        ],
+        "video_prompt": "Détective Jack, en train d'examiner un serveur dans une pièce obscurcie par des câbles et du matériel informatique.",
+        "music_prompt": "Musique de suspense et d'effroi, forte et menaçante.",
+        "sound_effects": [
+          "Bruit de moteurs informatiques"
+        ],
+        "directing": {
+          "camera": "Cameraman fixe le caméscope sur une position stable, avec un angle de vue sur le serveur central.",
+          "shot_type": "Plan Large",
+          "camera_movement": "Stable, sans mouvement",
+          "lens": "Objectif de 24mm pour capturer l'ensemble du matériel informatique.",
+          "lighting": "Lumières faibles et diffuses, accentuant les ombres pour créer un effet d'atmosphère menaçante. Utilisation des spots cachés pour illuminer le visage du détective Jack.",
+          "mood": "Sombre et menaçant",
+          "color_grading": "Tonalités de noir et blanc avec des touches de rouge pour souligner la tension, utilisant une gradation de couleurs froide pour renforcer l'ambiance nocturne et souterraine.",
+          "visual_style": "Visuels nettement détaillés du matériel informatique, contrastant avec le visage éclairé du détective Jack.",
+          "director_notes": "Il est important de capter l'inquiétude et la surprise sur le visage de Jack lorsqu'il découvre les données. La tension doit être maintenue par l'ambiance sombre et menaçante de la scène."
+        },
+        "storyboard": {
+          "visual_description": "Dans une pièce obscurcie par des câbles et du matériel informatique, on peut voir Jack, le détective, examinant un serveur central. Son visage est éclairé par un spot caché, mettant en lumière sa surprise et son inquiétude alors qu'il découvre les données sur ses rêves.",
+          "image_prompt": "Détective Jack devant un serveur dans une pièce obscure, visage illuminé de surprise et inquiétude, avec des câbles et du matériel informatique autour.",
+          "video_prompt": "Dans une pièce obscurcie par des câbles et du matériel informatique, le détective Jack se penche sur un serveur central. La caméra est fixe, avec un angle de vue large pour capturer l'ensemble du matériel informatique. Le mouvement caméra est stable sans mouvement. On entend des bruits de moteurs informatiques et la musique de suspense et d'effroi joue en fond.",
+          "negative_prompt": "Defocus blur, oversaturation, bad composition, extra limbs, missing arms, bad anatomy, bad hands, text, watermark",
+          "first_frame_description": "Jack, détective, se penche sur le serveur central dans une pièce obscure. Il observe attentivement la surface du serveur, éclairé par un spot caché.",
+          "last_frame_description": "On voit Jack toujours concentré, son visage marqué par la surprise et l'inquiétude. Derrière lui, les câbles et le matériel informatique créent une atmosphère menaçante et souterraine.",
+          "continuity_notes": "Assurez-vous que la luminosité de la scène reste cohérente tout au long de la séquence. Le visage de Jack doit rester clairement visible dans les premières images, puis se fondre progressivement dans l'obscurité en arrière-plan."
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Les Menaces",
+        "location": "Bar mélangeant réalité et rêves",
+        "time": "Nuit",
+        "description": "Jack est confronté à ses propres cauchemars, qui prennent vie dans une ambiance d'horreur.",
+        "dialogues": [
+          {
+            "character": "Detecteur Jack",
+            "line": "C'est réel. Ces rêves sont réels."
+          }
+        ],
+        "video_prompt": "Détective Jack, entouré de monstres et créatures étranges qui lui font face dans un bar déformé par la réalité et les rêves.",
+        "music_prompt": "Musique angoissante, mélange de bruitages et d'effets sonores sinistres.",
+        "sound_effects": [
+          "Cri d'horreur",
+          "Sifflement des créatures"
+        ],
+        "directing": {
+          "camera": "Caméra plongée pour créer une proximité inquiétante avec les monstres, oscillant entre des plans serrés sur Jack et des panoramiques pour montrer l'ensemble de la scène.",
+          "shot_type": "Plans moyens à rapprochement",
+          "camera_movement": "Mouvement de la caméra lent et instable pour renforcer le sentiment d'anxiété, alternant entre des plans fixes sur Jack et des mouvements fluides lorsque les monstres entrent en action.",
+          "lens": "Objectifs larges à moyens focales pour capturer l'ambiance oppressante du bar hybride réalité-rêve.",
+          "lighting": "Lighting sombre et dramatique, mettant en valeur la texture des monstres tout en maintenant une ambiance de mystère.",
+          "mood": "Tension croissante et inquiétude",
+          "color_grading": "Ton de gris clair avec nuances d'orange rougeâtre pour ajouter une touche d'horreur psychologique, contrastant avec des éléments plus sombres et noirs.",
+          "visual_style": "Style visuel réaliste interprété comme un rêve effrayant, combinant éléments réalistes de la réalité urbaine dans le bar avec des créatures fantastiques et cauchemardesques.",
+          "director_notes": "Insister sur l'immersion du spectateur par une direction d'acteur forte pour que Jack semble véritablement terrifié. Utiliser les effets sonores pour accroître la tension, en particulier le cri d'horreur et le sifflement des créatures."
+        },
+        "storyboard": {
+          "visual_description": "Bar mélangeant réalité et rêves dans une ambiance de nuit. Jack est assis à une table, entouré par des monstres et créatures étranges qui prennent vie.",
+          "image_prompt": "Detective Jack face à des monstres et créatures inquiétantes dans un bar hybride réalité-rêve, ambientée de nuit avec musique angoissante et effets sonores sinistres.",
+          "video_prompt": "Détective Jack entouré de monstres et créatures étranges qui lui font face dans un bar déformé par la réalité et les rêves. Caméra plongée pour créer une proximité inquiétante avec les monstres, oscillant entre des plans serrés sur Jack et des panoramiques pour montrer l'ensemble de la scène. Mouvement de la caméra lent et instable pour renforcer le sentiment d'anxiété.",
+          "negative_prompt": "Brouillon, flou, artefacts numériques, distorsion visuelle",
+          "first_frame_description": "Jack est assis à une table dans un bar sombre, ses traits démontrent la terreur. Des monstres et créatures étranges apparaissent brusquement autour de lui.",
+          "last_frame_description": "Les monstres se rapprochent dangereusement de Jack tandis qu'il semble complètement terrifié. La caméra s'immobilise sur son visage, reflétant la peur et l'inquiétude.",
+          "continuity_notes": "Maintenir une cohérence visuelle entre les premières et dernières images pour assurer une transition naturelle. Insister sur la tension croissante et l'anxiété en utilisant des effets sonores comme le cri d'horreur et le sifflement des créatures."
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "La Révélation",
+        "location": "Hôpital",
+        "time": "Matin",
+        "description": "Jack découvre la vérité derrière les rêves et se prépare à une ultime bataille.",
+        "dialogues": [
+          {
+            "character": "Detecteur Jack",
+            "line": "Je dois arrêter ça. Maintenant."
+          }
+        ],
+        "video_prompt": "Détective Jack, dans un hôpital, entouré de machines et de lumières stroboscopiques.",
+        "music_prompt": "Musique intense et dramatique, atteignant le pic d'émotion.",
+        "sound_effects": [
+          "Bip-bip des moniteurs",
+          "Respiration saccadée"
+        ],
+        "directing": {
+          "camera": "Caméra sur plan fixe avec un léger panning vers la droite pour suivre le détective Jack.",
+          "shot_type": "Plan large puis medium close-up",
+          "camera_movement": "Panning doux à droite lorsque la caméra se déplace du plan large au medium close-up de Jack.",
+          "lens": "Objectif standard de 50mm pour un aspect naturel et réaliste, suivi d'un objectif téléobjectif de 135mm pour le close-up.",
+          "lighting": "Éclairage diffusé venant du haut, mettant en valeur la tension et l'intensité de l'ambiance. Éclairage bleu glacé sur Jack pour ajouter une touche mystérieuse et dramatique.",
+          "mood": "Tension montante, suspense et détermination",
+          "color_grading": "Ton de gris avec des touches de rouge pour indiquer la pression et l'urgence. Le bleu glacé accentue le côté froid et étrange de l'environnement médical.",
+          "visual_style": "Réaliste avec une touche d'épicerie cinématographique, soulignant la gravité du moment sans être excessif.",
+          "director_notes": "Jack doit paraître fatigué mais déterminé. Son regard devrait exprimer à la fois l'horreur de ce qu'il découvre et sa résolution à agir. Les moniteurs bipant et la respiration saccadée doivent être visibles et audibles pour renforcer le sentiment d'urgence."
+        },
+        "storyboard": {
+          "visual_description": "Jack, détective épuisé mais déterminé, se trouve dans un hôpital aux lumières stroboscopiques. Il regarde attentivement une série de moniteurs affichant des signaux biologiques alarmins. Son visage montre une combinaison d'horreur et de résolution.",
+          "image_prompt": "Detecteur Jack dans un hôpital, entouré de machines médicalisées et de lumières stroboscopiques. Ses yeux fixent des moniteurs bipant frénétiquement. Le bleu glacé souligne sa détermination mais aussi une atmosphère oppressante.",
+          "video_prompt": "Détective Jack, dans un hôpital, entouré de machines et de lumières stroboscopiques, avec un mouvement caméra panning doux vers la droite pour suivre le détective. Les moniteurs bipent frénétiquement et sa respiration saccadée est audible.",
+          "negative_prompt": "Mouvements artificiels, visuels flous, couleurs saturées, défauts de netteté ou d'exposition.",
+          "first_frame_description": "Jack, détective, dans un hôpital, entouré de machines et de lumières stroboscopiques. Ses yeux sont fixes sur des moniteurs bipant, respirant profondément tout en tenant fermement une paire de gants médicaux.",
+          "last_frame_description": "Jack, détective, dans un hôpital, entouré de machines et de lumières stroboscopiques. Son regard est fixe sur des moniteurs bipant, l'expression déterminée mais angoissée sur son visage.",
+          "continuity_notes": "Les mouvements caméra doivent être fluides et naturels. Les moniteurs bipent continuellement tout au long de la séquence. La respiration saccadée de Jack doit être audible dès le début et maintenue jusqu'à la fin."
+        }
+      }
+    ]
+  }
+}

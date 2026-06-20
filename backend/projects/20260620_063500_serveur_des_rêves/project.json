@@ -1,0 +1,132 @@
+{
+  "project_id": "20260620_063500_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves sont stocké sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "directing_generated",
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective découvre que les rêves sont stockés sur un serveur privé et doit percer le mystère pour sauver une vie.",
+    "synopsis": "Dans un futur proche, un détective enquête sur la disparition d'un adolescent. Il découvre que ses rêves sont enregistrés sur un serveur privé. Sa quête dévoile des secrets étonnants et menace sa propre identité.",
+    "characters": [
+      {
+        "name": "James",
+        "age": "35 ans",
+        "role": "Détective",
+        "personality": "Méthodique, intrépide, un peu sceptique",
+        "visual_description": "Homme aux cheveux gris clairsemés, lunettes rondes et moustache bien taillée."
+      },
+      {
+        "name": "Alex",
+        "age": "17 ans",
+        "role": "Adolescent disparu",
+        "personality": "Curieux, rêveur",
+        "visual_description": "Jeune homme de taille moyenne, cheveux courts et yeux verts pétillants."
+      },
+      {
+        "name": "Dr. Elara",
+        "age": "45 ans",
+        "role": "Psychologue",
+        "personality": "Énigmatique, perceptive",
+        "visual_description": "Femme aux longs cheveux noirs, yeux profonds et élégante."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Démarrage de l'enquête",
+        "location": "Bureau du détective James",
+        "time": "Matin",
+        "description": "James travaille sur un dossier, examinant des preuves.",
+        "dialogues": [
+          {
+            "character": "James",
+            "line": "Il faut que je trouve quelque chose."
+          }
+        ],
+        "video_prompt": "Bureau de détective avec des photos d'affaires en cours et une grande carte murale.",
+        "music_prompt": "Musique électronique calmante",
+        "sound_effects": [
+          "Tapotements sur clavier"
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Découverte du serveur",
+        "location": "Bureau de l'entreprise spécialisée dans le stockage numérique des rêves",
+        "time": "Après-midi",
+        "description": "James visite une entreprise et trouve les informations sur le serveur.",
+        "dialogues": [
+          {
+            "character": "Employé",
+            "line": "Ce serveur est dédié à la conservation de vos plus beaux rêves."
+          },
+          {
+            "character": "James",
+            "line": "Et si ces rêves ne sont que des indices?"
+          }
+        ],
+        "video_prompt": "Bureau d'entreprise moderne avec ordinateurs et des images de nuages numériques.",
+        "music_prompt": "Musique dramatique",
+        "sound_effects": [
+          "Bip-bip de l'ordinateur"
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "Rêve d'Alex",
+        "location": "Salle de visionnage de rêves",
+        "time": "Nuit",
+        "description": "James observe les rêves d'Alex.",
+        "dialogues": [
+          {
+            "character": "Dr. Elara",
+            "line": "Les rêves révèlent souvent ce que la conscience cache."
+          }
+        ],
+        "video_prompt": "Salle de visionnage avec écrans géants montrant des scènes oniriques.",
+        "music_prompt": "Musique mystérieuse et apaisante",
+        "sound_effects": [
+          "Son onirique"
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Révélation",
+        "location": "Appartement de James, dans la salle à manger",
+        "time": "Matin",
+        "description": "James reçoit un appel d'Elara qui lui révèle une information cruciale.",
+        "dialogues": [
+          {
+            "character": "Dr. Elara",
+            "line": "Il y a quelque chose dans son rêve qui semble inquiétant."
+          }
+        ],
+        "video_prompt": "Appartement d'James, éclairage doux et intime.",
+        "music_prompt": "Musique angoissante",
+        "sound_effects": [
+          "Son de téléphone"
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "Conclusion",
+        "location": "Foret nocturne près du lieu d'habitation d'Alex",
+        "time": "Nuit",
+        "description": "James se prépare à résoudre l'affaire.",
+        "dialogues": [
+          {
+            "character": "James",
+            "line": "Il est temps de trouver la vérité."
+          }
+        ],
+        "video_prompt": "Foret sombre, lune pleine et lumières tamisées.",
+        "music_prompt": "Musique finale émouvante",
+        "sound_effects": [
+          "Bruits nocturnes"
+        ]
+      }
+    ]
+  }
+}

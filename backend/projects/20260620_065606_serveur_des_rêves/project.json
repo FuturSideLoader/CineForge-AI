@@ -1,0 +1,299 @@
+{
+  "project_id": "20260620_065606_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves sont stocké sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "video_prompts_ready",
+  "folders": {
+    "project": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves",
+    "storyboard": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/storyboard",
+    "videos": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/videos",
+    "voices": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/voices",
+    "music": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/music",
+    "sfx": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/sfx",
+    "exports": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/exports",
+    "logs": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_065606_serveur_des_rêves/logs"
+  },
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective découvre un serveur secret stockant tous les rêves, menaçant de révéler la vérité sur l'univers entier.",
+    "synopsis": "Lorsque le détective privé Jack enfreint une régulation mystérieuse pour accéder à un serveur privé, il découvre que tous les rêves du monde sont stockés dessus. Ses enquêtes inattendues révèlent des vérités sur la nature de l'univers qui mettent le monde dans une situation critique.",
+    "characters": [
+      {
+        "name": "Jack",
+        "age": "45 ans",
+        "role": "Détective privé",
+        "personality": "Tactique, rusé et déterminé",
+        "visual_description": "Blond avec des lunettes de lecture, vêtu d'un costume noir bien coupé."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "La Découverte du Serveur",
+        "location": "Sous-sol de l'agence de Jack",
+        "time": "20h30",
+        "description": "Jack étudie des documents confidentiels sur un ordinateur portable, les yeux plissés.",
+        "dialogues": [
+          {
+            "character": "Jack",
+            "line": "Il y a quelque chose d'étrange ici."
+          }
+        ],
+        "video_prompt": "Un détective s'assied devant un ordinateur et tape sur le clavier avec concentration.",
+        "music_prompt": "Musique sinistre à l'ambiance mystérieuse",
+        "sound_effects": [
+          "cliquetis de la souris",
+          "respiration rapide"
+        ],
+        "directing": {
+          "camera": "Cameleon",
+          "shot_type": "Close-up",
+          "camera_movement": "Stable, avec un léger panoramique pour suivre la respiration rapide de Jack",
+          "lens": "Objectif macro à grande profondeur de champ",
+          "lighting": "Éclairage indirect et faible, mettant en valeur le visage de Jack et créant des ombres mystérieuses autour de lui",
+          "mood": "Sinistre et mystérieux",
+          "color_grading": "Tones of dark grey and deep blue, with subtle hints of green to create an eerie atmosphere",
+          "visual_style": "Réalistique avec des effets stylistiques pour renforcer l'atmosphère surnaturelle",
+          "director_notes": "Insister sur la tension et le sérieux de Jack tout en montrant ses pensées se former à travers son expression faciale. Utiliser les sons de la souris qui cliquettent pour ajouter un bruit de fond, renforçant ainsi l'atmosphère."
+        },
+        "storyboard": {
+          "visual_description": "Jack s'assied devant un ordinateur portable dans le sous-sol de son agence. La pièce est sombre et peu éclairée, avec des meubles en métal usés. Jack porte une chemise noire ajustée, et ses cheveux bruns sont tirés en arrière. Ses yeux plissés fixent l'écran de l'ordinateur sur lequel il tape avec concentration.",
+          "image_prompt": "Un détective concentré sur son ordinateur dans un sous-sol sombre, respiration rapide, cliquetis de la souris",
+          "video_prompt": "Un détective s'assied devant un ordinateur et tape sur le clavier avec concentration. La caméra fait un mouvement de panoramique léger pour suivre sa respiration rapide.",
+          "negative_prompt": "brouillon, pixelisation, artefacts numérique",
+          "first_frame_description": "Jack prend place devant l'ordinateur portable dans une ambiance sombre et mystérieuse. Sa respiration s'accélère légèrement tandis qu'il tape sur le clavier avec une expression intense.",
+          "last_frame_description": "Jack reste plongé dans ses pensées, la souris de son ordinateur continuant à cliqueter doucement derrière lui. L'atmosphère se fait encore plus pesante, accentuant l'ambiance mystérieuse et sinistre.",
+          "continuity_notes": "Assurer que le mouvement de la caméra est fluide et cohérent tout au long du plan pour maintenir l'immersion. Insister sur les détails qui mettent en valeur l'intensité de Jack, comme ses yeux plissés et son respiration rapide."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: La Découverte du Serveur\nLocation: Sous-sol de l'agence de Jack\nTime: 20h30\n\nMain action:\nJack étudie des documents confidentiels sur un ordinateur portable, les yeux plissés.\n\nVisual content:\nJack s'assied devant un ordinateur portable dans le sous-sol de son agence. La pièce est sombre et peu éclairée, avec des meubles en métal usés. Jack porte une chemise noire ajustée, et ses cheveux bruns sont tirés en arrière. Ses yeux plissés fixent l'écran de l'ordinateur sur lequel il tape avec concentration.\n\nOriginal scene prompt:\nUn détective s'assied devant un ordinateur et tape sur le clavier avec concentration.\n\nStoryboard video prompt:\nUn détective s'assied devant un ordinateur et tape sur le clavier avec concentration. La caméra fait un mouvement de panoramique léger pour suivre sa respiration rapide.\n\nCamera:\nCameleon\n\nShot type:\nClose-up\n\nCamera movement:\nStable, avec un léger panoramique pour suivre la respiration rapide de Jack\n\nLens:\nObjectif macro à grande profondeur de champ\n\nLighting:\nÉclairage indirect et faible, mettant en valeur le visage de Jack et créant des ombres mystérieuses autour de lui\n\nMood:\nSinistre et mystérieux\n\nColor grading:\nTones of dark grey and deep blue, with subtle hints of green to create an eerie atmosphere\n\nVisual style:\nRéalistique avec des effets stylistiques pour renforcer l'atmosphère surnaturelle\n\nFirst frame:\nJack prend place devant l'ordinateur portable dans une ambiance sombre et mystérieuse. Sa respiration s'accélère légèrement tandis qu'il tape sur le clavier avec une expression intense.\n\nLast frame:\nJack reste plongé dans ses pensées, la souris de son ordinateur continuant à cliqueter doucement derrière lui. L'atmosphère se fait encore plus pesante, accentuant l'ambiance mystérieuse et sinistre.\n\nContinuity:\nAssurer que le mouvement de la caméra est fluide et cohérent tout au long du plan pour maintenir l'immersion. Insister sur les détails qui mettent en valeur l'intensité de Jack, comme ses yeux plissés et son respiration rapide.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, pixelisation, artefacts numérique"
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "L'Accès au Serveur Privé",
+        "location": "Serveur privé dans une crypte ancienne",
+        "time": "01h00",
+        "description": "Jack marche dans un couloir étroit, la lumière tamisée.",
+        "dialogues": [
+          {
+            "character": "Jack",
+            "line": "Où es-tu caché ?"
+          }
+        ],
+        "video_prompt": "Une lumière tamisée guide Jack à travers une crypte ancienne vers un ordinateur de haute sécurité.",
+        "music_prompt": "Musique d'horreur lente et menaçante",
+        "sound_effects": [
+          "bruits d'écho",
+          "respiration profonde"
+        ],
+        "directing": {
+          "camera": "Caméra de traction pour une immersion totale dans l'ambiance sombre et oppressante.",
+          "shot_type": "Plan séquence en raccord doux, permettant aux personnages d'avancer naturellement et de créer un mouvement organique.",
+          "camera_movement": "La caméra suit Jack tout au long du plan pour une immersion totale, avec des mouvements lents et fluides pour refléter la tension et l'incertitude.",
+          "lens": "Objectif de grand angle pour capturer pleinement l'étendue de la crypte ancienne et sa lumière tamisée.",
+          "lighting": "Éclairage indirect et diffuse, créant des ombres profondes et une atmosphère menaçante. Un halo lumineux guide Jack à travers l'espace.",
+          "mood": "Tension, suspense et inquiétude pour refléter le sentiment d'être dans un lieu caché et potentiellement dangereux.",
+          "color_grading": "Couleurs sombres avec une nuance de bleu froide pour accentuer la sensation d'isolement et de menaçante inconnue.",
+          "visual_style": "Style réaliste avec des détails minutieux du décor antique, ajoutant à l’atmosphère de mystère et de danger caché.",
+          "director_notes": "Privilégier les plans larges pour montrer la grandeur et la solitude de la crypte. Utiliser le son des échos pour renforcer l'atmosphère et accentuer le sentiment d’isolement."
+        },
+        "storyboard": {
+          "visual_description": "Jack marche dans un couloir étroit d'une crypte ancienne, la lumière tamisée et diffuse guide ses pas.",
+          "image_prompt": "Une silhouette de Jack marchant dans une crypte ancienne avec une lumière tamisée qui éclaire partiellement son chemin, la caméra suit doucement sa progression.",
+          "video_prompt": "Une lumière tamisée guide Jack à travers une crypte ancienne vers un ordinateur de haute sécurité. La caméra se déplace lentement et fluidement pour suivre Jack tout au long du couloir, créant une atmosphère oppressante et menaçante.",
+          "negative_prompt": "Filtrer tout artificiel ou numérique, assurez-vous que la peau est naturelle, les textures sont réalistes, l'éclairage semble naturel, évitez les artefacts de rendu.",
+          "first_frame_description": "Jack se tient dans une pénombre complète, avec un halo lumineux qui commence à le guider vers un point au loin. La caméra est stationnaire pour un instant avant de commencer son mouvement.",
+          "last_frame_description": "Jack arrive devant l'ordinateur de haute sécurité, la lumière tamisée crée des ombres profondes sur les murs et la silhouette antique du bâtiment. La caméra se stabilise à une distance suffisante pour montrer la tension du moment tout en restant attachée à Jack.",
+          "continuity_notes": "Assurez-vous que l'illumination tamisée est cohérente tout au long de la scène, avec un halo lumineux qui éclaire progressivement Jack. Utilisez des mouvements caméra lents et fluides pour maintenir une tension croissante."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: L'Accès au Serveur Privé\nLocation: Serveur privé dans une crypte ancienne\nTime: 01h00\n\nMain action:\nJack marche dans un couloir étroit, la lumière tamisée.\n\nVisual content:\nJack marche dans un couloir étroit d'une crypte ancienne, la lumière tamisée et diffuse guide ses pas.\n\nOriginal scene prompt:\nUne lumière tamisée guide Jack à travers une crypte ancienne vers un ordinateur de haute sécurité.\n\nStoryboard video prompt:\nUne lumière tamisée guide Jack à travers une crypte ancienne vers un ordinateur de haute sécurité. La caméra se déplace lentement et fluidement pour suivre Jack tout au long du couloir, créant une atmosphère oppressante et menaçante.\n\nCamera:\nCaméra de traction pour une immersion totale dans l'ambiance sombre et oppressante.\n\nShot type:\nPlan séquence en raccord doux, permettant aux personnages d'avancer naturellement et de créer un mouvement organique.\n\nCamera movement:\nLa caméra suit Jack tout au long du plan pour une immersion totale, avec des mouvements lents et fluides pour refléter la tension et l'incertitude.\n\nLens:\nObjectif de grand angle pour capturer pleinement l'étendue de la crypte ancienne et sa lumière tamisée.\n\nLighting:\nÉclairage indirect et diffuse, créant des ombres profondes et une atmosphère menaçante. Un halo lumineux guide Jack à travers l'espace.\n\nMood:\nTension, suspense et inquiétude pour refléter le sentiment d'être dans un lieu caché et potentiellement dangereux.\n\nColor grading:\nCouleurs sombres avec une nuance de bleu froide pour accentuer la sensation d'isolement et de menaçante inconnue.\n\nVisual style:\nStyle réaliste avec des détails minutieux du décor antique, ajoutant à l’atmosphère de mystère et de danger caché.\n\nFirst frame:\nJack se tient dans une pénombre complète, avec un halo lumineux qui commence à le guider vers un point au loin. La caméra est stationnaire pour un instant avant de commencer son mouvement.\n\nLast frame:\nJack arrive devant l'ordinateur de haute sécurité, la lumière tamisée crée des ombres profondes sur les murs et la silhouette antique du bâtiment. La caméra se stabilise à une distance suffisante pour montrer la tension du moment tout en restant attachée à Jack.\n\nContinuity:\nAssurez-vous que l'illumination tamisée est cohérente tout au long de la scène, avec un halo lumineux qui éclaire progressivement Jack. Utilisez des mouvements caméra lents et fluides pour maintenir une tension croissante.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Filtrer tout artificiel ou numérique, assurez-vous que la peau est naturelle, les textures sont réalistes, l'éclairage semble naturel, évitez les artefacts de rendu."
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Le Décryptage des Rêves",
+        "location": "Sous-sol de l'agence de Jack",
+        "time": "04h00",
+        "description": "Jack s'asseyant devant un grand écran déroulant des rêves en images.",
+        "dialogues": [
+          {
+            "character": "Jack",
+            "line": "C'est fou ce qu'ils nous révèlent..."
+          }
+        ],
+        "video_prompt": "Une multitude de rêves apparaissent sur un grand écran sous la présence anxieuse de Jack.",
+        "music_prompt": "Musique intense et accélérée",
+        "sound_effects": [
+          "bruit d'écran s'activant",
+          "respiration haletante"
+        ],
+        "directing": {
+          "camera": "Caméra panoramique fixe pour capturer l'ensemble de la scène, puis déplacement progressif vers le personnage principal.",
+          "shot_type": "Plan large puis plan moyen",
+          "camera_movement": "Déplacement progressif de la caméra vers Jack pour une prise de vue progressive et dynamique.",
+          "lens": "Objectif larges angles pour le plan large, objectif standard pour le plan moyen.",
+          "lighting": "Éclairage indirect et diffus pour créer un ton mystérieux et anxiogène. Éclairage principal venant du haut sur l'écran afin de mettre en valeur son contenu.",
+          "mood": "Tense et introspectif",
+          "color_grading": "Tonnes de noir et blanc avec quelques touches de gris vif pour accentuer l'atmosphère éthérée. L'écran affiche des couleurs plus vives, contrastant avec le reste du décor.",
+          "visual_style": "Design minimaliste avec un focus sur les lignes droites et la fluidité du flux d'images sur l'écran. Les rêves apparaissent sous forme de silhouettes floues au début pour s'intensifier en détails plus clairs.",
+          "director_notes": "Souligner la solitude de Jack devant son écran, refléter sa réflexion intérieure par le biais des images qu'il voit. Maintenir une tension constante jusqu'à ce que l'écran se mette à vibrer d'activité."
+        },
+        "storyboard": {
+          "visual_description": "Une multitude de rêves apparaissent sur un grand écran sous la présence anxieuse de Jack, assis devant l'écran dans son sous-sol. L'atmosphère est tense et introspectif avec des tons de noir et blanc agrémentés de quelques touches de gris vif.",
+          "image_prompt": "Un grand écran déroulant des rêves en images sous la présence anxieuse d'un homme assis dans un sous-sol, lumières indirectes et diffuses créent une atmosphère mystérieuse et anxiogène. Les rêves apparaissent sous forme de silhouettes floues au début pour s'intensifier en détails plus clairs.",
+          "video_prompt": "Une multitude de rêves apparaissent sur un grand écran sous la présence anxieuse de Jack, assis dans son sous-sol. Caméra panoramique fixe pour capturer l'ensemble de la scène, puis déplacement progressif vers le personnage principal avec une caméra larges angles et standard. Écran s’activant, respiration haletante.",
+          "negative_prompt": "Brouillon, flou, mauvaise qualité, artefacts",
+          "first_frame_description": "Le sous-sol de l'agence de Jack est sombre et silencieux, hormis le murmure d'un grand écran s’activant. Une silhouette assise près de l'écran, les yeux fixés sur ce qui se déroule devant lui.",
+          "last_frame_description": "L'écran s'anime intensément avec des rêves en images de plus en plus détaillés et vividement colorés, tandis que Jack observe anxieusement. La caméra finit par se stabiliser sur son visage concentré, reflétant la tension et l'introspection.",
+          "continuity_notes": "Maintenir une cohérence dans les mouvements de caméra et l'éclairage pour passer progressivement du plan large au plan moyen, soulignant la solitude et la réflexion intérieure de Jack."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Le Décryptage des Rêves\nLocation: Sous-sol de l'agence de Jack\nTime: 04h00\n\nMain action:\nJack s'asseyant devant un grand écran déroulant des rêves en images.\n\nVisual content:\nUne multitude de rêves apparaissent sur un grand écran sous la présence anxieuse de Jack, assis devant l'écran dans son sous-sol. L'atmosphère est tense et introspectif avec des tons de noir et blanc agrémentés de quelques touches de gris vif.\n\nOriginal scene prompt:\nUne multitude de rêves apparaissent sur un grand écran sous la présence anxieuse de Jack.\n\nStoryboard video prompt:\nUne multitude de rêves apparaissent sur un grand écran sous la présence anxieuse de Jack, assis dans son sous-sol. Caméra panoramique fixe pour capturer l'ensemble de la scène, puis déplacement progressif vers le personnage principal avec une caméra larges angles et standard. Écran s’activant, respiration haletante.\n\nCamera:\nCaméra panoramique fixe pour capturer l'ensemble de la scène, puis déplacement progressif vers le personnage principal.\n\nShot type:\nPlan large puis plan moyen\n\nCamera movement:\nDéplacement progressif de la caméra vers Jack pour une prise de vue progressive et dynamique.\n\nLens:\nObjectif larges angles pour le plan large, objectif standard pour le plan moyen.\n\nLighting:\nÉclairage indirect et diffus pour créer un ton mystérieux et anxiogène. Éclairage principal venant du haut sur l'écran afin de mettre en valeur son contenu.\n\nMood:\nTense et introspectif\n\nColor grading:\nTonnes de noir et blanc avec quelques touches de gris vif pour accentuer l'atmosphère éthérée. L'écran affiche des couleurs plus vives, contrastant avec le reste du décor.\n\nVisual style:\nDesign minimaliste avec un focus sur les lignes droites et la fluidité du flux d'images sur l'écran. Les rêves apparaissent sous forme de silhouettes floues au début pour s'intensifier en détails plus clairs.\n\nFirst frame:\nLe sous-sol de l'agence de Jack est sombre et silencieux, hormis le murmure d'un grand écran s’activant. Une silhouette assise près de l'écran, les yeux fixés sur ce qui se déroule devant lui.\n\nLast frame:\nL'écran s'anime intensément avec des rêves en images de plus en plus détaillés et vividement colorés, tandis que Jack observe anxieusement. La caméra finit par se stabiliser sur son visage concentré, reflétant la tension et l'introspection.\n\nContinuity:\nMaintenir une cohérence dans les mouvements de caméra et l'éclairage pour passer progressivement du plan large au plan moyen, soulignant la solitude et la réflexion intérieure de Jack.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillon, flou, mauvaise qualité, artefacts"
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Révélation des Vérités Profondes",
+        "location": "Plateau de télévision, studio de diffusion",
+        "time": "06h30",
+        "description": "Jack apparaît devant la caméra pour diffuser ses découvertes.",
+        "dialogues": [
+          {
+            "character": "Jack",
+            "line": "Je vais révéler ce que vous ignorez..."
+          }
+        ],
+        "video_prompt": "Une interview de Jack à la télévision montre un visage sérieux et déterminé.",
+        "music_prompt": "Musique dramatique et puissante",
+        "sound_effects": [
+          "caméra rapprochant",
+          "bruit d'annimation TV"
+        ],
+        "directing": {
+          "camera": "Caméra HD de haute définition",
+          "shot_type": "Plan rapproché",
+          "camera_movement": "Rig fixe avec un léger zoom avant la révélation pour créer une tension",
+          "lens": "Objectif grand angle pour capturer l'expression faciale intense",
+          "lighting": "Éclairage frontal doté d'un halo subtil derrière Jack pour donner plus de profondeur à son visage et renforcer sa détermination",
+          "mood": "Serious, dramatic and intense",
+          "color_grading": "Ton chaud avec des teintes ocres et brunes pour ajouter une touche de gravité et de maturité à l'atmosphère",
+          "visual_style": "Minimaliste et concentré sur la performance d'acteur",
+          "director_notes": "Focaliser sur le visage de Jack, montrer son intensité tout en maintenant un regard professionnel. Le zoom devrait se faire subtilement pour ne pas distraire l'attention des dialogues."
+        },
+        "storyboard": {
+          "visual_description": "Jack apparaît devant la caméra dans un studio de télévision. Il porte une tenue professionnelle, un costume sombre avec une chemise blanche. Son expression est sérieuse et déterminée.",
+          "image_prompt": "Jack en costume sur un plateau de télévision, visage sérieux, déterminé, caméra HD rapprochée, éclairage frontal avec halo subtil derrière lui, ambiance gravité et maturité, ton chaud avec teintes ocres et brunes.",
+          "video_prompt": "Interview de Jack à la télévision. Caméra HD rapprochant Jack qui parle sérieusement en direct, rig fixe avec léger zoom avant révélation pour créer tension, objectif grand angle capturant l'expression faciale intense, musique dramatique et puissante.",
+          "negative_prompt": "flou, mauvaise qualité, artificiel, décoloré, brouillon, manque de professionnalisme, éléments indésirables, artefacts d'IA",
+          "first_frame_description": "Jack apparaît devant la caméra dans un studio de télévision. Il porte une tenue professionnelle, un costume sombre avec une chemise blanche. Son expression est sérieuse et déterminée. Caméra HD rapprochée montrant Jack en direct.",
+          "last_frame_description": "Jack termine sa révélation sur l'écran de télévision. Il maintient son attitude sérieuse et déterminée, caméra se reculant doucement pour laisser le focus revenir au visage de Jack.",
+          "continuity_notes": "Le mouvement de la caméra devrait être subtil, se concentrant principalement sur le visage de Jack. Le zoom avant devrait être effectué délicatement pour ne pas distraire l'attention du dialogue."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Révélation des Vérités Profondes\nLocation: Plateau de télévision, studio de diffusion\nTime: 06h30\n\nMain action:\nJack apparaît devant la caméra pour diffuser ses découvertes.\n\nVisual content:\nJack apparaît devant la caméra dans un studio de télévision. Il porte une tenue professionnelle, un costume sombre avec une chemise blanche. Son expression est sérieuse et déterminée.\n\nOriginal scene prompt:\nUne interview de Jack à la télévision montre un visage sérieux et déterminé.\n\nStoryboard video prompt:\nInterview de Jack à la télévision. Caméra HD rapprochant Jack qui parle sérieusement en direct, rig fixe avec léger zoom avant révélation pour créer tension, objectif grand angle capturant l'expression faciale intense, musique dramatique et puissante.\n\nCamera:\nCaméra HD de haute définition\n\nShot type:\nPlan rapproché\n\nCamera movement:\nRig fixe avec un léger zoom avant la révélation pour créer une tension\n\nLens:\nObjectif grand angle pour capturer l'expression faciale intense\n\nLighting:\nÉclairage frontal doté d'un halo subtil derrière Jack pour donner plus de profondeur à son visage et renforcer sa détermination\n\nMood:\nSerious, dramatic and intense\n\nColor grading:\nTon chaud avec des teintes ocres et brunes pour ajouter une touche de gravité et de maturité à l'atmosphère\n\nVisual style:\nMinimaliste et concentré sur la performance d'acteur\n\nFirst frame:\nJack apparaît devant la caméra dans un studio de télévision. Il porte une tenue professionnelle, un costume sombre avec une chemise blanche. Son expression est sérieuse et déterminée. Caméra HD rapprochée montrant Jack en direct.\n\nLast frame:\nJack termine sa révélation sur l'écran de télévision. Il maintient son attitude sérieuse et déterminée, caméra se reculant doucement pour laisser le focus revenir au visage de Jack.\n\nContinuity:\nLe mouvement de la caméra devrait être subtil, se concentrant principalement sur le visage de Jack. Le zoom avant devrait être effectué délicatement pour ne pas distraire l'attention du dialogue.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "flou, mauvaise qualité, artificiel, décoloré, brouillon, manque de professionnalisme, éléments indésirables, artefacts d'IA"
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "Confrontation finale",
+        "location": "Crypte antique, salle de contrôle du serveur privé",
+        "time": "07h30",
+        "description": "Jack face à l'origine des rêves et d'un enjeu universel.",
+        "dialogues": [
+          {
+            "character": "Jack",
+            "line": "Rien ne se perd, tout se transforme..."
+          }
+        ],
+        "video_prompt": "Jack lutte contre une entité mystérieuse dans l'obscurité totale de la crypte.",
+        "music_prompt": "Musique finale intense et tragique",
+        "sound_effects": [
+          "grincement des chaînes",
+          "respiration sifflante"
+        ],
+        "directing": {
+          "camera": "Cameleon",
+          "shot_type": "Alternance de longues et moyennes distances avec des plans clos sur les expressions faciales",
+          "camera_movement": "Panning lent vers l'entité mystérieuse, puis zoom progressif pour se concentrer sur Jack",
+          "lens": "Objectif grand angle suivi d'un objectif téléobjectif à grande ouverture pour la profondeur de champ",
+          "lighting": "Lumières tamisées par des rideaux de fumée créant un effet mystérieux, avec une source principale éclairant Jack et une faible lumière latérale ajoutant du contraste",
+          "mood": "Tense et intime, avec une tension montante",
+          "color_grading": "Ton neutre avec des nuances de bleu pour créer un sentiment d'obscurité et de mystère, accentuant les tons froids",
+          "visual_style": "Atmosphérique et impressionniste, with a focus on atmospheric effects and emotional depth",
+          "director_notes": "Insister sur l'intensité émotionnelle du moment. Jack doit transmettre une force intérieure à travers ses expressions et gestes."
+        },
+        "storyboard": {
+          "visual_description": "Jack se dresse fièrement dans l'obscurité de la crypte antique. Sa silhouette est largement éclairée par une faible source latérale, soulignant son expression intense et ses muscles contractés.",
+          "image_prompt": "Jack, costaud avec des tatouages sur les bras, combat une entité mystérieuse dans l'obscurité d'une crypte antique. La lumière tamisée crée un effet dramatique, mettant en évidence son visage déterminé et ses vêtements de combat. Derrière lui, la salle de contrôle du serveur privé est sombre avec des chaînes grincantes.",
+          "video_prompt": "Jack lutte contre une entité mystérieuse dans l'obscurité totale de la crypte. La caméra pana lentement vers l'entité, puis se rapproche progressivement pour se concentrer sur Jack. Les bruits de grincement des chaînes et de respiration sifflante créent une atmosphère intense.",
+          "negative_prompt": "brouillon, flou, mauvaise qualité, artificiellement coloré, déséquilibre des couleurs",
+          "first_frame_description": "Jack se tient solennellement dans l'ombre, la lumière latérale dessinant son visage et ses muscles. La caméra est à une distance moyenne, mettant en évidence son expression déterminée.",
+          "last_frame_description": "La caméra se rapproche de Jack, le concentrant sur lui seul avec un gros plan intime qui montre sa force intérieure. Les chaînes grincent et la respiration sifflante créent une tension croissante dans l'air.",
+          "continuity_notes": "Gardez la même lumière tamisée pour maintenir le ton mystérieux, et assurez-vous que les mouvements de caméra sont fluides pour créer un sentiment de progression vers Jack. Utilisez des plans alternant entre larges et moyens avec des gros plans pour maintenir l'intérêt du spectateur."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Confrontation finale\nLocation: Crypte antique, salle de contrôle du serveur privé\nTime: 07h30\n\nMain action:\nJack face à l'origine des rêves et d'un enjeu universel.\n\nVisual content:\nJack se dresse fièrement dans l'obscurité de la crypte antique. Sa silhouette est largement éclairée par une faible source latérale, soulignant son expression intense et ses muscles contractés.\n\nOriginal scene prompt:\nJack lutte contre une entité mystérieuse dans l'obscurité totale de la crypte.\n\nStoryboard video prompt:\nJack lutte contre une entité mystérieuse dans l'obscurité totale de la crypte. La caméra pana lentement vers l'entité, puis se rapproche progressivement pour se concentrer sur Jack. Les bruits de grincement des chaînes et de respiration sifflante créent une atmosphère intense.\n\nCamera:\nCameleon\n\nShot type:\nAlternance de longues et moyennes distances avec des plans clos sur les expressions faciales\n\nCamera movement:\nPanning lent vers l'entité mystérieuse, puis zoom progressif pour se concentrer sur Jack\n\nLens:\nObjectif grand angle suivi d'un objectif téléobjectif à grande ouverture pour la profondeur de champ\n\nLighting:\nLumières tamisées par des rideaux de fumée créant un effet mystérieux, avec une source principale éclairant Jack et une faible lumière latérale ajoutant du contraste\n\nMood:\nTense et intime, avec une tension montante\n\nColor grading:\nTon neutre avec des nuances de bleu pour créer un sentiment d'obscurité et de mystère, accentuant les tons froids\n\nVisual style:\nAtmosphérique et impressionniste, with a focus on atmospheric effects and emotional depth\n\nFirst frame:\nJack se tient solennellement dans l'ombre, la lumière latérale dessinant son visage et ses muscles. La caméra est à une distance moyenne, mettant en évidence son expression déterminée.\n\nLast frame:\nLa caméra se rapproche de Jack, le concentrant sur lui seul avec un gros plan intime qui montre sa force intérieure. Les chaînes grincent et la respiration sifflante créent une tension croissante dans l'air.\n\nContinuity:\nGardez la même lumière tamisée pour maintenir le ton mystérieux, et assurez-vous que les mouvements de caméra sont fluides pour créer un sentiment de progression vers Jack. Utilisez des plans alternant entre larges et moyens avec des gros plans pour maintenir l'intérêt du spectateur.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, flou, mauvaise qualité, artificiellement coloré, déséquilibre des couleurs"
+        }
+      }
+    ]
+  }
+}

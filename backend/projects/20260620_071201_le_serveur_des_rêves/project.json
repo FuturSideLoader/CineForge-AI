@@ -1,0 +1,330 @@
+{
+  "project_id": "20260620_071201_le_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves sont stocké sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "placeholder_videos_rendered",
+  "folders": {
+    "project": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves",
+    "storyboard": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/storyboard",
+    "videos": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/videos",
+    "voices": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/voices",
+    "music": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/music",
+    "sfx": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/sfx",
+    "exports": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/exports",
+    "logs": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/logs"
+  },
+  "script": {
+    "title": "Le Serveur des Rêves",
+    "logline": "Un détective découvre une vérité terrifiante cachée dans les rêves stockés sur un serveur privé.",
+    "synopsis": "Le détective Michael Harris enquête sur un mystérieux assassinat. Sa recherche le mène à découvrir que les rêves sont stockés sur un serveur privé, menant à une découverte qui pourrait bouleverser son monde et celui de tous.",
+    "characters": [
+      {
+        "name": "Michael Harris",
+        "age": "45 ans",
+        "role": "Détective",
+        "personality": "Introspectif et déterminé, avec une tignasse grise et un regard perçant.",
+        "visual_description": "Costume sombre, moustache bien entretenue."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Le bureau de Michael",
+        "location": "Studio d'enquête",
+        "time": "Matin",
+        "description": "Michael examine les preuves du meurtre.",
+        "dialogues": [
+          {
+            "character": "Michael Harris",
+            "line": "Il y a toujours une trace, quelque part."
+          }
+        ],
+        "video_prompt": "Détective inspectant soigneusement les preuves sur son bureau.",
+        "music_prompt": "Musique sombre et sinistre en arrière-plan",
+        "sound_effects": [
+          "Claviers frappés",
+          "Soupir de vent"
+        ],
+        "directing": {
+          "camera": "Caméra de steady cam pour une stabilité naturelle",
+          "shot_type": "Plan fixe medium shot du personnage, puis plan rapproché des preuves",
+          "camera_movement": "Déplacement horizontal lent et continu de la caméra de l'acteur vers les preuves",
+          "lens": "Objectif macro pour capturer détails minutieux",
+          "lighting": "Éclairage indirect provenant du haut, créant un contraste entre le visage sombre de Michael et les preuves en lumière",
+          "mood": "Tense et concentré, soulignant la persévérance du détective",
+          "color_grading": "Ton de gris dominateur avec des touches de bleu pour ajouter une atmosphère froide et solennelle",
+          "visual_style": "Realisme mettant en évidence les textures et les détails du décor et des preuves",
+          "director_notes": "Insister sur la minutie et l'intense concentration de Michael, tout en montrant la tension croissante à travers ses expressions faciales"
+        },
+        "storyboard": {
+          "visual_description": "Le détective Michael Harris est assis derrière son bureau dans un studio d'enquête en matinée. Il porte une veste de costume noire et une chemise blanche, avec une cravate assortie. Le bureau est en désordre, mais les preuves du meurtre sont soigneusement disposées sur le dessus. La lumière indirecte vient du haut, créant des ombres dramatiques qui mettent en évidence la tension de Michael.",
+          "image_prompt": "Détective inspectant soigneusement les preuves sur son bureau dans un studio d'enquête matinal, vêtu d'une veste noire et chemise blanche, preuves rangées avec minutie sous une lumière indirecte créant des ombres dramatiques",
+          "video_prompt": "Détective inspectant soigneusement les preuves sur son bureau dans un studio d'enquête matinal. Caméra de steady cam pour une stabilité naturelle, déplacement horizontal lent et continu de la caméra du détective vers les preuves",
+          "negative_prompt": "Brouillard, reflets métalliques, flou, pixels, artefacts, faible qualité, mauvaise composition, couleurs surchargées, visage flou, textures artificielles, détails manquants, ombres artificielles, mouvements saccadés",
+          "first_frame_description": "Détective Michael Harris assis derrière son bureau dans un studio d'enquête matinal. Il porte une veste de costume noire et une chemise blanche avec une cravate assortie. Ses mains examinent attentivement les preuves placées sur le dessus du bureau sous la lumière indirecte.",
+          "last_frame_description": "Détective Michael Harris toujours concentré, caméra se déplaçant lentement vers lui tout en se rapprochant des preuves de meurtre. Le contraste entre le visage sombre et les preuves lumineuses crée une atmosphère intense.",
+          "continuity_notes": "Maintenir la cohérence dans l'apparence du détective Michael Harris, sa posture et ses expressions faciales tout au long du plan."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Le bureau de Michael\nLocation: Studio d'enquête\nTime: Matin\n\nMain action:\nMichael examine les preuves du meurtre.\n\nVisual content:\nLe détective Michael Harris est assis derrière son bureau dans un studio d'enquête en matinée. Il porte une veste de costume noire et une chemise blanche, avec une cravate assortie. Le bureau est en désordre, mais les preuves du meurtre sont soigneusement disposées sur le dessus. La lumière indirecte vient du haut, créant des ombres dramatiques qui mettent en évidence la tension de Michael.\n\nOriginal scene prompt:\nDétective inspectant soigneusement les preuves sur son bureau.\n\nStoryboard video prompt:\nDétective inspectant soigneusement les preuves sur son bureau dans un studio d'enquête matinal. Caméra de steady cam pour une stabilité naturelle, déplacement horizontal lent et continu de la caméra du détective vers les preuves\n\nCamera:\nCaméra de steady cam pour une stabilité naturelle\n\nShot type:\nPlan fixe medium shot du personnage, puis plan rapproché des preuves\n\nCamera movement:\nDéplacement horizontal lent et continu de la caméra de l'acteur vers les preuves\n\nLens:\nObjectif macro pour capturer détails minutieux\n\nLighting:\nÉclairage indirect provenant du haut, créant un contraste entre le visage sombre de Michael et les preuves en lumière\n\nMood:\nTense et concentré, soulignant la persévérance du détective\n\nColor grading:\nTon de gris dominateur avec des touches de bleu pour ajouter une atmosphère froide et solennelle\n\nVisual style:\nRealisme mettant en évidence les textures et les détails du décor et des preuves\n\nFirst frame:\nDétective Michael Harris assis derrière son bureau dans un studio d'enquête matinal. Il porte une veste de costume noire et une chemise blanche avec une cravate assortie. Ses mains examinent attentivement les preuves placées sur le dessus du bureau sous la lumière indirecte.\n\nLast frame:\nDétective Michael Harris toujours concentré, caméra se déplaçant lentement vers lui tout en se rapprochant des preuves de meurtre. Le contraste entre le visage sombre et les preuves lumineuses crée une atmosphère intense.\n\nContinuity:\nMaintenir la cohérence dans l'apparence du détective Michael Harris, sa posture et ses expressions faciales tout au long du plan.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillard, reflets métalliques, flou, pixels, artefacts, faible qualité, mauvaise composition, couleurs surchargées, visage flou, textures artificielles, détails manquants, ombres artificielles, mouvements saccadés"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/videos/scene_01.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "Recherche des informations",
+        "location": "Bibliothèque municipale",
+        "time": "Après-midi",
+        "description": "Michael examine divers documents sur les rêves et la psychologie.",
+        "dialogues": [
+          {
+            "character": "Michael Harris",
+            "line": "Peut-être y a-t-il une faille..."
+          }
+        ],
+        "video_prompt": "Détective fouillant des rayons de livres, notant sur un carnet.",
+        "music_prompt": "Musique mélancolique et réfléchie",
+        "sound_effects": [
+          "Feuilles tournées",
+          "Crissement de crayon"
+        ],
+        "directing": {
+          "camera": "CinémaScope",
+          "shot_type": "Long shot puis Medium close-up",
+          "camera_movement": "SLOW Dolly in for the medium close-up, maintaining a smooth and deliberate motion to match Michael's thought process.",
+          "lens": "50mm prime lens",
+          "lighting": "Soft side lighting from the left to create a subtle shadow on Michael's face, enhancing his thoughtful expression. Use of a diffuser to soften harsh shadows.",
+          "mood": "Réfléchi et mélancolique",
+          "color_grading": "Tones towards cool blues and greys, with slight warmth in the lighting to balance the melancholic atmosphere.",
+          "visual_style": "Minimalist, emphasizing the documents and Michael's focused expression. Use of bookshelves and shadows to frame Michael.",
+          "director_notes": "Capture l'ambiance tranquille de la bibliothèque et mettez l'accent sur le personnage qui semble perdu dans ses pensées."
+        },
+        "storyboard": {
+          "visual_description": "Michael Harris, habillé d'un costume sombre avec un imperméable, explore des rayons de livres en bibliothèque municipale. Il porte une paire de lunettes et semble perdu dans ses pensées, tenant un carnet dans sa main droite pour noter.",
+          "image_prompt": "Détective fouillant des rayons de livres, notant sur un carnet, habillé d'un costume sombre avec un imperméable, vêtements classiques du XIXe siècle, bibliothèque municipale, après-midi, documents et étagères en bois vieilli, mélancolique et réfléchie, soft side lighting from the left",
+          "video_prompt": "Détective fouillant des rayons de livres, notant sur un carnet. Caméra effectue une dolly-in lente pour le medium close-up, maintenir un mouvement continu et délibéré, correspondant au processus réfléchi du personnage.",
+          "negative_prompt": "brouillon, mauvais rendu, couleurs fuyantes, visages flous, pixels, distorsion",
+          "first_frame_description": "Michael Harris commence à fouiller un rayon de livres dans la bibliothèque municipale. Il examine attentivement des ouvrages sur les rêves et la psychologie.",
+          "last_frame_description": "Michael s’arrête devant une série de documents, sa main droite tenant fermement son carnet où il note rapidement, visiblement engagé dans ses réflexions.",
+          "continuity_notes": "Maintenir un mouvement caméra lisse et continu pour refléter la pensée profonde du personnage. Utiliser des plans moyens et longs pour maintenir une ambiance tranquille."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Recherche des informations\nLocation: Bibliothèque municipale\nTime: Après-midi\n\nMain action:\nMichael examine divers documents sur les rêves et la psychologie.\n\nVisual content:\nMichael Harris, habillé d'un costume sombre avec un imperméable, explore des rayons de livres en bibliothèque municipale. Il porte une paire de lunettes et semble perdu dans ses pensées, tenant un carnet dans sa main droite pour noter.\n\nOriginal scene prompt:\nDétective fouillant des rayons de livres, notant sur un carnet.\n\nStoryboard video prompt:\nDétective fouillant des rayons de livres, notant sur un carnet. Caméra effectue une dolly-in lente pour le medium close-up, maintenir un mouvement continu et délibéré, correspondant au processus réfléchi du personnage.\n\nCamera:\nCinémaScope\n\nShot type:\nLong shot puis Medium close-up\n\nCamera movement:\nSLOW Dolly in for the medium close-up, maintaining a smooth and deliberate motion to match Michael's thought process.\n\nLens:\n50mm prime lens\n\nLighting:\nSoft side lighting from the left to create a subtle shadow on Michael's face, enhancing his thoughtful expression. Use of a diffuser to soften harsh shadows.\n\nMood:\nRéfléchi et mélancolique\n\nColor grading:\nTones towards cool blues and greys, with slight warmth in the lighting to balance the melancholic atmosphere.\n\nVisual style:\nMinimalist, emphasizing the documents and Michael's focused expression. Use of bookshelves and shadows to frame Michael.\n\nFirst frame:\nMichael Harris commence à fouiller un rayon de livres dans la bibliothèque municipale. Il examine attentivement des ouvrages sur les rêves et la psychologie.\n\nLast frame:\nMichael s’arrête devant une série de documents, sa main droite tenant fermement son carnet où il note rapidement, visiblement engagé dans ses réflexions.\n\nContinuity:\nMaintenir un mouvement caméra lisse et continu pour refléter la pensée profonde du personnage. Utiliser des plans moyens et longs pour maintenir une ambiance tranquille.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, mauvais rendu, couleurs fuyantes, visages flous, pixels, distorsion"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/videos/scene_02.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Contact avec l'expert",
+        "location": "Bureau de l'expert en rêves",
+        "time": "Soir",
+        "description": "Michael rencontre un expert qui lui parle des rêveur serveurs.",
+        "dialogues": [
+          {
+            "character": "Michael Harris",
+            "line": "Vous dites que les rêves sont stockés ?"
+          },
+          {
+            "character": "Expert en rêves",
+            "line": "Oui, mais c'est privé et sans autorisation..."
+          }
+        ],
+        "video_prompt": "Détective et expert ayant une conversation intense.",
+        "music_prompt": "Musique menaçante et inquiétante",
+        "sound_effects": [
+          "Effets de cliquetis"
+        ],
+        "directing": {
+          "camera": "Canon EOS R5",
+          "shot_type": "Mise en scène statique avec des plans de dialogue croisés",
+          "camera_movement": "Stable, sans mouvement pour maintenir l'intensité de la conversation",
+          "lens": "24-70mm objectif standard pour une qualité d'image claire et nette",
+          "lighting": "Lumière indirecte provenant du haut, créant des ombres sous le menton des personnages pour un aspect dramatique",
+          "mood": "Sérieux et mystérieux, avec une tension accrue",
+          "color_grading": "Ton de couleurs sombres et froides avec une touche de bleu-vert pour renforcer l'atmosphère inquiétante",
+          "visual_style": "Réalisme avec des effets visuels minimalisés, se concentrant sur la prestation des acteurs et les expressions faciales",
+          "director_notes": "Insister sur le contraste entre Michael Harris et l'expert en rêves. Michael devrait paraître sceptique et inquiet, tandis que l'expert doit sembler confiant mais énigmatique."
+        },
+        "storyboard": {
+          "visual_description": "Michael Harris, un détective aux cheveux courts et sombres, est assis derrière son bureau dans une pièce spacieuse avec des fenêtres à double vitrage. L'expert en rêves est vêtu d'une tenue professionnelle, avec un costume bleu marine et une cravate noire, assis de l'autre côté du bureau. Les deux hommes ont des expressions sérieuses, Michael sceptique et inquiet, tandis que l'expert semble confiant mais énigmatique.",
+          "image_prompt": "Détective et expert en rêves ayant une conversation intense dans un bureau avec des fenêtres à double vitrage, vêtu de costume bleu marine, le détective sceptique et inquiet, l'expert confiant mais énigmatique",
+          "video_prompt": "Détective et expert ayant une conversation intense. Caméra fixe avec des plans de dialogue croisés, mouvement caméra minimal pour maintenir l'intensité de la conversation.",
+          "negative_prompt": "brouillon, flou, mauvaise qualité, artificiel, déformé, ombres artificielles",
+          "first_frame_description": "Michael Harris et l'expert en rêves se regardent intensément. Michael a un air sceptique, tandis que l'expert semble confiant mais énigmatique.",
+          "last_frame_description": "Les deux hommes continuent leur conversation, l'expert suggère qu'ils pourraient avoir besoin de l'aide de Michael pour accéder aux rêves des serveurs. Michael reste sceptique et inquiet, tandis que l'expert semble plus sûr de lui.",
+          "continuity_notes": "Assurez-vous que les expressions faciales des personnages restent cohérentes tout au long du scénario."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Contact avec l'expert\nLocation: Bureau de l'expert en rêves\nTime: Soir\n\nMain action:\nMichael rencontre un expert qui lui parle des rêveur serveurs.\n\nVisual content:\nMichael Harris, un détective aux cheveux courts et sombres, est assis derrière son bureau dans une pièce spacieuse avec des fenêtres à double vitrage. L'expert en rêves est vêtu d'une tenue professionnelle, avec un costume bleu marine et une cravate noire, assis de l'autre côté du bureau. Les deux hommes ont des expressions sérieuses, Michael sceptique et inquiet, tandis que l'expert semble confiant mais énigmatique.\n\nOriginal scene prompt:\nDétective et expert ayant une conversation intense.\n\nStoryboard video prompt:\nDétective et expert ayant une conversation intense. Caméra fixe avec des plans de dialogue croisés, mouvement caméra minimal pour maintenir l'intensité de la conversation.\n\nCamera:\nCanon EOS R5\n\nShot type:\nMise en scène statique avec des plans de dialogue croisés\n\nCamera movement:\nStable, sans mouvement pour maintenir l'intensité de la conversation\n\nLens:\n24-70mm objectif standard pour une qualité d'image claire et nette\n\nLighting:\nLumière indirecte provenant du haut, créant des ombres sous le menton des personnages pour un aspect dramatique\n\nMood:\nSérieux et mystérieux, avec une tension accrue\n\nColor grading:\nTon de couleurs sombres et froides avec une touche de bleu-vert pour renforcer l'atmosphère inquiétante\n\nVisual style:\nRéalisme avec des effets visuels minimalisés, se concentrant sur la prestation des acteurs et les expressions faciales\n\nFirst frame:\nMichael Harris et l'expert en rêves se regardent intensément. Michael a un air sceptique, tandis que l'expert semble confiant mais énigmatique.\n\nLast frame:\nLes deux hommes continuent leur conversation, l'expert suggère qu'ils pourraient avoir besoin de l'aide de Michael pour accéder aux rêves des serveurs. Michael reste sceptique et inquiet, tandis que l'expert semble plus sûr de lui.\n\nContinuity:\nAssurez-vous que les expressions faciales des personnages restent cohérentes tout au long du scénario.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, flou, mauvaise qualité, artificiel, déformé, ombres artificielles"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/videos/scene_03.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Vérification du serveur",
+        "location": "Serveur privé",
+        "time": "Nuit",
+        "description": "Michael pénètre dans le serveur privé pour trouver ce qu'il cherche.",
+        "dialogues": [
+          {
+            "character": "Michael Harris",
+            "line": "Je dois savoir..."
+          }
+        ],
+        "video_prompt": "Détective se concentrant intensément devant un ordinateur, sourcils froncés.",
+        "music_prompt": "Musique de thriller intense",
+        "sound_effects": [
+          "Bruit de clavier frappé"
+        ],
+        "directing": {
+          "camera": "Cameraman placé derrière Michael, filmant son visage concentré.",
+          "shot_type": "Close-up",
+          "camera_movement": "Stable, sans mouvement pour maintenir l'intensité de la concentration du personnage.",
+          "lens": "Objectif de grande profondeur de champ pour capturer le détail des doigts sur le clavier et les expressions faciales.",
+          "lighting": "Éclairage frontal doux, avec une petite lumière blanche provenant du clavier pour créer un contraste et souligner l'intensité.",
+          "mood": "Tense et concentré",
+          "color_grading": "Couleurs neutres, légère surcharge de blancs et noirs pour créer une atmosphère sombre et intense.",
+          "visual_style": "Élégance minimaliste avec un focus sur les expressions faciales et les détails du travail informatique.",
+          "director_notes": "Faites attention à la fluidité des doigts qui tapent sur le clavier, créant une ambiance d'urgence. La concentration de Michael devrait être palpable."
+        },
+        "storyboard": {
+          "visual_description": "Détective Michael Harris se concentre intensément devant un ordinateur dans une pièce sombre.",
+          "image_prompt": "Michael Harris, détective, sourcils froncés, regard fixe sur l'écran d'un ordinateur dans une pièce sombre, clavier frappé en arrière-plan, lumière douce de la lampe du clavier crée un contraste.",
+          "video_prompt": "Détective se concentrant intensément devant un ordinateur, sourcils froncés. Caméra derrière Michael, filmant son visage concentré dans une scène nocturne. Mouvance caméra stable pour maintenir l'intensité de la concentration du personnage.",
+          "negative_prompt": "Défauts d'image générée, artificiels, moelleux, flou, distorsion, artefacts visuels",
+          "first_frame_description": "Michael Harris se penche vers son ordinateur avec une expression concentrée sur son visage. Ses doigts tapent rapidement sur le clavier.",
+          "last_frame_description": "La scène se termine avec Michael toujours plongé dans ses recherches, les lignes de code s'affichant à l'écran derrière lui.",
+          "continuity_notes": "Maintenir la même ambiance sombre et intense tout au long du storyboard. Les doigts de Michael devraient être vus tapant sur le clavier de manière fluide pour créer une ambiance d'urgence."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Vérification du serveur\nLocation: Serveur privé\nTime: Nuit\n\nMain action:\nMichael pénètre dans le serveur privé pour trouver ce qu'il cherche.\n\nVisual content:\nDétective Michael Harris se concentre intensément devant un ordinateur dans une pièce sombre.\n\nOriginal scene prompt:\nDétective se concentrant intensément devant un ordinateur, sourcils froncés.\n\nStoryboard video prompt:\nDétective se concentrant intensément devant un ordinateur, sourcils froncés. Caméra derrière Michael, filmant son visage concentré dans une scène nocturne. Mouvance caméra stable pour maintenir l'intensité de la concentration du personnage.\n\nCamera:\nCameraman placé derrière Michael, filmant son visage concentré.\n\nShot type:\nClose-up\n\nCamera movement:\nStable, sans mouvement pour maintenir l'intensité de la concentration du personnage.\n\nLens:\nObjectif de grande profondeur de champ pour capturer le détail des doigts sur le clavier et les expressions faciales.\n\nLighting:\nÉclairage frontal doux, avec une petite lumière blanche provenant du clavier pour créer un contraste et souligner l'intensité.\n\nMood:\nTense et concentré\n\nColor grading:\nCouleurs neutres, légère surcharge de blancs et noirs pour créer une atmosphère sombre et intense.\n\nVisual style:\nÉlégance minimaliste avec un focus sur les expressions faciales et les détails du travail informatique.\n\nFirst frame:\nMichael Harris se penche vers son ordinateur avec une expression concentrée sur son visage. Ses doigts tapent rapidement sur le clavier.\n\nLast frame:\nLa scène se termine avec Michael toujours plongé dans ses recherches, les lignes de code s'affichant à l'écran derrière lui.\n\nContinuity:\nMaintenir la même ambiance sombre et intense tout au long du storyboard. Les doigts de Michael devraient être vus tapant sur le clavier de manière fluide pour créer une ambiance d'urgence.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Défauts d'image générée, artificiels, moelleux, flou, distorsion, artefacts visuels"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/videos/scene_04.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "Découverte",
+        "location": "Bureau de Michael",
+        "time": "Matin suivant",
+        "description": "Michael découvre une connexion entre les rêves et le meurtre.",
+        "dialogues": [
+          {
+            "character": "Michael Harris",
+            "line": "Je savais qu'il y avait un lien..."
+          }
+        ],
+        "video_prompt": "Détective regardant l'écran avec intensité, un mélange de soulagement et d'inquiétude.",
+        "music_prompt": "Musique menaçante qui monte en puissance",
+        "sound_effects": [
+          "Effets de souris glissant sur le clavier"
+        ],
+        "directing": {
+          "camera": "Caméra fixe centrée sur l'écran devant Michael",
+          "shot_type": "Close-up",
+          "camera_movement": "Stable, sans mouvement",
+          "lens": "Objectif macro pour une image nette et détaillée de l'écran",
+          "lighting": "Éclairage frontal et doux avec un léger contraste, accentuant les lignes du visage de Michael",
+          "mood": "Tense et concentré",
+          "color_grading": "Tonnes neutres avec des teintes bleutées pour une atmosphère froide",
+          "visual_style": "Graphique et précis, mettant l'accent sur les détails",
+          "director_notes": "Capturez la tension et le déterminisme de Michael. Mettez en avant son engagement face au cas."
+        },
+        "storyboard": {
+          "visual_description": "Michael Harris se penche sur un écran d'ordinateur, son visage reflétant une combinaison de soulagement et d'inquiétude. Ses mains fines glissent doucement sur le clavier.",
+          "image_prompt": "Détective Michael Harris regardant intensément l'écran d'un ordinateur, souris glissant sur le clavier, ambiance froide avec teintes bleutées, visage concentré et déterminé",
+          "video_prompt": "Détective regardant l'écran avec intensité, un mélange de soulagement et d'inquiétude. Caméra fixe centrée sur l'écran devant Michael, mouvement des doigts glissant sur le clavier.",
+          "negative_prompt": "Défauts de rendu IA, artefacts numériques, flou, pixelisation",
+          "first_frame_description": "Michael penche la tête vers son écran d'ordinateur, ses cheveux bruns légèrement défaits et une expression intense sur le visage.",
+          "last_frame_description": "Michael se redresse lentement, ses yeux toujours fixés sur l'écran, un sourire presque imperceptible s'étendant sur son visage, laissant entendre qu'une nouvelle piste a été trouvée.",
+          "continuity_notes": "La transition entre les images devrait être fluide et naturelle, en maintenant une atmosphère de concentration et de détermination tout au long du storyboard."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Découverte\nLocation: Bureau de Michael\nTime: Matin suivant\n\nMain action:\nMichael découvre une connexion entre les rêves et le meurtre.\n\nVisual content:\nMichael Harris se penche sur un écran d'ordinateur, son visage reflétant une combinaison de soulagement et d'inquiétude. Ses mains fines glissent doucement sur le clavier.\n\nOriginal scene prompt:\nDétective regardant l'écran avec intensité, un mélange de soulagement et d'inquiétude.\n\nStoryboard video prompt:\nDétective regardant l'écran avec intensité, un mélange de soulagement et d'inquiétude. Caméra fixe centrée sur l'écran devant Michael, mouvement des doigts glissant sur le clavier.\n\nCamera:\nCaméra fixe centrée sur l'écran devant Michael\n\nShot type:\nClose-up\n\nCamera movement:\nStable, sans mouvement\n\nLens:\nObjectif macro pour une image nette et détaillée de l'écran\n\nLighting:\nÉclairage frontal et doux avec un léger contraste, accentuant les lignes du visage de Michael\n\nMood:\nTense et concentré\n\nColor grading:\nTonnes neutres avec des teintes bleutées pour une atmosphère froide\n\nVisual style:\nGraphique et précis, mettant l'accent sur les détails\n\nFirst frame:\nMichael penche la tête vers son écran d'ordinateur, ses cheveux bruns légèrement défaits et une expression intense sur le visage.\n\nLast frame:\nMichael se redresse lentement, ses yeux toujours fixés sur l'écran, un sourire presque imperceptible s'étendant sur son visage, laissant entendre qu'une nouvelle piste a été trouvée.\n\nContinuity:\nLa transition entre les images devrait être fluide et naturelle, en maintenant une atmosphère de concentration et de détermination tout au long du storyboard.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Défauts de rendu IA, artefacts numériques, flou, pixelisation"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_071201_le_serveur_des_rêves/videos/scene_05.mp4",
+          "duration_seconds": 8
+        }
+      }
+    ]
+  }
+}
