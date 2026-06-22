@@ -1,0 +1,374 @@
+{
+  "project_id": "20260622_105650_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves sont stockés sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "subtitled_movie_exported",
+  "folders": {
+    "project": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves",
+    "storyboard": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/storyboard",
+    "videos": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/videos",
+    "voices": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/voices",
+    "music": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/music",
+    "sfx": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/sfx",
+    "exports": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/exports",
+    "logs": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/logs"
+  },
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective découvre qu'un serveur secret stocke les rêves de la ville, menant à un mystère sans fin.",
+    "synopsis": "Quand le détective Mike Johnson est appelé pour enquêter sur des disparitions inexpliquées, il découvre que les rêves sont en réalité des preuves volées. Il se retrouve dans une quête pour trouver l'emplacement du serveur secret et stopper ceux qui l'utilisent mal.",
+    "characters": [
+      {
+        "name": "Mike Johnson",
+        "age": "45",
+        "role": "Detective",
+        "personality": "Introspectif, intrépide",
+        "visual_description": "Cheveux noirs grisonnants, yeux bleus perçants"
+      },
+      {
+        "name": "Lena",
+        "age": "32",
+        "role": "Journaliste",
+        "personality": "Curieuse, courageuse",
+        "visual_description": "Cheveux bruns courts, regard énergique"
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Appel d'urgence",
+        "location": "Salle de réunion du commissariat",
+        "time": "Matin",
+        "description": "Les détectives Mike Johnson et Lena discutent des enlèvements récents.",
+        "dialogues": [
+          {
+            "character": "Mike Johnson",
+            "line": "Nous avons besoin d'une nouvelle piste."
+          },
+          {
+            "character": "Lena",
+            "line": "J'ai appris quelque chose qui pourrait nous aider. Rêves volés, disent-ils."
+          }
+        ],
+        "video_prompt": "Détectives dans une salle de réunion discutant intensément.",
+        "music_prompt": "Musique suspenseuse",
+        "sound_effects": [
+          "Mouvements de paperasse"
+        ],
+        "directing": {
+          "camera": "Caméra à main",
+          "shot_type": "Moyen plan serré (MPS)",
+          "camera_movement": "Déplacement latéral de la caméra entre les deux détectives, montrant leur interaction intense",
+          "lens": "Prisme 35mm pour une profondeur de champ moyenne",
+          "lighting": "Éclairage indirect et diffus pour créer un ton sombre et dramatique",
+          "mood": "Tension et concentration",
+          "color_grading": "Ton de gris dominant avec des touches de bleu glacé pour renforcer le sentiment d'urgence",
+          "visual_style": "Style réaliste, mettant en valeur l'expression faciale et la posture des acteurs",
+          "director_notes": "Insister sur les expressions faciales des détectives pour montrer leur détermination. Utiliser des planches de paperasse comme éléments de décor dynamiques."
+        },
+        "storyboard": {
+          "visual_description": "Dans une salle de réunion du commissariat, deux détectives se tiennent face à face. Mike Johnson est assis à un bureau et consulte des documents tandis que Lena est debout à côté de lui, manifestant sa concentration et son engagement dans la discussion.",
+          "image_prompt": "Détectives Mike Johnson et Lena dans une salle de réunion, Mike assis et examinant des documents, Lena debout en face, expression intense. Éclairage indirect créant un ton sombre et dramatique. Caméra à main avec mouvement latéral entre les deux détectives.",
+          "video_prompt": "Détectives dans une salle de réunion discutant intensément. Caméra à main effectuant un déplacement latéral entre Mike Johnson assis à son bureau et Lena debout en face, montrant leur interaction intense. Mouvements de paperasse comme éléments de décor dynamiques.",
+          "negative_prompt": "N'ajoutez pas d'éléments indésirables comme des artefacts vidéo, gardez le visage net et distinct sans distorsion ou flou.",
+          "first_frame_description": "Mike Johnson se tourne légèrement vers Lena, son expression déterminée. Lena fixe Mike avec une intensité croissante, sa main tenant un document à la hauteur de ses yeux.",
+          "last_frame_description": "Lena soulève le bras, tendant le document vers Mike tout en continuant son argumentation. Mike incline sa tête légèrement pour se concentrer sur ce que Lena lui dit, l'expression sur son visage montre une prise de décision importante.",
+          "continuity_notes": "Assurez-vous que les expressions des détectives reflètent leur engagement et leur détermination tout au long du cadre. Utilisez les déplacements de la caméra pour suivre leur interaction sans brusquerie."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Appel d'urgence\nLocation: Salle de réunion du commissariat\nTime: Matin\n\nMain action:\nLes détectives Mike Johnson et Lena discutent des enlèvements récents.\n\nVisual content:\nDans une salle de réunion du commissariat, deux détectives se tiennent face à face. Mike Johnson est assis à un bureau et consulte des documents tandis que Lena est debout à côté de lui, manifestant sa concentration et son engagement dans la discussion.\n\nOriginal scene prompt:\nDétectives dans une salle de réunion discutant intensément.\n\nStoryboard video prompt:\nDétectives dans une salle de réunion discutant intensément. Caméra à main effectuant un déplacement latéral entre Mike Johnson assis à son bureau et Lena debout en face, montrant leur interaction intense. Mouvements de paperasse comme éléments de décor dynamiques.\n\nCamera:\nCaméra à main\n\nShot type:\nMoyen plan serré (MPS)\n\nCamera movement:\nDéplacement latéral de la caméra entre les deux détectives, montrant leur interaction intense\n\nLens:\nPrisme 35mm pour une profondeur de champ moyenne\n\nLighting:\nÉclairage indirect et diffus pour créer un ton sombre et dramatique\n\nMood:\nTension et concentration\n\nColor grading:\nTon de gris dominant avec des touches de bleu glacé pour renforcer le sentiment d'urgence\n\nVisual style:\nStyle réaliste, mettant en valeur l'expression faciale et la posture des acteurs\n\nFirst frame:\nMike Johnson se tourne légèrement vers Lena, son expression déterminée. Lena fixe Mike avec une intensité croissante, sa main tenant un document à la hauteur de ses yeux.\n\nLast frame:\nLena soulève le bras, tendant le document vers Mike tout en continuant son argumentation. Mike incline sa tête légèrement pour se concentrer sur ce que Lena lui dit, l'expression sur son visage montre une prise de décision importante.\n\nContinuity:\nAssurez-vous que les expressions des détectives reflètent leur engagement et leur détermination tout au long du cadre. Utilisez les déplacements de la caméra pour suivre leur interaction sans brusquerie.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "N'ajoutez pas d'éléments indésirables comme des artefacts vidéo, gardez le visage net et distinct sans distorsion ou flou."
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/videos/scene_01.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "Recherches en ligne",
+        "location": "Bureau de Lena",
+        "time": "Après-midi",
+        "description": "Lena explore des informations sur les rêves volés.",
+        "dialogues": [
+          {
+            "character": "Lena",
+            "line": "C'est fascinant, mais aussi terrifiant."
+          }
+        ],
+        "video_prompt": "Journaliste cherchant des informations sur son ordinateur.",
+        "music_prompt": "Musique de recherche intense",
+        "sound_effects": [
+          "Souris cliquant"
+        ],
+        "directing": {
+          "camera": "CAMELINE",
+          "shot_type": "CLOSE-UP",
+          "camera_movement": "STATIONNAIRE",
+          "lens": "24mm",
+          "lighting": "DESSOUS DE L'ÉCRAN",
+          "mood": "INTENSIF, PREOCUPÉ",
+          "color_grading": "TONNEAU SANS SOMBREUR, CONTRASTE FAIBLE",
+          "visual_style": "NET ET RAPIDE",
+          "director_notes": "Capturez l'intensité de la recherche d'informations. Faites ressentir l'anxiété et la fascination dans le regard de Lena sur son écran."
+        },
+        "storyboard": {
+          "visual_description": "Lena est assise devant son bureau, entourée d'un ordinateur écran large en face d'elle. Son visage est penché vers l'écran où elle explore des informations sur les rêves volés.",
+          "image_prompt": "Journaliste concentrée, bureau de travail, ordinateur avec fenêtres ouvertes, pile de documents, souris cliquant",
+          "video_prompt": "Journaliste cherchant des informations sur son ordinateur. Caméra fixe sur le visage intensément focusé vers l'écran, mouvement de la souris visible, clics de souris réguliers, écran défilant rapidement avec textes et images variées",
+          "negative_prompt": "Brouillard, flou, mauvaise qualité d'image, artificiel",
+          "first_frame_description": "Lena est assise face à son ordinateur, ses mains sur le clavier. Ses pupilles sont grandes, fixant l'écran avec intensité.",
+          "last_frame_description": "Lena continue sa recherche, une expression de concentration et d'inquiétude sur son visage. L'ordianteur affiche des sites web ouverts avec textes et images en mouvement.",
+          "continuity_notes": "Assurez-vous que la transition du premier à l'image finale montre l'évolution de sa recherche sans coupure brusque. Les mains de Lena doivent être présentes sur le clavier au début et s'éloigner de l'écran vers la fin."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Recherches en ligne\nLocation: Bureau de Lena\nTime: Après-midi\n\nMain action:\nLena explore des informations sur les rêves volés.\n\nVisual content:\nLena est assise devant son bureau, entourée d'un ordinateur écran large en face d'elle. Son visage est penché vers l'écran où elle explore des informations sur les rêves volés.\n\nOriginal scene prompt:\nJournaliste cherchant des informations sur son ordinateur.\n\nStoryboard video prompt:\nJournaliste cherchant des informations sur son ordinateur. Caméra fixe sur le visage intensément focusé vers l'écran, mouvement de la souris visible, clics de souris réguliers, écran défilant rapidement avec textes et images variées\n\nCamera:\nCAMELINE\n\nShot type:\nCLOSE-UP\n\nCamera movement:\nSTATIONNAIRE\n\nLens:\n24mm\n\nLighting:\nDESSOUS DE L'ÉCRAN\n\nMood:\nINTENSIF, PREOCUPÉ\n\nColor grading:\nTONNEAU SANS SOMBREUR, CONTRASTE FAIBLE\n\nVisual style:\nNET ET RAPIDE\n\nFirst frame:\nLena est assise face à son ordinateur, ses mains sur le clavier. Ses pupilles sont grandes, fixant l'écran avec intensité.\n\nLast frame:\nLena continue sa recherche, une expression de concentration et d'inquiétude sur son visage. L'ordianteur affiche des sites web ouverts avec textes et images en mouvement.\n\nContinuity:\nAssurez-vous que la transition du premier à l'image finale montre l'évolution de sa recherche sans coupure brusque. Les mains de Lena doivent être présentes sur le clavier au début et s'éloigner de l'écran vers la fin.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillard, flou, mauvaise qualité d'image, artificiel"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/videos/scene_02.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Interrogatoire",
+        "location": "Dépôt policier",
+        "time": "Soirée",
+        "description": "Mike interroge un suspect.",
+        "dialogues": [
+          {
+            "character": "Mike Johnson",
+            "line": "Que savez-vous sur les rêves volés?"
+          },
+          {
+            "character": "Suspect",
+            "line": "Rien, je jurerais."
+          }
+        ],
+        "video_prompt": "Détective interrogant un suspect assis en face de lui.",
+        "music_prompt": "Musique dramatique",
+        "sound_effects": [
+          "Porte claquant"
+        ],
+        "directing": {
+          "camera": "Caméra positionnée à un angle légèrement supérieur à l'horizon pour une perspective objective, avec des mouvements limités pour maintenir la tension.",
+          "shot_type": "Conversation entre deux plans séquences",
+          "camera_movement": "Plan fixe, alternant entre les deux personnages sans mouvement horizontal important pour concentrer le regard du spectateur sur leurs expressions faciales et la tension de l'interrogatoire.",
+          "lens": "Objectif de large angle (24mm) pour capturer des plans larges qui mettent en valeur l'environnement confiné de la pièce, combiné avec un objectif téléobjectif (135mm) pour les gros plans sur les expressions faciales.",
+          "lighting": "Il y a une lumière claire à gauche du détective, créant des ombres sous son visage qui soulignent sa détermination. Le suspect est placé dans une zone moins éclairée, mettant l'accent sur ses tentatives de dissimulation et sa nervosité.",
+          "mood": "Tension et suspense",
+          "color_grading": "Couleurs sombres avec des teintes bleutées pour renforcer le sentiment d'urgence et d'anxiété. Les couleurs saturées sont minimisées, rendant la scène plus glauque et éthérée.",
+          "visual_style": "Film noir contemporain, avec une esthétique qui combine des éléments de réalisme photographique et un style dramatique intense.",
+          "director_notes": "Il est important d'exprimer le déterminisme du détective Mike Johnson en contrastant cela avec la nervosité croissante du suspect. Les interstices entre les phrases doivent être bien utilisés pour créer des pauses dramatiques."
+        },
+        "storyboard": {
+          "visual_description": "Un détective de type Mike Johnson se trouve dans un dépôt policier en soirée. Il interroge un suspect assis face à lui. La lumière claire éclaire la partie gauche du champ, soulignant sa détermination, tandis que le suspect est situé dans une zone moins lumineuse.",
+          "image_prompt": "Mike Johnson se tient avec assurance face au suspect en un dépôt policier, illuminé par la lumière claire de la gauche, contrastant avec l'ombre sur le visage du suspect qui semble nerveux et détendu. La caméra est placée à un angle légèrement supérieur à l'horizon pour une perspective objective.",
+          "video_prompt": "Détective interrogant un suspect assis en face de lui dans un dépôt policier, la caméra fixe alternant entre les deux personnages sans mouvement horizontal important. Le détective est éclairé par la lumière claire, créant des ombres sous son visage qui soulignent sa détermination. Le suspect se trouve dans une zone moins éclairée, mettant l'accent sur ses tentatives de dissimulation et sa nervosité.",
+          "negative_prompt": "Ne pas inclure d'anomalies technologiques, d'artifices visuels ou de défauts d'image.",
+          "first_frame_description": "Mike Johnson entre en scène avec une posture assurée, la lumière claire s'inscrit sur son visage, contrastant avec le suspect plus sombre. La caméra est légèrement inclinée pour une perspective objective.",
+          "last_frame_description": "Les deux personnages sont à nouveau sur l'écran, Mike Johnson se penche légèrement en avant, la tension palpable entre eux. La caméra reste stable, les interstices entre leurs phrases créant des pauses dramatiques.",
+          "continuity_notes": "Assurer que les expressions faciales et le regard du détective reflètent sa détermination tandis que celles du suspect montrent une nervosité croissante. Utiliser la lumière pour souligner ces sentiments, et maintenir un ton de tension et de suspense tout au long des scènes."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Interrogatoire\nLocation: Dépôt policier\nTime: Soirée\n\nMain action:\nMike interroge un suspect.\n\nVisual content:\nUn détective de type Mike Johnson se trouve dans un dépôt policier en soirée. Il interroge un suspect assis face à lui. La lumière claire éclaire la partie gauche du champ, soulignant sa détermination, tandis que le suspect est situé dans une zone moins lumineuse.\n\nOriginal scene prompt:\nDétective interrogant un suspect assis en face de lui.\n\nStoryboard video prompt:\nDétective interrogant un suspect assis en face de lui dans un dépôt policier, la caméra fixe alternant entre les deux personnages sans mouvement horizontal important. Le détective est éclairé par la lumière claire, créant des ombres sous son visage qui soulignent sa détermination. Le suspect se trouve dans une zone moins éclairée, mettant l'accent sur ses tentatives de dissimulation et sa nervosité.\n\nCamera:\nCaméra positionnée à un angle légèrement supérieur à l'horizon pour une perspective objective, avec des mouvements limités pour maintenir la tension.\n\nShot type:\nConversation entre deux plans séquences\n\nCamera movement:\nPlan fixe, alternant entre les deux personnages sans mouvement horizontal important pour concentrer le regard du spectateur sur leurs expressions faciales et la tension de l'interrogatoire.\n\nLens:\nObjectif de large angle (24mm) pour capturer des plans larges qui mettent en valeur l'environnement confiné de la pièce, combiné avec un objectif téléobjectif (135mm) pour les gros plans sur les expressions faciales.\n\nLighting:\nIl y a une lumière claire à gauche du détective, créant des ombres sous son visage qui soulignent sa détermination. Le suspect est placé dans une zone moins éclairée, mettant l'accent sur ses tentatives de dissimulation et sa nervosité.\n\nMood:\nTension et suspense\n\nColor grading:\nCouleurs sombres avec des teintes bleutées pour renforcer le sentiment d'urgence et d'anxiété. Les couleurs saturées sont minimisées, rendant la scène plus glauque et éthérée.\n\nVisual style:\nFilm noir contemporain, avec une esthétique qui combine des éléments de réalisme photographique et un style dramatique intense.\n\nFirst frame:\nMike Johnson entre en scène avec une posture assurée, la lumière claire s'inscrit sur son visage, contrastant avec le suspect plus sombre. La caméra est légèrement inclinée pour une perspective objective.\n\nLast frame:\nLes deux personnages sont à nouveau sur l'écran, Mike Johnson se penche légèrement en avant, la tension palpable entre eux. La caméra reste stable, les interstices entre leurs phrases créant des pauses dramatiques.\n\nContinuity:\nAssurer que les expressions faciales et le regard du détective reflètent sa détermination tandis que celles du suspect montrent une nervosité croissante. Utiliser la lumière pour souligner ces sentiments, et maintenir un ton de tension et de suspense tout au long des scènes.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Ne pas inclure d'anomalies technologiques, d'artifices visuels ou de défauts d'image."
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/videos/scene_03.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Recherche du serveur",
+        "location": "Forêt abandonnée",
+        "time": "Nuit",
+        "description": "Mike découvre un emplacement suspect.",
+        "dialogues": [
+          {
+            "character": "Mike Johnson",
+            "line": "Il y a quelque chose là-dessous."
+          }
+        ],
+        "video_prompt": "Détective explorant une forêt abandonnée, trouvant des indices.",
+        "music_prompt": "Musique de chasse",
+        "sound_effects": [
+          "Femmes dans la forêt",
+          "Fouilles"
+        ],
+        "directing": {
+          "camera": "Cameraman fixe sur Mike en position de détective, prêt à inspecter et explorer l'environnement.",
+          "shot_type": "Plan large puis plan moyen",
+          "camera_movement": "Le caméraman effectue des mouvements de déplacement progressifs pour explorer la forêt, suivant les mouvements du personnage.",
+          "lens": "Objectif de 50mm pour un rendu naturel et réaliste.",
+          "lighting": "Lumières tamisées avec une lueur faible venant des branches des arbres, créant des ombres dynamiques.",
+          "mood": "Tension, suspense",
+          "color_grading": "Couleurs sombres et terne, mettant en valeur la noirceur de la nuit.",
+          "visual_style": "Atmosphère mystérieuse avec des touches de réalisme grâce à l'exploration minutieuse du personnage.",
+          "director_notes": "Insister sur la solitude de Mike et son détermination pour trouver ce qui se cache dans la forêt. Utiliser les bruits naturels et le silence pour augmenter le sentiment d’impressionnante solitude."
+        },
+        "storyboard": {
+          "visual_description": "Mike Johnson explore une forêt abandonnée à la nuit tombante. Il marche sur un sentier sinueux, sa torche à la main éclairant partiellement son chemin. La caméra suit ses mouvements, montrant des arbres gigantesques qui encerclent le champ de vision. Le personnage démontre une attitude déterminée et concentrée.",
+          "image_prompt": "Mike Johnson en plein milieu d'une forêt abandonnée sous la lumière tamisée de sa torche, faisant des fouilles dans le sol, avec un air de détective",
+          "video_prompt": "Détective explorant une forêt abandonnée, trouvant des indices. La caméra effectue des mouvements de déplacement progressifs pour explorer la forêt, suivant les mouvements du personnage.",
+          "negative_prompt": "brouillon, mauvaise qualité, bruit, artefacts, mauvais rendu",
+          "first_frame_description": "Mike Johnson marche avec une torche dans sa main, illuminant un sentier étroit entre des arbres massifs. Il scrute attentivement le sol et les environs.",
+          "last_frame_description": "Mike Johnson s'arrête, son visage à la lueur de la torche, tenant quelque chose qu'il a trouvé. La caméra capture son expression intense et concentrée.",
+          "continuity_notes": "Assurez-vous que le mouvement de la caméra suit naturellement les déplacements de Mike tout au long du cadre pour maintenir une cohérence visuelle."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Recherche du serveur\nLocation: Forêt abandonnée\nTime: Nuit\n\nMain action:\nMike découvre un emplacement suspect.\n\nVisual content:\nMike Johnson explore une forêt abandonnée à la nuit tombante. Il marche sur un sentier sinueux, sa torche à la main éclairant partiellement son chemin. La caméra suit ses mouvements, montrant des arbres gigantesques qui encerclent le champ de vision. Le personnage démontre une attitude déterminée et concentrée.\n\nOriginal scene prompt:\nDétective explorant une forêt abandonnée, trouvant des indices.\n\nStoryboard video prompt:\nDétective explorant une forêt abandonnée, trouvant des indices. La caméra effectue des mouvements de déplacement progressifs pour explorer la forêt, suivant les mouvements du personnage.\n\nCamera:\nCameraman fixe sur Mike en position de détective, prêt à inspecter et explorer l'environnement.\n\nShot type:\nPlan large puis plan moyen\n\nCamera movement:\nLe caméraman effectue des mouvements de déplacement progressifs pour explorer la forêt, suivant les mouvements du personnage.\n\nLens:\nObjectif de 50mm pour un rendu naturel et réaliste.\n\nLighting:\nLumières tamisées avec une lueur faible venant des branches des arbres, créant des ombres dynamiques.\n\nMood:\nTension, suspense\n\nColor grading:\nCouleurs sombres et terne, mettant en valeur la noirceur de la nuit.\n\nVisual style:\nAtmosphère mystérieuse avec des touches de réalisme grâce à l'exploration minutieuse du personnage.\n\nFirst frame:\nMike Johnson marche avec une torche dans sa main, illuminant un sentier étroit entre des arbres massifs. Il scrute attentivement le sol et les environs.\n\nLast frame:\nMike Johnson s'arrête, son visage à la lueur de la torche, tenant quelque chose qu'il a trouvé. La caméra capture son expression intense et concentrée.\n\nContinuity:\nAssurez-vous que le mouvement de la caméra suit naturellement les déplacements de Mike tout au long du cadre pour maintenir une cohérence visuelle.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, mauvaise qualité, bruit, artefacts, mauvais rendu"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/videos/scene_04.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "Lieu du serveur",
+        "location": "Sous-terrain, bunker ancien",
+        "time": "Matin",
+        "description": "Mike et Lena découvrent l'énorme serveur.",
+        "dialogues": [
+          {
+            "character": "Lena",
+            "line": "On y est."
+          },
+          {
+            "character": "Mike Johnson",
+            "line": "Nous devons le détruire avant qu'il ne soit trop tard."
+          }
+        ],
+        "video_prompt": "Détectives découvrant un immense serveur dans un bunker souterrain.",
+        "music_prompt": "Musique dramatique et finale",
+        "sound_effects": [
+          "Moteurs de serveur"
+        ],
+        "directing": {
+          "camera": "Cameraman fixe sur les détectives, alternant entre Mike et Lena.",
+          "shot_type": "Plongée moyenne, close-up.",
+          "camera_movement": "Camera stationnaire pour une atmosphère solennelle.",
+          "lens": "Objectif grand-angle pour mettre l'accent sur la taille imposante des serveurs.",
+          "lighting": "Lumières faibles et froides du bunker, avec un halo de lumière douce émanant de Lena lorsqu'elle parle.",
+          "mood": "Sérieux et tension montante.",
+          "color_grading": "Ton neutre et sombre avec des touches bleutées pour accentuer l'atmosphère glauque du bunker souterrain.",
+          "visual_style": "Image nette et détaillée, mettant en évidence le contraste entre la noirceur du tunnel et l’éclat des serveurs modernes.",
+          "director_notes": "Insister sur la tension silencieuse dans les expressions faciales des détectives. Mettre l'accent sur la taille imposante des serveurs pour renforcer l'idée de menace technologique."
+        },
+        "storyboard": {
+          "visual_description": "Les détectives Mike Johnson et Lena se trouvent dans un sous-sol ancien transformé en bunker. Les murs de béton sont froids, avec quelques néons rouillés éclairant faiblement la pièce. Le sol est recouvert d'un tapis moelleux qui contrastait avec le reste du décor. L'immense serveur dominant le champ de vision est entouré par des câbles et des écrans affichant des données complexes.",
+          "image_prompt": "Détectives Mike Johnson et Lena dans un bunker souterrain, lumières froides, serveur imposant, expression sérieuse",
+          "video_prompt": "Détectives découvrant un immense serveur dans un bunker souterrain. Caméra fixe sur les détectives alternant entre Mike et Lena. Moteurs de serveur en bruit de fond.",
+          "negative_prompt": "Lumière trop vive, personnes mal éclairées, serveur non imposant, décor sans détails, expressions faciales manquantes",
+          "first_frame_description": "Le détective Lena entre dans le champ, son visage sérieux et concentré. Elle se dirige vers l'énorme serveur qui occupe la majeure partie de l'image. À sa droite, on voit le détective Mike Johnson arrivant, son expression réfléchissant à ses paroles précédentes.",
+          "last_frame_description": "Les deux détectives sont maintenant face au serveur, leurs expressions démontrant une tension croissante. Les lumières froides créent un halo doux autour de Lena qui parle. Le son des moteurs de serveur s'accentue à mesure que les images se ferment.",
+          "continuity_notes": "Assurer que le mouvement caméra reste stationnaire, la lumière continue d'être froid et faible avec une légère touche bleutée. Les expressions faciales des détectives doivent rester cohérentes entre les différentes images."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Lieu du serveur\nLocation: Sous-terrain, bunker ancien\nTime: Matin\n\nMain action:\nMike et Lena découvrent l'énorme serveur.\n\nVisual content:\nLes détectives Mike Johnson et Lena se trouvent dans un sous-sol ancien transformé en bunker. Les murs de béton sont froids, avec quelques néons rouillés éclairant faiblement la pièce. Le sol est recouvert d'un tapis moelleux qui contrastait avec le reste du décor. L'immense serveur dominant le champ de vision est entouré par des câbles et des écrans affichant des données complexes.\n\nOriginal scene prompt:\nDétectives découvrant un immense serveur dans un bunker souterrain.\n\nStoryboard video prompt:\nDétectives découvrant un immense serveur dans un bunker souterrain. Caméra fixe sur les détectives alternant entre Mike et Lena. Moteurs de serveur en bruit de fond.\n\nCamera:\nCameraman fixe sur les détectives, alternant entre Mike et Lena.\n\nShot type:\nPlongée moyenne, close-up.\n\nCamera movement:\nCamera stationnaire pour une atmosphère solennelle.\n\nLens:\nObjectif grand-angle pour mettre l'accent sur la taille imposante des serveurs.\n\nLighting:\nLumières faibles et froides du bunker, avec un halo de lumière douce émanant de Lena lorsqu'elle parle.\n\nMood:\nSérieux et tension montante.\n\nColor grading:\nTon neutre et sombre avec des touches bleutées pour accentuer l'atmosphère glauque du bunker souterrain.\n\nVisual style:\nImage nette et détaillée, mettant en évidence le contraste entre la noirceur du tunnel et l’éclat des serveurs modernes.\n\nFirst frame:\nLe détective Lena entre dans le champ, son visage sérieux et concentré. Elle se dirige vers l'énorme serveur qui occupe la majeure partie de l'image. À sa droite, on voit le détective Mike Johnson arrivant, son expression réfléchissant à ses paroles précédentes.\n\nLast frame:\nLes deux détectives sont maintenant face au serveur, leurs expressions démontrant une tension croissante. Les lumières froides créent un halo doux autour de Lena qui parle. Le son des moteurs de serveur s'accentue à mesure que les images se ferment.\n\nContinuity:\nAssurer que le mouvement caméra reste stationnaire, la lumière continue d'être froid et faible avec une légère touche bleutée. Les expressions faciales des détectives doivent rester cohérentes entre les différentes images.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Lumière trop vive, personnes mal éclairées, serveur non imposant, décor sans détails, expressions faciales manquantes"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/videos/scene_05.mp4",
+          "duration_seconds": 8
+        }
+      }
+    ]
+  },
+  "silent_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/exports/final_movie_silent.mp4",
+    "scene_count": 5
+  },
+  "music": {
+    "status": "generated",
+    "type": "placeholder",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/music/placeholder_music.wav",
+    "duration_seconds": 40
+  },
+  "final_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/exports/final_movie.mp4",
+    "has_music": true
+  },
+  "subtitles": {
+    "status": "generated",
+    "format": "srt",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/exports/subtitles.srt"
+  },
+  "subtitled_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_105650_serveur_des_rêves/exports/final_movie_subtitled.mp4",
+    "has_music": true,
+    "has_subtitles": true
+  }
+}

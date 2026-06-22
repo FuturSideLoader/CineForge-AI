@@ -8,7 +8,11 @@ from app.services.director import generate_directing_for_script
 from app.services.storyboard import generate_storyboard_for_script
 from app.services.video_prompt_builder import build_video_prompts_for_script
 from app.services.video_renderer import render_placeholder_videos_for_project
-from app.services.editor import assemble_final_movie
+from app.services.music_composer import generate_placeholder_music
+from app.services.editor import assemble_final_movie, mix_music_with_final_movie, burn_subtitles_into_movie
+from app.services.subtitle_generator import generate_subtitles
+from app.services.character_consistency import apply_character_consistency
+
 
 
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -74,6 +78,8 @@ def create_movie_project(
         language=language
     )
 
+    script = apply_character_consistency(script)
+
     script = build_video_prompts_for_script(
         script=script,
         language=language
@@ -103,6 +109,14 @@ def create_movie_project(
     project_data = render_placeholder_videos_for_project(project_data)
 
     project_data = assemble_final_movie(project_data)
+
+    project_data = generate_placeholder_music(project_data)
+
+    project_data = mix_music_with_final_movie(project_data)
+
+    project_data = generate_subtitles(project_data)
+
+    project_data = burn_subtitles_into_movie(project_data)
 
     project_file = save_project(project_dir, project_data)
 

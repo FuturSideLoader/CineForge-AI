@@ -1,0 +1,5 @@
+file '/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_01.mp4'
+file '/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_02.mp4'
+file '/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_03.mp4'
+file '/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_04.mp4'
+file '/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_05.mp4'

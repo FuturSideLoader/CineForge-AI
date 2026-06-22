@@ -1,0 +1,413 @@
+{
+  "project_id": "20260622_112229_les_rêves_stockés",
+  "idea": "Un détective découvre que les rêves sont stockés sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "subtitled_movie_exported",
+  "folders": {
+    "project": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés",
+    "storyboard": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/storyboard",
+    "videos": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos",
+    "voices": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/voices",
+    "music": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/music",
+    "sfx": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/sfx",
+    "exports": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/exports",
+    "logs": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/logs"
+  },
+  "script": {
+    "title": "Les Rêves Stockés",
+    "logline": "Un détective découvre que les rêves sont stockés sur un serveur privé et devient l’unique protecteur de cette information cruciale.",
+    "synopsis": "Après une découverte inattendue, un détective se trouve au cœur d’une conspiration pour protéger des secrets dormants dans la mémoire des rêves humains.",
+    "characters": [
+      {
+        "name": "Alex",
+        "age": "40",
+        "role": "Détective privé",
+        "personality": "Intuitif, perspicace et vigilant",
+        "visual_description": "Homme de forte build, cheveux noirs en bataille, barbe bien taillée.",
+        "character_id": "char_01_alex",
+        "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Début du Dossier",
+        "location": "Bureau de détective",
+        "time": "Matin",
+        "description": "Alex sort d'une longue nuit de travail, ses yeux fatigués fixent un dossier récemment reçu.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Qu'est-ce que c'est encore ce truc ?"
+          }
+        ],
+        "video_prompt": "Un détective épuisé examine un dossier avec perplexité.",
+        "music_prompt": "Musique d'ambiance sombre et menaçante",
+        "sound_effects": [],
+        "directing": {
+          "camera": "Cameraman positionnée sur un plan moyen à basse angle pour montrer la fatigue d'Alex, puis élargie pour introduire l'environnement du bureau.",
+          "shot_type": "Principalement des plans moyens et larges",
+          "camera_movement": "La caméra peut effectuer de légères oscillations latérales lorsqu'Alex se penche sur le dossier pour montrer sa tension et sa perplexité.",
+          "lens": "Objectif standard à mi-longue focale pour capture des expressions faciales détaillées, avec une légère perte d'effet pour créer de la profondeur de champ et intégrer l'environnement du bureau.",
+          "lighting": "Éclairage indirect venant du haut et latéralement pour accentuer les ombres sous le visage d'Alex, créant un aspect menaçant et dramatique.",
+          "mood": "Tense et inquiétante",
+          "color_grading": "Tonnes de couleurs froides avec des nuances bleutées et grises pour renforcer l'impression de tension et de fatigue.",
+          "visual_style": "Réaliste mais avec une touche réaliste et angoissée, mettant en valeur la solitude et le dilemme d'Alex face à ce dossier inattendu.",
+          "director_notes": "Il est important de montrer l'état fatigué et préoccupé d'Alex pour mettre en valeur la gravité du moment. L'accent doit être mis sur son incertitude face au contenu du dossier."
+        },
+        "storyboard": {
+          "visual_description": "Alex, un détective aux traits fatigués, examine attentivement un dossier sur son bureau. La pièce est minimaliste avec peu d'accessoires, accentuant l'intensité de la scène.",
+          "image_prompt": "Détective Alex, yeux inquiets fixant un dossier récemment reçu, environnement d'un bureau matinal, lumière indirecte créant des ombres sous le visage, expressivité du visage fatigué et préoccupé, tonnes de couleurs froides.",
+          "video_prompt": "Alex sort d'une longue nuit de travail, ses yeux fatigués fixent un dossier récemment reçu. La caméra commence sur un plan moyen à basse angle montrant la fatigue d'Alex, puis élargit pour introduire l'environnement du bureau. Lorsqu'Alex se penche sur le dossier, la caméra effectue de légères oscillations latérales pour montrer sa tension et sa perplexité.",
+          "negative_prompt": "évitez les défauts d'image, les artefacts de synthèse, les bords flous, les textures artificielles, les mouvements saccadés ou lisses inappropriés, la perte de détails, le manque d'harmonie visuelle.",
+          "first_frame_description": "Alex, un détective aux traits fatigués, se penche sur son bureau, regardant intensément le dossier récemment reçu. La lumière indirecte vient du haut et latéralement, accentuant les ombres sous son visage, créant une atmosphère menaçante et dramatique.",
+          "last_frame_description": "Alex se relève légèrement, les traits de son visage dépeignent la perplexité et l'inquiétude. La caméra élargit lentement pour introduire l'ensemble du bureau, mettant en valeur le vide autour d'eux, accentuant sa solitude et son dilemme face à ce dossier inattendu.",
+          "continuity_notes": "La transition entre les plans doit être fluide. Assurez-vous que la lumière indirecte reste cohérente tout au long de la scène pour maintenir l'atmosphère tense et inquiétante."
+        },
+        "characters_in_scene": [
+          {
+            "character_id": "char_01_alex",
+            "name": "Alex",
+            "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes."
+          }
+        ],
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Début du Dossier\nLocation: Bureau de détective\nTime: Matin\n\nMain action:\nAlex sort d'une longue nuit de travail, ses yeux fatigués fixent un dossier récemment reçu.\n\nVisual content:\nAlex, un détective aux traits fatigués, examine attentivement un dossier sur son bureau. La pièce est minimaliste avec peu d'accessoires, accentuant l'intensité de la scène.\n\nOriginal scene prompt:\nUn détective épuisé examine un dossier avec perplexité.\n\nStoryboard video prompt:\nAlex sort d'une longue nuit de travail, ses yeux fatigués fixent un dossier récemment reçu. La caméra commence sur un plan moyen à basse angle montrant la fatigue d'Alex, puis élargit pour introduire l'environnement du bureau. Lorsqu'Alex se penche sur le dossier, la caméra effectue de légères oscillations latérales pour montrer sa tension et sa perplexité.\n\nCamera:\nCameraman positionnée sur un plan moyen à basse angle pour montrer la fatigue d'Alex, puis élargie pour introduire l'environnement du bureau.\n\nShot type:\nPrincipalement des plans moyens et larges\n\nCamera movement:\nLa caméra peut effectuer de légères oscillations latérales lorsqu'Alex se penche sur le dossier pour montrer sa tension et sa perplexité.\n\nLens:\nObjectif standard à mi-longue focale pour capture des expressions faciales détaillées, avec une légère perte d'effet pour créer de la profondeur de champ et intégrer l'environnement du bureau.\n\nLighting:\nÉclairage indirect venant du haut et latéralement pour accentuer les ombres sous le visage d'Alex, créant un aspect menaçant et dramatique.\n\nMood:\nTense et inquiétante\n\nColor grading:\nTonnes de couleurs froides avec des nuances bleutées et grises pour renforcer l'impression de tension et de fatigue.\n\nVisual style:\nRéaliste mais avec une touche réaliste et angoissée, mettant en valeur la solitude et le dilemme d'Alex face à ce dossier inattendu.\n\nFirst frame:\nAlex, un détective aux traits fatigués, se penche sur son bureau, regardant intensément le dossier récemment reçu. La lumière indirecte vient du haut et latéralement, accentuant les ombres sous son visage, créant une atmosphère menaçante et dramatique.\n\nLast frame:\nAlex se relève légèrement, les traits de son visage dépeignent la perplexité et l'inquiétude. La caméra élargit lentement pour introduire l'ensemble du bureau, mettant en valeur le vide autour d'eux, accentuant sa solitude et son dilemme face à ce dossier inattendu.\n\nContinuity:\nLa transition entre les plans doit être fluide. Assurez-vous que la lumière indirecte reste cohérente tout au long de la scène pour maintenir l'atmosphère tense et inquiétante.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "évitez les défauts d'image, les artefacts de synthèse, les bords flous, les textures artificielles, les mouvements saccadés ou lisses inappropriés, la perte de détails, le manque d'harmonie visuelle."
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_01.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "Lecture du Dossier",
+        "location": "Bureau de détective",
+        "time": "Matin",
+        "description": "Alex lit le dossier, ses yeux s’agrandissent d'étonnement.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Les rêves sont stockés... sur un serveur privé ?"
+          }
+        ],
+        "video_prompt": "Alex lit attentivement les documents, hochant la tête de surprise.",
+        "music_prompt": "Musique d'ambiance sombre et menaçante",
+        "sound_effects": [],
+        "directing": {
+          "camera": "Cameéra fixe sur Alex",
+          "shot_type": "Close-up",
+          "camera_movement": "Statique",
+          "lens": "Prisme de 50mm pour un focus précis",
+          "lighting": "Lumière indirecte provenant du haut, crée une ombre dramatique sur le visage d'Alex",
+          "mood": "Scepticisme et incrédulité",
+          "color_grading": "Tonalités sombres avec des nuances bleutées pour renforcer l'ambiance mystérieuse",
+          "visual_style": "Realiste avec un ton de thriller psychologique",
+          "director_notes": "Insister sur la réaction d'Alex, montrer son incrédulité face à la découverte."
+        },
+        "storyboard": {
+          "visual_description": "Alex se concentre sur un dossier posé devant lui à son bureau. Ses yeux sont grands d'étonnement, soulignant sa réaction face aux informations sur la table.",
+          "image_prompt": "Alex, détective, regardant attentivement une pile de documents avec ses yeux s’agrandissant d’étonnement, bureau bien rangé, lumières tamisées créant des ombres dramatiques.",
+          "video_prompt": "Alex lit attentivement les documents, hochant la tête de surprise. La caméra reste fixe sur lui pour un close-up tout au long du shot, la lumière indirecte provenant du haut crée une ombre dramatique sur le visage d'Alex.",
+          "negative_prompt": "flou, déformé, mauvaise qualité, artificiel, pixelisé",
+          "first_frame_description": "Alex commence à lire les documents avec concentration, ses yeux se rétrécissent progressivement en signe de scepticisme avant de s’agrandir d’étonnement.",
+          "last_frame_description": "Alex termine sa lecture et laisse son visage exprimer incrédulité, la caméra reste fixe sur lui montrant l'ampleur de son étonnement.",
+          "continuity_notes": "Assurez-vous que le mouvement des yeux d'Alex s'accorde avec la progression de sa lecture. La transition entre les étapes de surprise et d’incrédulité doit être fluide."
+        },
+        "characters_in_scene": [
+          {
+            "character_id": "char_01_alex",
+            "name": "Alex",
+            "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes."
+          }
+        ],
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Lecture du Dossier\nLocation: Bureau de détective\nTime: Matin\n\nMain action:\nAlex lit le dossier, ses yeux s’agrandissent d'étonnement.\n\nVisual content:\nAlex se concentre sur un dossier posé devant lui à son bureau. Ses yeux sont grands d'étonnement, soulignant sa réaction face aux informations sur la table.\n\nOriginal scene prompt:\nAlex lit attentivement les documents, hochant la tête de surprise.\n\nStoryboard video prompt:\nAlex lit attentivement les documents, hochant la tête de surprise. La caméra reste fixe sur lui pour un close-up tout au long du shot, la lumière indirecte provenant du haut crée une ombre dramatique sur le visage d'Alex.\n\nCamera:\nCameéra fixe sur Alex\n\nShot type:\nClose-up\n\nCamera movement:\nStatique\n\nLens:\nPrisme de 50mm pour un focus précis\n\nLighting:\nLumière indirecte provenant du haut, crée une ombre dramatique sur le visage d'Alex\n\nMood:\nScepticisme et incrédulité\n\nColor grading:\nTonalités sombres avec des nuances bleutées pour renforcer l'ambiance mystérieuse\n\nVisual style:\nRealiste avec un ton de thriller psychologique\n\nFirst frame:\nAlex commence à lire les documents avec concentration, ses yeux se rétrécissent progressivement en signe de scepticisme avant de s’agrandir d’étonnement.\n\nLast frame:\nAlex termine sa lecture et laisse son visage exprimer incrédulité, la caméra reste fixe sur lui montrant l'ampleur de son étonnement.\n\nContinuity:\nAssurez-vous que le mouvement des yeux d'Alex s'accorde avec la progression de sa lecture. La transition entre les étapes de surprise et d’incrédulité doit être fluide.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "flou, déformé, mauvaise qualité, artificiel, pixelisé"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_02.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Recherche sur le Serveur",
+        "location": "Serveur local",
+        "time": "Soirée",
+        "description": "Alex examine l'écran de son ordinateur, ses doigts tapotent frénétiquement.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Comment est-ce possible ?"
+          }
+        ],
+        "video_prompt": "Vue sur l'ordinateur d'Alex qui s'affiche avec des codes de serveur.",
+        "music_prompt": "Musique tensionnelle et accélérée",
+        "sound_effects": [],
+        "directing": {
+          "camera": "Vue sur l'écran de l'ordinateur d'Alex, puis une vue plus large montrant Alex devant son écran.",
+          "shot_type": "Close-up suivi d'un shot medium",
+          "camera_movement": "Stable, avec un panoramique doux pour montrer le contexte de la scène.",
+          "lens": "Prisme largement ouvert pour une profondeur de champ limitée et une netteté accrue sur l'écran du PC d'Alex.",
+          "lighting": "Lumières bleutées à faible intensité, mettant en valeur l'écran de l'ordinateur et éclairant légèrement Alex dans un contraste détaillé.",
+          "mood": "Tension et suspense",
+          "color_grading": "Ton nuancé vers le bleu et le noir pour renforcer l'atmosphère nocturne et stressante.",
+          "visual_style": "Écran d'ordinateur montrant des codes complexes, éclairé par la lumière indirecte du clavier et de l'écran.",
+          "director_notes": "Il est important de maintenir une concentration sur les doigts d'Alex tapotant l'écran, symbolisant son stress. L'attention du spectateur doit rester focalisée sur le processus qu'Alex est en train de subir."
+        },
+        "storyboard": {
+          "visual_description": "Alex se penche sur son ordinateur dans une soirée sombre. Ses doigts tapotent frénétiquement sur l'écran, affichant des codes de serveur.",
+          "image_prompt": "Vue d'Alex à la nuit tombante, devant un ordinateur avec des codes de serveur affichés en plan close-up. Ses doigts sont vifs et agités, la lumière bleutée souligne l'écran et les claviers.",
+          "video_prompt": "Vue sur l'ordinateur d'Alex qui s'affiche avec des codes de serveur, suivie par une vue plus large montrant Alex devant son écran. Vue close-up suivi d'un shot medium avec un panoramique doux pour montrer le contexte. Camera stable mais les doigts d'Alex tapotant l'écran créent une tension visuelle.",
+          "negative_prompt": "Brouillard, flou, mauvais focus, défauts de retouches, reflets distordus, artifacts numériques",
+          "first_frame_description": "Alex se penche sur son ordinateur, ses doigts frappent rapidement l'écran affichant des codes complexes. La lumière du clavier et de l'écran crée un contraste intense avec la pénombre ambiante.",
+          "last_frame_description": "Alex maintient une position de concentration totale, ses doigts restent en mouvement sur l'écran du PC. Derrière lui, le décor reste stable mais les codes sur l'écran continuent d'alterner et s'animer lentement.",
+          "continuity_notes": "Il est important que la transition entre la vue close-up et medium soit fluide pour conserver une cohérence dans l'attention du spectateur sur Alex. La tension doit être maintenue tout au long de la scène."
+        },
+        "characters_in_scene": [
+          {
+            "character_id": "char_01_alex",
+            "name": "Alex",
+            "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes."
+          }
+        ],
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Recherche sur le Serveur\nLocation: Serveur local\nTime: Soirée\n\nMain action:\nAlex examine l'écran de son ordinateur, ses doigts tapotent frénétiquement.\n\nVisual content:\nAlex se penche sur son ordinateur dans une soirée sombre. Ses doigts tapotent frénétiquement sur l'écran, affichant des codes de serveur.\n\nOriginal scene prompt:\nVue sur l'ordinateur d'Alex qui s'affiche avec des codes de serveur.\n\nStoryboard video prompt:\nVue sur l'ordinateur d'Alex qui s'affiche avec des codes de serveur, suivie par une vue plus large montrant Alex devant son écran. Vue close-up suivi d'un shot medium avec un panoramique doux pour montrer le contexte. Camera stable mais les doigts d'Alex tapotant l'écran créent une tension visuelle.\n\nCamera:\nVue sur l'écran de l'ordinateur d'Alex, puis une vue plus large montrant Alex devant son écran.\n\nShot type:\nClose-up suivi d'un shot medium\n\nCamera movement:\nStable, avec un panoramique doux pour montrer le contexte de la scène.\n\nLens:\nPrisme largement ouvert pour une profondeur de champ limitée et une netteté accrue sur l'écran du PC d'Alex.\n\nLighting:\nLumières bleutées à faible intensité, mettant en valeur l'écran de l'ordinateur et éclairant légèrement Alex dans un contraste détaillé.\n\nMood:\nTension et suspense\n\nColor grading:\nTon nuancé vers le bleu et le noir pour renforcer l'atmosphère nocturne et stressante.\n\nVisual style:\nÉcran d'ordinateur montrant des codes complexes, éclairé par la lumière indirecte du clavier et de l'écran.\n\nFirst frame:\nAlex se penche sur son ordinateur, ses doigts frappent rapidement l'écran affichant des codes complexes. La lumière du clavier et de l'écran crée un contraste intense avec la pénombre ambiante.\n\nLast frame:\nAlex maintient une position de concentration totale, ses doigts restent en mouvement sur l'écran du PC. Derrière lui, le décor reste stable mais les codes sur l'écran continuent d'alterner et s'animer lentement.\n\nContinuity:\nIl est important que la transition entre la vue close-up et medium soit fluide pour conserver une cohérence dans l'attention du spectateur sur Alex. La tension doit être maintenue tout au long de la scène.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillard, flou, mauvais focus, défauts de retouches, reflets distordus, artifacts numériques"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_03.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Découverte du Conspirateur",
+        "location": "Appartement d'Alex",
+        "time": "Nuit",
+        "description": "Alex sursaute en entendant un bruit dans l'appartement. Il sort de sa chambre et se dirige vers la cuisine.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Qui est là ?"
+          }
+        ],
+        "video_prompt": "Alex sort de sa chambre, intrigué par le bruit dans la cuisine.",
+        "music_prompt": "Musique d'ambiance nerveuse",
+        "sound_effects": [
+          "Son de porte s'ouvrant doucement"
+        ],
+        "directing": {
+          "camera": "Caméra fixe à mi-hauteur, suivant les mouvements de Alex.",
+          "shot_type": "Plan séquence",
+          "camera_movement": "La caméra reste stable pendant que Alex avance lentement vers la cuisine.",
+          "lens": "Objectif 35mm pour une perspective naturelle et réaliste.",
+          "lighting": "Éclairage de plafond indirect, créant un halo de lumière sur le visage d'Alex, ajoutant une touche dramatique.",
+          "mood": "Tendu, inquiétant",
+          "color_grading": "Tonnes de couleurs neutres avec des tons de bleu et de vert pour créer un sentiment de distance et de peur nocturne.",
+          "visual_style": "Style réaliste mettant l'accent sur la tension et le mystère.",
+          "director_notes": "Il est crucial de conserver une atmosphère d'inquiétude tout au long du plan. Alex doit montrer de la surprise et de la prudence face à l'insidieuse situation."
+        },
+        "storyboard": {
+          "visual_description": "Alex, un homme de 28 ans aux cheveux bruns courts, sort lentement de sa chambre. Il porte un pyjama confortable et arbore une expression de surprise combinée à la prudence. La lumière tamisée d'une lampe de table derrière lui crée des ombres sur son visage, ajoutant une touche dramatique.",
+          "image_prompt": "Alex dans sa chambre, déguisé en pyjama, sort lentement vers la cuisine, surprise et prudence dans ses traits, lumière tamisée d'une lampe de table derrière lui créant des ombres, bruit de porte doux dans le fond",
+          "video_prompt": "Plan séquence : Caméra fixe à mi-hauteur suivant Alex qui avance lentement vers la cuisine. La caméra reste stable pendant que les mouvements de Alex sont capturés, créant une atmosphère tendue et inquiétante.",
+          "negative_prompt": "brouillon, mauvaise qualité, déformé, flou, oeil mal placé, blemish, watermark",
+          "first_frame_description": "Alex sursautant en sortant de sa chambre, yeux grands ouverts et respirant lentement. La porte de la cuisine s'ouvre doucement dans le fond.",
+          "last_frame_description": "Alex arrivé à l'entrée de la cuisine, regardant autour de lui avec prudence. Un détail: une assiette dépareillée sur la table montre qu'une personne a été là avant lui.",
+          "continuity_notes": "Assurez-vous que les mouvements de caméra et les expressions faciales d'Alex sont continues entre les premières et dernières images."
+        },
+        "characters_in_scene": [
+          {
+            "character_id": "char_01_alex",
+            "name": "Alex",
+            "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes."
+          }
+        ],
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Découverte du Conspirateur\nLocation: Appartement d'Alex\nTime: Nuit\n\nMain action:\nAlex sursaute en entendant un bruit dans l'appartement. Il sort de sa chambre et se dirige vers la cuisine.\n\nVisual content:\nAlex, un homme de 28 ans aux cheveux bruns courts, sort lentement de sa chambre. Il porte un pyjama confortable et arbore une expression de surprise combinée à la prudence. La lumière tamisée d'une lampe de table derrière lui crée des ombres sur son visage, ajoutant une touche dramatique.\n\nOriginal scene prompt:\nAlex sort de sa chambre, intrigué par le bruit dans la cuisine.\n\nStoryboard video prompt:\nPlan séquence : Caméra fixe à mi-hauteur suivant Alex qui avance lentement vers la cuisine. La caméra reste stable pendant que les mouvements de Alex sont capturés, créant une atmosphère tendue et inquiétante.\n\nCamera:\nCaméra fixe à mi-hauteur, suivant les mouvements de Alex.\n\nShot type:\nPlan séquence\n\nCamera movement:\nLa caméra reste stable pendant que Alex avance lentement vers la cuisine.\n\nLens:\nObjectif 35mm pour une perspective naturelle et réaliste.\n\nLighting:\nÉclairage de plafond indirect, créant un halo de lumière sur le visage d'Alex, ajoutant une touche dramatique.\n\nMood:\nTendu, inquiétant\n\nColor grading:\nTonnes de couleurs neutres avec des tons de bleu et de vert pour créer un sentiment de distance et de peur nocturne.\n\nVisual style:\nStyle réaliste mettant l'accent sur la tension et le mystère.\n\nFirst frame:\nAlex sursautant en sortant de sa chambre, yeux grands ouverts et respirant lentement. La porte de la cuisine s'ouvre doucement dans le fond.\n\nLast frame:\nAlex arrivé à l'entrée de la cuisine, regardant autour de lui avec prudence. Un détail: une assiette dépareillée sur la table montre qu'une personne a été là avant lui.\n\nContinuity:\nAssurez-vous que les mouvements de caméra et les expressions faciales d'Alex sont continues entre les premières et dernières images.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, mauvaise qualité, déformé, flou, oeil mal placé, blemish, watermark"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_04.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "Confrontation",
+        "location": "Appartement d'Alex, cuisine",
+        "time": "Nuit",
+        "description": "Un homme sort de l'ombre dans la cuisine. Alex s'élance vers lui.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Qu'est-ce que vous faites ici ?"
+          },
+          {
+            "character": "Conspirateur",
+            "line": "Je veux les rêves."
+          }
+        ],
+        "video_prompt": "Alex et le conspirateur se font face dans la cuisine, tension palpable.",
+        "music_prompt": "Musique d'ambiance menaçante",
+        "sound_effects": [
+          "Son de verre qui casse"
+        ],
+        "directing": {
+          "camera": "Préconisez l'utilisation d'une caméra à main tremblante pour ajouter une touche de spontanéité et de tension à la scène.",
+          "shot_type": "Plan rapproché alternatif entre Alex et le conspirateur, créant un sentiment de confrontation directe et intense.",
+          "camera_movement": "Le mouvement lent mais constant de la caméra depuis l'homme en ombre jusqu'à Alex peut souligner sa progression et l'intensification de la tension.",
+          "lens": "Utilisez une lentille à grande ouverture (f/1.8) pour un flou de fond qui mettra les personnages en avant, ajoutant du mystère et un sentiment d'immersion.",
+          "lighting": "Il faut des lumières basses et contrastées avec une source principale derrière le conspirateur créant un halo dramatique sur son visage. Les reflets de cette lumière sur la peau et les vêtements d'Alex mettent en valeur sa présence.",
+          "mood": "Tension, incertitude et menace",
+          "color_grading": "Ton neutre avec des touches de rouge pour indiquer l'émotion et la tension. Des nuances sombres accentuent le sentiment de danger.",
+          "visual_style": "Un style minimaliste qui suggère une atmosphère oppressante, avec des détails tels que des ombres dansant sur les murs créées par la lumière tamisée.",
+          "director_notes": "La tension est la clé ici. Tous les éléments de la scène doivent travailler ensemble pour transmettre l'angoisse et le danger qui pendent au-dessus d'eux."
+        },
+        "storyboard": {
+          "visual_description": "Alex est un homme aux traits fermés et déterminés. Il porte une chemise de nuit informe, révélant ses muscles définis. Le conspirateur, vêtu d'une cape noire qui flotte dans l'air, cache son visage derrière une capuche sombre. La cuisine est en désordre, avec des assiettes sales et un verre cassé sur le sol.",
+          "image_prompt": "Alex, déterminé, en chemise de nuit, fait face à un conspirateur dans une cuisine obscure, vêtu d'une cape noire avec capuche. Verre cassé au sol, assiettes sales, faible lumière tamisée créant des ombres danseuses sur les murs.",
+          "video_prompt": "Alex et le conspirateur se font face dans la cuisine, tension palpable. La caméra à main tremblante suit lentement leur progression jusqu'à un plan rapproché alternatif entre eux, accentuant la confrontation directe. Son mouvement souligne l'intensification de la tension.",
+          "negative_prompt": "Fond flou, personnages distants, éléments incohérents, détails indistincts",
+          "first_frame_description": "Alex sort d'ombre, se précipite vers le conspirateur. Leur regard se croise intensément. Verre cassé au sol derrière eux.",
+          "last_frame_description": "Plan rapproché de leurs visages fermés et déterminés. Les reflets de la lumière tamisée dansent sur leurs vêtements, créant une atmosphère oppressante. Le verre cassé reste visible dans le cadre.",
+          "continuity_notes": "Gardez la cohérence des personnages, des vêtements et du lieu. L'ambiance doit rester intense et menaçante tout au long de l'échange."
+        },
+        "characters_in_scene": [
+          {
+            "character_id": "char_01_alex",
+            "name": "Alex",
+            "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes."
+          }
+        ],
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Confrontation\nLocation: Appartement d'Alex, cuisine\nTime: Nuit\n\nMain action:\nUn homme sort de l'ombre dans la cuisine. Alex s'élance vers lui.\n\nVisual content:\nAlex est un homme aux traits fermés et déterminés. Il porte une chemise de nuit informe, révélant ses muscles définis. Le conspirateur, vêtu d'une cape noire qui flotte dans l'air, cache son visage derrière une capuche sombre. La cuisine est en désordre, avec des assiettes sales et un verre cassé sur le sol.\n\nOriginal scene prompt:\nAlex et le conspirateur se font face dans la cuisine, tension palpable.\n\nStoryboard video prompt:\nAlex et le conspirateur se font face dans la cuisine, tension palpable. La caméra à main tremblante suit lentement leur progression jusqu'à un plan rapproché alternatif entre eux, accentuant la confrontation directe. Son mouvement souligne l'intensification de la tension.\n\nCamera:\nPréconisez l'utilisation d'une caméra à main tremblante pour ajouter une touche de spontanéité et de tension à la scène.\n\nShot type:\nPlan rapproché alternatif entre Alex et le conspirateur, créant un sentiment de confrontation directe et intense.\n\nCamera movement:\nLe mouvement lent mais constant de la caméra depuis l'homme en ombre jusqu'à Alex peut souligner sa progression et l'intensification de la tension.\n\nLens:\nUtilisez une lentille à grande ouverture (f/1.8) pour un flou de fond qui mettra les personnages en avant, ajoutant du mystère et un sentiment d'immersion.\n\nLighting:\nIl faut des lumières basses et contrastées avec une source principale derrière le conspirateur créant un halo dramatique sur son visage. Les reflets de cette lumière sur la peau et les vêtements d'Alex mettent en valeur sa présence.\n\nMood:\nTension, incertitude et menace\n\nColor grading:\nTon neutre avec des touches de rouge pour indiquer l'émotion et la tension. Des nuances sombres accentuent le sentiment de danger.\n\nVisual style:\nUn style minimaliste qui suggère une atmosphère oppressante, avec des détails tels que des ombres dansant sur les murs créées par la lumière tamisée.\n\nFirst frame:\nAlex sort d'ombre, se précipite vers le conspirateur. Leur regard se croise intensément. Verre cassé au sol derrière eux.\n\nLast frame:\nPlan rapproché de leurs visages fermés et déterminés. Les reflets de la lumière tamisée dansent sur leurs vêtements, créant une atmosphère oppressante. Le verre cassé reste visible dans le cadre.\n\nContinuity:\nGardez la cohérence des personnages, des vêtements et du lieu. L'ambiance doit rester intense et menaçante tout au long de l'échange.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Fond flou, personnages distants, éléments incohérents, détails indistincts"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/videos/scene_05.mp4",
+          "duration_seconds": 8
+        }
+      }
+    ],
+    "character_sheets": [
+      {
+        "character_id": "char_01_alex",
+        "name": "Alex",
+        "age": "40",
+        "role": "Détective privé",
+        "personality": "Intuitif, perspicace et vigilant",
+        "visual_description": "Homme de forte build, cheveux noirs en bataille, barbe bien taillée.",
+        "locked_visual_prompt": "Alex, 40, Détective privé. Personality: Intuitif, perspicace et vigilant. Visual appearance: Homme de forte build, cheveux noirs en bataille, barbe bien taillée.. Keep same face, same age, same body shape, same hairstyle, same clothing style, same cinematic identity across all scenes.",
+        "reference_images": {
+          "face": null,
+          "body": null,
+          "expressions": []
+        },
+        "consistency_rules": [
+          "same face across all scenes",
+          "same hairstyle across all scenes",
+          "same clothing style unless the script explicitly changes it",
+          "same body shape and age",
+          "no random face changes",
+          "no random outfit changes"
+        ]
+      }
+    ]
+  },
+  "silent_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/exports/final_movie_silent.mp4",
+    "scene_count": 5
+  },
+  "music": {
+    "status": "generated",
+    "type": "placeholder",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/music/placeholder_music.wav",
+    "duration_seconds": 40
+  },
+  "final_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/exports/final_movie.mp4",
+    "has_music": true
+  },
+  "subtitles": {
+    "status": "generated",
+    "format": "srt",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/exports/subtitles.srt"
+  },
+  "subtitled_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_112229_les_rêves_stockés/exports/final_movie_subtitled.mp4",
+    "has_music": true,
+    "has_subtitles": true
+  }
+}

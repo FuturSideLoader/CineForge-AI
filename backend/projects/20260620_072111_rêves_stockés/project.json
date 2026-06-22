@@ -1,0 +1,341 @@
+{
+  "project_id": "20260620_072111_rêves_stockés",
+  "idea": "Un détective découvre que les rêves sont stocké sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "final_movie_exported",
+  "folders": {
+    "project": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés",
+    "storyboard": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/storyboard",
+    "videos": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/videos",
+    "voices": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/voices",
+    "music": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/music",
+    "sfx": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/sfx",
+    "exports": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/exports",
+    "logs": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/logs"
+  },
+  "script": {
+    "title": "Rêves Stockés",
+    "logline": "Un détective découvre que les rêves sont stockés sur un serveur privé, menant à une révélation qui remet en question la réalité même.",
+    "synopsis": "Après l’incroyable découverte d’un serveur secret contenant les rêves de tous les habitants d’une ville, un détective doit s’immerger dans ces visions pour résoudre un mystère profondément ancré dans le sommeil des gens.",
+    "characters": [
+      {
+        "name": "Alex",
+        "age": "40 ans",
+        "role": "Détective privé",
+        "personality": "Intelligent, perspicace mais parfois solitaire et distrait",
+        "visual_description": "Cheveux bruns, yeux bleus, vêtements classiques d’un détective."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Le Découvert du Serveur",
+        "location": "Salle de travail d'Alex",
+        "time": "Après-midi, journée claire",
+        "description": "Alex examine des documents sur son ordinateur.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "C'est dingue... les rêves peuvent être capturés?"
+          }
+        ],
+        "video_prompt": "Détective travaillant à son bureau, regardant son écran avec intensité.",
+        "music_prompt": "Musique tensionnelle et mystérieuse",
+        "sound_effects": [
+          "Ordinateur bipant"
+        ],
+        "directing": {
+          "camera": "Cameroun statique au milieu de la salle, centrée sur Alex.",
+          "shot_type": "Plan moyens sur Alex en train de regarder son écran d'ordinateur.",
+          "camera_movement": "Stable pour maintenir un ton concentré et sérieux.",
+          "lens": "Objectif 50mm pour une profondeur de champ appropriée, mettant bien en valeur le visage d'Alex.",
+          "lighting": "Éclairage indirect venant du haut, créant des ombres prononcées sur le visage d'Alex et accentuant l'intensité de la scène.",
+          "mood": "Tension et mystère, soulignant l'idée de rêves capturés et l'incertitude de ce qu'ils pourraient signifier.",
+          "color_grading": "Tonales chaudes avec des touches de bleu pour une ambiance étrange et introspective.",
+          "visual_style": "Réaliste avec quelques éléments d'atmosphère fantastique, reflétant la nature hybride du sujet.",
+          "director_notes": "Il est important de montrer l'expression dubitative d'Alex lorsqu'il réalise la possibilité des rêves capturés. Cette réaction doit être clairement visible pour renforcer le ton mystérieux et étrange de la scène."
+        },
+        "storyboard": {
+          "visual_description": "Alex est assis derrière son bureau dans une salle de travail modernisée avec un ordinateur à l'écran et des documents répartis devant lui. La lumière du jour entre par les fenêtres à droite, créant des ombres sur le visage d'Alex qui est concentré sur son écran.",
+          "image_prompt": "Détective travaillant à son bureau, regardant son écran avec intensité. L'écran affiche un document d'un serveur informatique et une image symbolisant un rêve ou une nuée de pensées flottantes autour du serveur. Éclairage indirect venant du haut créant des ombres prononcées sur le visage d'Alex.",
+          "video_prompt": "Cameroun statique au milieu de la salle, centrée sur Alex en train de regarder son écran d'ordinateur. Le détective regarde intensément l'écran avec une expression dubitative, puis tourne sa tête vers un document d'un serveur informatique sur le bureau. La caméra reste stable pour maintenir un ton concentré et sérieux.",
+          "negative_prompt": "flou, mauvaise qualité de l'image, déformations, artefacts numériques, cadrage non professionnel",
+          "first_frame_description": "Alex est assis derrière son bureau avec une expression dubitative. Son regard fixe intensément l'écran qui affiche un document d'un serveur informatique.",
+          "last_frame_description": "Alex retourne à son état de pensées, la tête tournée vers le côté, observant les documents sur le bureau. La scène se termine avec lui toujours plongé dans ses réflexions, l'expression dubitative encore visible sur son visage.",
+          "continuity_notes": "Maintenir une continuité visuelle entre les images statiques et la vidéo en préservant la posture et l'expression d'Alex. Assurer que le document du serveur informatique et la scène de rêve ou de pensées flottantes soient visuellement cohérents dans toutes les représentations."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Le Découvert du Serveur\nLocation: Salle de travail d'Alex\nTime: Après-midi, journée claire\n\nMain action:\nAlex examine des documents sur son ordinateur.\n\nVisual content:\nAlex est assis derrière son bureau dans une salle de travail modernisée avec un ordinateur à l'écran et des documents répartis devant lui. La lumière du jour entre par les fenêtres à droite, créant des ombres sur le visage d'Alex qui est concentré sur son écran.\n\nOriginal scene prompt:\nDétective travaillant à son bureau, regardant son écran avec intensité.\n\nStoryboard video prompt:\nCameroun statique au milieu de la salle, centrée sur Alex en train de regarder son écran d'ordinateur. Le détective regarde intensément l'écran avec une expression dubitative, puis tourne sa tête vers un document d'un serveur informatique sur le bureau. La caméra reste stable pour maintenir un ton concentré et sérieux.\n\nCamera:\nCameroun statique au milieu de la salle, centrée sur Alex.\n\nShot type:\nPlan moyens sur Alex en train de regarder son écran d'ordinateur.\n\nCamera movement:\nStable pour maintenir un ton concentré et sérieux.\n\nLens:\nObjectif 50mm pour une profondeur de champ appropriée, mettant bien en valeur le visage d'Alex.\n\nLighting:\nÉclairage indirect venant du haut, créant des ombres prononcées sur le visage d'Alex et accentuant l'intensité de la scène.\n\nMood:\nTension et mystère, soulignant l'idée de rêves capturés et l'incertitude de ce qu'ils pourraient signifier.\n\nColor grading:\nTonales chaudes avec des touches de bleu pour une ambiance étrange et introspective.\n\nVisual style:\nRéaliste avec quelques éléments d'atmosphère fantastique, reflétant la nature hybride du sujet.\n\nFirst frame:\nAlex est assis derrière son bureau avec une expression dubitative. Son regard fixe intensément l'écran qui affiche un document d'un serveur informatique.\n\nLast frame:\nAlex retourne à son état de pensées, la tête tournée vers le côté, observant les documents sur le bureau. La scène se termine avec lui toujours plongé dans ses réflexions, l'expression dubitative encore visible sur son visage.\n\nContinuity:\nMaintenir une continuité visuelle entre les images statiques et la vidéo en préservant la posture et l'expression d'Alex. Assurer que le document du serveur informatique et la scène de rêve ou de pensées flottantes soient visuellement cohérents dans toutes les représentations.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "flou, mauvaise qualité de l'image, déformations, artefacts numériques, cadrage non professionnel"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/videos/scene_01.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "Le Dossier du Serveur",
+        "location": "Salle de conférence",
+        "time": "Après-midi, lumière tamisée",
+        "description": "Alex présente ses découvertes à des collègues.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Je ne comprends pas comment ces rêves sont stockés."
+          },
+          {
+            "character": "Colleague 1",
+            "line": "Peut-être une quelconque technologie avancée?"
+          }
+        ],
+        "video_prompt": "Échanges de regards entre collègues, plan sur les documents détaillés.",
+        "music_prompt": "Musique menaçante doucement montant d'intensité",
+        "sound_effects": [
+          "Porte s'ouvrait",
+          "Classement de papiers"
+        ],
+        "directing": {
+          "camera": "Caméra d'angle de dessus sur un plan large pour introduire le groupe",
+          "shot_type": "Plan large, Plan moyen, Plan américain",
+          "camera_movement": "Lente panning de gauche à droite pour suivre les collègues tandis qu'ils échangent des regards",
+          "lens": "Objectif macro pour capturer les détails des documents sur le bureau",
+          "lighting": "Lumières tamisées et indirectes, mettant en valeur les visages des personnages tout en gardant un fond flou",
+          "mood": "Curiosité et tension",
+          "color_grading": "Ton neutre avec une légère dominante bleu-gris pour évoquer la profondeur de réflexion et la mystification",
+          "visual_style": "Réalisme avec des touches d'atmosphère suggérée par les mouvements subtils et le jeu des ombres",
+          "director_notes": "Insister sur l'ambiance de concentration et de scepticisme. Les collègues devraient sembler réellement perplexe face à la question d'Alex."
+        },
+        "storyboard": {
+          "visual_description": "La scène se déroule dans une salle de conférence où Alex, un homme aux cheveux bruns coiffés en bataille et portant des lunettes, est assis devant un grand bureau recouvert de documents. Deux collègues sont présents : Colleague 1, une femme aux cheveux courts vêtue d'un costume bleu marine, et Colleague 2, un homme aux cheveux gris longs en carré, vêtu d'une chemise grise.",
+          "image_prompt": "Un homme Alex avec des lunettes et des cheveux bruns coiffés en bataille, assis derrière un grand bureau rempli de documents détaillés. Deux collègues à côté : une femme aux cheveux courts en costume bleu marine, et un homme aux cheveux gris longs en carré vêtu d'une chemise grise. Les collègues échangent des regards avec une expression de scepticisme et de concentration.",
+          "video_prompt": "Échanges de regards entre Alex et ses deux collègues, plan sur les documents détaillés. Caméra d'angle de dessus sur un plan large pour introduire le groupe, suivi par une lente panning de gauche à droite pour suivre les collègues tandis qu'ils échangent des regards. Objectif macro pour capturer les détails des documents sur le bureau. Lumières tamisées et indirectes mettant en valeur les visages des personnages tout en gardant un fond flou, créant une ambiance de concentration et de scepticisme.",
+          "negative_prompt": "Defocused, blur, overexposed, underexposed, motion blur, distorted, pixelated",
+          "first_frame_description": "Une vue d'ensemble de la salle de conférence avec Alex assis derrière le bureau. Les collègues sont à côté, prêtant attention aux documents.",
+          "last_frame_description": "Alex termine sa phrase et un moment de silence s'installe entre les collègues, laissant entendre un bruissement léger de papiers en arrière-plan.",
+          "continuity_notes": "Assurer que l'éclairage reste cohérent tout au long du plan. Les détails des documents doivent être visibles mais ne pas distraire du dialogue principal."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Le Dossier du Serveur\nLocation: Salle de conférence\nTime: Après-midi, lumière tamisée\n\nMain action:\nAlex présente ses découvertes à des collègues.\n\nVisual content:\nLa scène se déroule dans une salle de conférence où Alex, un homme aux cheveux bruns coiffés en bataille et portant des lunettes, est assis devant un grand bureau recouvert de documents. Deux collègues sont présents : Colleague 1, une femme aux cheveux courts vêtue d'un costume bleu marine, et Colleague 2, un homme aux cheveux gris longs en carré, vêtu d'une chemise grise.\n\nOriginal scene prompt:\nÉchanges de regards entre collègues, plan sur les documents détaillés.\n\nStoryboard video prompt:\nÉchanges de regards entre Alex et ses deux collègues, plan sur les documents détaillés. Caméra d'angle de dessus sur un plan large pour introduire le groupe, suivi par une lente panning de gauche à droite pour suivre les collègues tandis qu'ils échangent des regards. Objectif macro pour capturer les détails des documents sur le bureau. Lumières tamisées et indirectes mettant en valeur les visages des personnages tout en gardant un fond flou, créant une ambiance de concentration et de scepticisme.\n\nCamera:\nCaméra d'angle de dessus sur un plan large pour introduire le groupe\n\nShot type:\nPlan large, Plan moyen, Plan américain\n\nCamera movement:\nLente panning de gauche à droite pour suivre les collègues tandis qu'ils échangent des regards\n\nLens:\nObjectif macro pour capturer les détails des documents sur le bureau\n\nLighting:\nLumières tamisées et indirectes, mettant en valeur les visages des personnages tout en gardant un fond flou\n\nMood:\nCuriosité et tension\n\nColor grading:\nTon neutre avec une légère dominante bleu-gris pour évoquer la profondeur de réflexion et la mystification\n\nVisual style:\nRéalisme avec des touches d'atmosphère suggérée par les mouvements subtils et le jeu des ombres\n\nFirst frame:\nUne vue d'ensemble de la salle de conférence avec Alex assis derrière le bureau. Les collègues sont à côté, prêtant attention aux documents.\n\nLast frame:\nAlex termine sa phrase et un moment de silence s'installe entre les collègues, laissant entendre un bruissement léger de papiers en arrière-plan.\n\nContinuity:\nAssurer que l'éclairage reste cohérent tout au long du plan. Les détails des documents doivent être visibles mais ne pas distraire du dialogue principal.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Defocused, blur, overexposed, underexposed, motion blur, distorted, pixelated"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/videos/scene_02.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "Première Rêve",
+        "location": "Laboratoire secret",
+        "time": "Nuit, lumière tamisée",
+        "description": "Alex entre dans une pièce sombre où des machines stockent les rêves.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "C'est ici que tout se passe..."
+          }
+        ],
+        "video_prompt": "Alex marchant vers un serveur, lumière tremblotante de la lampe de poche.",
+        "music_prompt": "Musique surnaturelle, rythme lent et hypnotique",
+        "sound_effects": [
+          "Bruissement d'électricité",
+          "Bip régulier des machines"
+        ],
+        "directing": {
+          "camera": "Câmera sur Alex se déplaçant lentement vers les serveurs",
+          "shot_type": "Plan large à mi-hauteur",
+          "camera_movement": "Le mouvement de la caméra est lissé et stable, suivant le personnage tout en restant légèrement flottant pour transmettre une atmosphère onirique.",
+          "lens": "Objectif 24mm pour un champ de vision large et des détails nets sur les machines",
+          "lighting": "Lumière tamisée avec une lumière principale venant d'une lampe de poche tremblotante, créant des ombres douces et des contrastes éthérés. Les reflets sur les serveurs ajoutent un aspect mystérieux.",
+          "mood": "Énigmatique et onirique",
+          "color_grading": "Ton neutre avec une nuance bleutée, soulignant l'ambiance secrète du laboratoire. Des touches de rouge et d'orange dans les ombres pour un effet surnaturel.",
+          "visual_style": "Design minimaliste avec des lignes nettes et stylisées sur le matériel technologique, contrastant avec la pénombre ambiant.",
+          "director_notes": "Préservez une atmosphère de mystère. La caméra doit capturer l'atmosphère surnaturelle tout en restant réaliste. Les détails techniques doivent être subtils mais nets."
+        },
+        "storyboard": {
+          "visual_description": "Alex se déplace dans un laboratoire sombre où des machines stockent les rêves. La lumière tamisée crée des ombres douces et contrastes éthérés, avec des reflets mystérieux sur les serveurs.",
+          "image_prompt": "Alex marchant vers un grand serveur de rêve, la lumière tremblotante d'une lampe de poche illumine partiellement l'espace. Machines modernes stylisées dans le fond, design minimaliste mais technologique, ton neutre avec des touches de rouge et d'orange dans les ombres.",
+          "video_prompt": "Alex marchant vers un grand serveur de rêve, la lumière tremblotante d'une lampe de poche illumine partiellement l'espace. Caméra sur Alex se déplaçant lentement vers les serveurs, mouvement flottant pour une atmosphère onirique.",
+          "negative_prompt": "Brouillon, mauvaise qualité, artificiel, pixelisation, distorsion, faux-colour",
+          "first_frame_description": "Alex entre dans la pièce, lampe de poche allumée et tremblotante. Il se dirige vers un grand serveur de rêve au centre de l'espace, les reflets mystérieux sur les machines.",
+          "last_frame_description": "Alex se retourne, regardant autour de lui avec curiosité dans la pénombre. Serveurs stylisés derrière lui, le mouvement flottant de la caméra capture son expression intriguée.",
+          "continuity_notes": "Maintenir une atmosphère énigmatique et onirique tout au long du cadre. La lumière tremblotante doit être constante pour maintenir un réel réalisme surnaturel."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Première Rêve\nLocation: Laboratoire secret\nTime: Nuit, lumière tamisée\n\nMain action:\nAlex entre dans une pièce sombre où des machines stockent les rêves.\n\nVisual content:\nAlex se déplace dans un laboratoire sombre où des machines stockent les rêves. La lumière tamisée crée des ombres douces et contrastes éthérés, avec des reflets mystérieux sur les serveurs.\n\nOriginal scene prompt:\nAlex marchant vers un serveur, lumière tremblotante de la lampe de poche.\n\nStoryboard video prompt:\nAlex marchant vers un grand serveur de rêve, la lumière tremblotante d'une lampe de poche illumine partiellement l'espace. Caméra sur Alex se déplaçant lentement vers les serveurs, mouvement flottant pour une atmosphère onirique.\n\nCamera:\nCâmera sur Alex se déplaçant lentement vers les serveurs\n\nShot type:\nPlan large à mi-hauteur\n\nCamera movement:\nLe mouvement de la caméra est lissé et stable, suivant le personnage tout en restant légèrement flottant pour transmettre une atmosphère onirique.\n\nLens:\nObjectif 24mm pour un champ de vision large et des détails nets sur les machines\n\nLighting:\nLumière tamisée avec une lumière principale venant d'une lampe de poche tremblotante, créant des ombres douces et des contrastes éthérés. Les reflets sur les serveurs ajoutent un aspect mystérieux.\n\nMood:\nÉnigmatique et onirique\n\nColor grading:\nTon neutre avec une nuance bleutée, soulignant l'ambiance secrète du laboratoire. Des touches de rouge et d'orange dans les ombres pour un effet surnaturel.\n\nVisual style:\nDesign minimaliste avec des lignes nettes et stylisées sur le matériel technologique, contrastant avec la pénombre ambiant.\n\nFirst frame:\nAlex entre dans la pièce, lampe de poche allumée et tremblotante. Il se dirige vers un grand serveur de rêve au centre de l'espace, les reflets mystérieux sur les machines.\n\nLast frame:\nAlex se retourne, regardant autour de lui avec curiosité dans la pénombre. Serveurs stylisés derrière lui, le mouvement flottant de la caméra capture son expression intriguée.\n\nContinuity:\nMaintenir une atmosphère énigmatique et onirique tout au long du cadre. La lumière tremblotante doit être constante pour maintenir un réel réalisme surnaturel.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillon, mauvaise qualité, artificiel, pixelisation, distorsion, faux-colour"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/videos/scene_03.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "Interprétation du Rêve",
+        "location": "Chambre d'Alex, nuit",
+        "time": "Nuit tardive, éclairage tamisé",
+        "description": "Alex étudie un rêve stocké.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Quelque chose ici ne me semble pas normal..."
+          }
+        ],
+        "video_prompt": "Alex parcourant le texte d'un rêve, plongeant profondément dans la lecture.",
+        "music_prompt": "Musique énigmatique, rythme lent",
+        "sound_effects": [
+          "Plumes de plafond tombant"
+        ],
+        "directing": {
+          "camera": "Cameo de medium shot d'Alex examinant attentivement le rêve sur l'écran.",
+          "shot_type": "Medium Shot",
+          "camera_movement": "La caméra se déplace lentement vers Alex, en cadence avec sa respiration, pour montrer son intensité et sa concentration.",
+          "lens": "Lenteur de 18 mm pour une perspective confortable mais non intrusive sur l'écran où le rêve est affiché.",
+          "lighting": "Éclairage tamisé, faisceaux d'ombres doux sur les côtés, accentuant la profondeur et créant un sentiment d'intimité.",
+          "mood": "Sérieux, mystérieux",
+          "color_grading": "Tonales chaudes avec des nuances de vert serein pour symboliser l'espace onirique, contrastées par quelques touches bleues froides qui soulignent la perplexité d'Alex.",
+          "visual_style": "Le visuel est minimaliste et concentré, mettant l'accent sur le regard d'Alex et l'écran de rêve derrière lui. Le choix des couleurs sert à renforcer les sentiments d'incertitude et de réflexion.",
+          "director_notes": "Capturer la tension silencieuse de la scène, montrant comment Alex est absorbé par le processus de déchiffrement du rêve. L'écran derrière devrait être un mélange de textes flous et d'images oniriques pour refléter l'espace entre réalité et imagination."
+        },
+        "storyboard": {
+          "visual_description": "Alex se penche sur un écran, ses traits concentrés sous une lumière tamisée. Une ambiance mystérieuse plane dans la chambre.",
+          "image_prompt": "Alex medium shot, étudiant attentivement l'écran affichant le rêve, plongé dans un silence intense, avec des plumes de plafond tombant doucement derrière lui. Éclairage tamisé, faisceaux d'ombres doux, énigmatique et mystérieux.",
+          "video_prompt": "Alex parcourant le texte d'un rêve sur l'écran, plongeant profondément dans la lecture. La caméra se déplace lentement vers Alex en cadence avec sa respiration, accentuant sa concentration et intensité. L'écran derrière lui montre un mélange de textes flous et d'images oniriques.",
+          "negative_prompt": "couleurs saturées, mauvaise qualité d'image, artificiel, pixelisation",
+          "first_frame_description": "Alex, medium shot, étudiant l'écran avec intensité. Éclairage tamisé, faisceaux d'ombres doux, ambiance mystérieuse.",
+          "last_frame_description": "Alex, medium shot, continuant à examiner le rêve sur l'écran, la caméra se déplace lentement vers lui en cadence avec sa respiration, éclairage tamisé, faisceaux d'ombres doux, intensité et concentration bien présentes.",
+          "continuity_notes": "Maintenir une ambiance mystérieuse tout au long de la scène. La caméra doit suivre Alex et l'écran en mouvement lent pour refléter sa profonde immersion dans le rêve."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Interprétation du Rêve\nLocation: Chambre d'Alex, nuit\nTime: Nuit tardive, éclairage tamisé\n\nMain action:\nAlex étudie un rêve stocké.\n\nVisual content:\nAlex se penche sur un écran, ses traits concentrés sous une lumière tamisée. Une ambiance mystérieuse plane dans la chambre.\n\nOriginal scene prompt:\nAlex parcourant le texte d'un rêve, plongeant profondément dans la lecture.\n\nStoryboard video prompt:\nAlex parcourant le texte d'un rêve sur l'écran, plongeant profondément dans la lecture. La caméra se déplace lentement vers Alex en cadence avec sa respiration, accentuant sa concentration et intensité. L'écran derrière lui montre un mélange de textes flous et d'images oniriques.\n\nCamera:\nCameo de medium shot d'Alex examinant attentivement le rêve sur l'écran.\n\nShot type:\nMedium Shot\n\nCamera movement:\nLa caméra se déplace lentement vers Alex, en cadence avec sa respiration, pour montrer son intensité et sa concentration.\n\nLens:\nLenteur de 18 mm pour une perspective confortable mais non intrusive sur l'écran où le rêve est affiché.\n\nLighting:\nÉclairage tamisé, faisceaux d'ombres doux sur les côtés, accentuant la profondeur et créant un sentiment d'intimité.\n\nMood:\nSérieux, mystérieux\n\nColor grading:\nTonales chaudes avec des nuances de vert serein pour symboliser l'espace onirique, contrastées par quelques touches bleues froides qui soulignent la perplexité d'Alex.\n\nVisual style:\nLe visuel est minimaliste et concentré, mettant l'accent sur le regard d'Alex et l'écran de rêve derrière lui. Le choix des couleurs sert à renforcer les sentiments d'incertitude et de réflexion.\n\nFirst frame:\nAlex, medium shot, étudiant l'écran avec intensité. Éclairage tamisé, faisceaux d'ombres doux, ambiance mystérieuse.\n\nLast frame:\nAlex, medium shot, continuant à examiner le rêve sur l'écran, la caméra se déplace lentement vers lui en cadence avec sa respiration, éclairage tamisé, faisceaux d'ombres doux, intensité et concentration bien présentes.\n\nContinuity:\nMaintenir une ambiance mystérieuse tout au long de la scène. La caméra doit suivre Alex et l'écran en mouvement lent pour refléter sa profonde immersion dans le rêve.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "couleurs saturées, mauvaise qualité d'image, artificiel, pixelisation"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/videos/scene_04.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "Résolution du Mystère",
+        "location": "Salle de meeting, jour clair",
+        "time": "Matin, lumière naturelle",
+        "description": "Alex présente ses preuves à des hauts responsables.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Il y a quelqu'un qui abuse de ces rêves."
+          },
+          {
+            "character": "Chief",
+            "line": "Très bien, Alex. Enquêtez immédiatement sur cette affaire."
+          }
+        ],
+        "video_prompt": "Alex debout devant une grande table de réunion avec des collègues.",
+        "music_prompt": "Musique confiante et résolue",
+        "sound_effects": [
+          "Porte s'ouvrant",
+          "Pages tournées"
+        ],
+        "directing": {
+          "camera": "Caméra fixes et plans larges pour capturer l'ambiance de la réunion.",
+          "shot_type": "Plan large, plan médium, rameau",
+          "camera_movement": "Stable, sans mouvement pour maintenir une atmosphère professionnelle.",
+          "lens": "Objectif à grande profondeur de champ (f/2.8) pour assurer que tous les acteurs soient en focus.",
+          "lighting": "Lumière naturelle entrant par la fenêtre, avec des réflexions douces sur l'ensemble du plateau pour créer une ambiance éclaircie et professionnelle.",
+          "mood": "Confiant et résolu, avec un air de détermination mais aussi d'ouverture à l'idée de résoudre le problème.",
+          "color_grading": "Tonnes de couleurs naturelles et neutres avec des touches de bleu clair pour accentuer la fraîcheur du matin et les espoirs d'une solution prochaine.",
+          "visual_style": "Modernes, professionnels et dynamiques, reflétant l'importance de la réunion et le sérieux de l'affaire en question.",
+          "director_notes": "Alex doit transmettre une confiance inébranlable dans sa capacité à résoudre le problème. Les autres responsables doivent montrer respect et prêter attention, suggérant qu'ils sont engagés dans la solution du mystère."
+        },
+        "storyboard": {
+          "visual_description": "Alex debout devant une grande table de réunion avec des collègues. La lumière naturelle entre par la fenêtre, créant un éclairage doux et professionnel. Les autres responsables regardent attentivement Alex, montrant respect et intérêt.",
+          "image_prompt": "Alex debout devant une grande table de réunion avec des collègues, lumière naturelle entrant par la fenêtre, ambiance professionnelle, respect et attention sur les visages des collègues",
+          "video_prompt": "Caméra fixes et plans larges pour capturer l'ambiance de la réunion. Alex debout devant une grande table de réunion avec des collègues, lumière naturelle entrant par la fenêtre, portes s'ouvrant, pages tournées, visages attentifs des responsables",
+          "negative_prompt": "Brouillard, ombres artificielles, surexposition, sous-exposition, couleurs artificielles, défauts de netteté, détails manquants, mouvement flou, artefacts numériques",
+          "first_frame_description": "Alex se tourne vers la table et commence à présenter ses preuves. Les pages d'un document sont ouvertes devant lui, et il les tourne lentement pour montrer chaque élément.",
+          "last_frame_description": "Le Chief regarde attentivement Alex alors qu'il termine son discours. La caméra se déplace légèrement à droite pour inclure la réaction des autres responsables.",
+          "continuity_notes": "Maintenir une atmosphère professionnelle tout au long de la scène, avec un mouvement caméra minimal pour garder l'attention sur les interactions entre Alex et ses collègues."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Résolution du Mystère\nLocation: Salle de meeting, jour clair\nTime: Matin, lumière naturelle\n\nMain action:\nAlex présente ses preuves à des hauts responsables.\n\nVisual content:\nAlex debout devant une grande table de réunion avec des collègues. La lumière naturelle entre par la fenêtre, créant un éclairage doux et professionnel. Les autres responsables regardent attentivement Alex, montrant respect et intérêt.\n\nOriginal scene prompt:\nAlex debout devant une grande table de réunion avec des collègues.\n\nStoryboard video prompt:\nCaméra fixes et plans larges pour capturer l'ambiance de la réunion. Alex debout devant une grande table de réunion avec des collègues, lumière naturelle entrant par la fenêtre, portes s'ouvrant, pages tournées, visages attentifs des responsables\n\nCamera:\nCaméra fixes et plans larges pour capturer l'ambiance de la réunion.\n\nShot type:\nPlan large, plan médium, rameau\n\nCamera movement:\nStable, sans mouvement pour maintenir une atmosphère professionnelle.\n\nLens:\nObjectif à grande profondeur de champ (f/2.8) pour assurer que tous les acteurs soient en focus.\n\nLighting:\nLumière naturelle entrant par la fenêtre, avec des réflexions douces sur l'ensemble du plateau pour créer une ambiance éclaircie et professionnelle.\n\nMood:\nConfiant et résolu, avec un air de détermination mais aussi d'ouverture à l'idée de résoudre le problème.\n\nColor grading:\nTonnes de couleurs naturelles et neutres avec des touches de bleu clair pour accentuer la fraîcheur du matin et les espoirs d'une solution prochaine.\n\nVisual style:\nModernes, professionnels et dynamiques, reflétant l'importance de la réunion et le sérieux de l'affaire en question.\n\nFirst frame:\nAlex se tourne vers la table et commence à présenter ses preuves. Les pages d'un document sont ouvertes devant lui, et il les tourne lentement pour montrer chaque élément.\n\nLast frame:\nLe Chief regarde attentivement Alex alors qu'il termine son discours. La caméra se déplace légèrement à droite pour inclure la réaction des autres responsables.\n\nContinuity:\nMaintenir une atmosphère professionnelle tout au long de la scène, avec un mouvement caméra minimal pour garder l'attention sur les interactions entre Alex et ses collègues.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillard, ombres artificielles, surexposition, sous-exposition, couleurs artificielles, défauts de netteté, détails manquants, mouvement flou, artefacts numériques"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/videos/scene_05.mp4",
+          "duration_seconds": 8
+        }
+      }
+    ]
+  },
+  "final_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260620_072111_rêves_stockés/exports/final_movie.mp4",
+    "scene_count": 5
+  }
+}

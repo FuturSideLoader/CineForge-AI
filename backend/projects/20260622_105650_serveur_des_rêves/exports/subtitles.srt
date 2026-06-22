@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:04,000
+Mike Johnson: Nous avons besoin d'une nouvelle piste.
+
+2
+00:00:04,000 --> 00:00:08,000
+Lena: J'ai appris quelque chose qui pourrait nous aider. Rêves volés, disent-ils.
+
+3
+00:00:08,000 --> 00:00:16,000
+Lena: C'est fascinant, mais aussi terrifiant.
+
+4
+00:00:16,000 --> 00:00:20,000
+Mike Johnson: Que savez-vous sur les rêves volés?
+
+5
+00:00:20,000 --> 00:00:24,000
+Suspect: Rien, je jurerais.
+
+6
+00:00:24,000 --> 00:00:32,000
+Mike Johnson: Il y a quelque chose là-dessous.
+
+7
+00:00:32,000 --> 00:00:36,000
+Lena: On y est.
+
+8
+00:00:36,000 --> 00:00:40,000
+Mike Johnson: Nous devons le détruire avant qu'il ne soit trop tard.

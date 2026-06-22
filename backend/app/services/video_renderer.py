@@ -1,5 +1,6 @@
 import subprocess
 from pathlib import Path
+import re
 
 
 def render_placeholder_video_for_scene(scene: dict, videos_dir: str) -> dict:
@@ -12,8 +13,9 @@ def render_placeholder_video_for_scene(scene: dict, videos_dir: str) -> dict:
 
     output_path = Path(videos_dir) / f"scene_{scene_number:02d}.mp4"
 
-    text = f"SCENE {scene_number}\\n{title}\\n\\n{description}"
-    safe_text = text.replace(":", "\\:").replace("'", "\\'")
+    text = f"SCENE {scene_number} - {title}"
+
+    safe_text = re.sub(r"[^a-zA-Z0-9À-ÿ _-]", "", text)
 
     command = [
         "ffmpeg",
@@ -27,7 +29,7 @@ def render_placeholder_video_for_scene(scene: dict, videos_dir: str) -> dict:
             "fontsize=34:"
             "x=(w-text_w)/2:"
             "y=(h-text_h)/2:"
-            f"text='{safe_text}'"
+            f"text={safe_text}"
         ),
         "-r", "24",
         "-pix_fmt", "yuv420p",

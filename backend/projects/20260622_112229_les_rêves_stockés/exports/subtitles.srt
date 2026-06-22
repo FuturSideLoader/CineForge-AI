@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:08,000
+Alex: Qu'est-ce que c'est encore ce truc ?
+
+2
+00:00:08,000 --> 00:00:16,000
+Alex: Les rêves sont stockés... sur un serveur privé ?
+
+3
+00:00:16,000 --> 00:00:24,000
+Alex: Comment est-ce possible ?
+
+4
+00:00:24,000 --> 00:00:32,000
+Alex: Qui est là ?
+
+5
+00:00:32,000 --> 00:00:36,000
+Alex: Qu'est-ce que vous faites ici ?
+
+6
+00:00:36,000 --> 00:00:40,000
+Conspirateur: Je veux les rêves.

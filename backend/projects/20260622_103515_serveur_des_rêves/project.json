@@ -1,0 +1,346 @@
+{
+  "project_id": "20260622_103515_serveur_des_rêves",
+  "idea": "Un détective découvre que les rêves sont stockés sur un serveur privé",
+  "language": "fr",
+  "duration_minutes": 2,
+  "scene_count": 5,
+  "status": "final_movie_exported",
+  "folders": {
+    "project": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves",
+    "storyboard": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/storyboard",
+    "videos": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/videos",
+    "voices": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/voices",
+    "music": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/music",
+    "sfx": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/sfx",
+    "exports": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/exports",
+    "logs": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/logs"
+  },
+  "script": {
+    "title": "Serveur des Rêves",
+    "logline": "Un détective découvre que les rêves sont stockés sur un serveur privé et enchaîne une quête pour les dévoiler.",
+    "synopsis": "Dans un futur proche, le protagoniste se retrouve impliqué dans l'exploration d'un mystérieux serveur qui contient tous nos rêves. Alors que l'enquête s'intensifie, il doit faire face à des dangers inattendus et décider de la destinée des rêves.",
+    "characters": [
+      {
+        "name": "Alex",
+        "age": "35 ans",
+        "role": "Détective privé",
+        "personality": "Curieux, déterminé mais parfois trop confiant dans ses capacités.",
+        "visual_description": "Homme aux cheveux courts et aux yeux perçants, vêtu d'un costume noir, porte une cravate rouge."
+      }
+    ],
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "La Découverte",
+        "location": "Atelier de développement informatique",
+        "time": "Nuit",
+        "description": "Alex entre dans un atelier de développement informatique en pleine nuit. Les écrans clignotent et les serveurs ronronnent.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Qu'est-ce que c'est que cette activité nocturne?"
+          }
+        ],
+        "video_prompt": "Une vue de l'atelier sombre avec des serveurs éclairés, Alex fouille dans les ordinateurs.",
+        "music_prompt": "Musique dramatique et mystérieuse",
+        "sound_effects": [
+          "cliquetis d'un clavier",
+          "bruit de ventilateurs"
+        ],
+        "directing": {
+          "camera": "Cameo Canon EOS R5",
+          "shot_type": "Close-up",
+          "camera_movement": "Stable sur un pied",
+          "lens": "24-70mm f/2.8",
+          "lighting": "Lumières indirectes blanches pour souligner les serveurs, éclairage ambiant faible dans le reste de l'atelier",
+          "mood": "Intriguant et mystérieux",
+          "color_grading": "Contraste élevé avec des teintes bleutées pour créer une atmosphère nocturne et tech-électrique",
+          "visual_style": "Post-production légèrement retouchée pour accentuer l'effet futuriste et les détails technologiques",
+          "director_notes": "Capturez le mystère de la scène en mettant l'accent sur les écrans allumés et le silence, contrastant avec le bruit des serveurs. Laissez Alex apparaître comme un explorateur curieux dans ce monde nocturne."
+        },
+        "storyboard": {
+          "visual_description": "Atelier de développement informatique sombre, avec des serveurs clignotants en arrière-plan. Alex, vêtu d’un pull noir et d’un pantalon de pyjama bleu foncé, est penché sur un ordinateur. Les écrans clignotent doucement.",
+          "image_prompt": "Atelier nocturne informatique sombre, serveurs clignotants, Alex explorant des ordinateurs, futuriste et tech-électrique",
+          "video_prompt": "Caméra stable sur un pied, plan rapproché d'Alex allumant un ordinateur, plan sur les écrans clignotants des serveurs, mouvement caméra lent vers le haut pour révéler l'atelier entier",
+          "negative_prompt": "Brouillard, flou, distorsion, pixels flous, manque de détail",
+          "first_frame_description": "Alex allume un ordinateur dans la pénombre du bureau. Ses mains agitent le clavier avec curiosité.",
+          "last_frame_description": "Plan large montrant l'ensemble de l'atelier, les serveurs brille sous la lumière indirecte, Alex est à nouveau à l'écran, regardant autour de lui dans une posture de questionnement et d'aventure.",
+          "continuity_notes": "Assurer que tous les éléments, des détails du costume à la luminosité, soient cohérents avec le reste de la scène. Les mouvements caméra doivent être lents pour maintenir une atmosphère intriguante."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: La Découverte\nLocation: Atelier de développement informatique\nTime: Nuit\n\nMain action:\nAlex entre dans un atelier de développement informatique en pleine nuit. Les écrans clignotent et les serveurs ronronnent.\n\nVisual content:\nAtelier de développement informatique sombre, avec des serveurs clignotants en arrière-plan. Alex, vêtu d’un pull noir et d’un pantalon de pyjama bleu foncé, est penché sur un ordinateur. Les écrans clignotent doucement.\n\nOriginal scene prompt:\nUne vue de l'atelier sombre avec des serveurs éclairés, Alex fouille dans les ordinateurs.\n\nStoryboard video prompt:\nCaméra stable sur un pied, plan rapproché d'Alex allumant un ordinateur, plan sur les écrans clignotants des serveurs, mouvement caméra lent vers le haut pour révéler l'atelier entier\n\nCamera:\nCameo Canon EOS R5\n\nShot type:\nClose-up\n\nCamera movement:\nStable sur un pied\n\nLens:\n24-70mm f/2.8\n\nLighting:\nLumières indirectes blanches pour souligner les serveurs, éclairage ambiant faible dans le reste de l'atelier\n\nMood:\nIntriguant et mystérieux\n\nColor grading:\nContraste élevé avec des teintes bleutées pour créer une atmosphère nocturne et tech-électrique\n\nVisual style:\nPost-production légèrement retouchée pour accentuer l'effet futuriste et les détails technologiques\n\nFirst frame:\nAlex allume un ordinateur dans la pénombre du bureau. Ses mains agitent le clavier avec curiosité.\n\nLast frame:\nPlan large montrant l'ensemble de l'atelier, les serveurs brille sous la lumière indirecte, Alex est à nouveau à l'écran, regardant autour de lui dans une posture de questionnement et d'aventure.\n\nContinuity:\nAssurer que tous les éléments, des détails du costume à la luminosité, soient cohérents avec le reste de la scène. Les mouvements caméra doivent être lents pour maintenir une atmosphère intriguante.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillard, flou, distorsion, pixels flous, manque de détail"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/videos/scene_01.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 2,
+        "title": "Le Découvrement du Serveur",
+        "location": "Serveur privé, couloir",
+        "time": "Nuit",
+        "description": "Alex découvre un serveur caché derrière une porte blindée.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Qu'est-ce que c'est?"
+          }
+        ],
+        "video_prompt": "Alex actionne la serrure, le panneau s'ouvre révélant des milliers de serveurs.",
+        "music_prompt": "Musique haletante",
+        "sound_effects": [
+          "son de verrous",
+          "bruit d'allumage des serveurs"
+        ],
+        "directing": {
+          "camera": "Caméra à hauteur humaine, stable sur un trépied",
+          "shot_type": "Plan moyen puis plan large",
+          "camera_movement": "Stationnaire pour le plan moyen, lentement déplaçant la caméra vers l'intérieur du panneau pour le plan large",
+          "lens": "Objectif standard 50mm pour maintenir une perspective naturelle et réaliste",
+          "lighting": "Éclairage indirect et diffus, accentuant les ombres pour créer un sentiment de mystère et de tension",
+          "mood": "Sombre et tendu, évoquant l'incertitude et la découverte inattendue",
+          "color_grading": "Contraste élevé avec des tons de gris et de noir dominants, une petite touche d'orangé pour les éléments éclairés créant un contraste saisissant",
+          "visual_style": "Realiste avec des détails nets mais minimisant la saturation des couleurs pour garder l'atmosphère intense et réaliste",
+          "director_notes": "Il est important de maintenir une tension constante tout au long du plan, mettant l'accent sur les réactions d'Alex. La musique haletante doit s'intégrer parfaitement avec le mouvement de la caméra pour amplifier cette sensation."
+        },
+        "storyboard": {
+          "visual_description": "Alex, un jeune homme aux cheveux bruns et aux yeux curieux, se tient devant une porte blindée dans un couloir sombre. La lumière tamisée vient du fond du couloir, créant des ombres sur la porte.",
+          "image_prompt": "Alex face à une porte blindée dans un couloir, lumière tamisée crée des ombres, serveur caché derrière la porte",
+          "video_prompt": "Alex actionne la serrure de la porte blindée, celle-ci s'ouvre lentement révélant un espace étroit rempli de milliers de serveurs. La caméra se déplace doucement vers l'intérieur du panneau pour montrer les serveurs.",
+          "negative_prompt": "distorsion visuelle, artefacts d'IA",
+          "first_frame_description": "Alex se penche devant la porte blindée, l'expression de surprise sur son visage. La lumière tamisée crée des ombres dramatiques sur le métal de la porte.",
+          "last_frame_description": "La caméra est maintenant plongée dans l'espace rempli de serveurs, avec Alex dans l'ombre, regardant vers l'intérieur. Les serviteurs s'allument doucement.",
+          "continuity_notes": "Assurez-vous que la lumière tamisée reste cohérente tout au long du plan. L'action se déroule lentement pour créer une atmosphère de suspense et d'excitation."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: Le Découvrement du Serveur\nLocation: Serveur privé, couloir\nTime: Nuit\n\nMain action:\nAlex découvre un serveur caché derrière une porte blindée.\n\nVisual content:\nAlex, un jeune homme aux cheveux bruns et aux yeux curieux, se tient devant une porte blindée dans un couloir sombre. La lumière tamisée vient du fond du couloir, créant des ombres sur la porte.\n\nOriginal scene prompt:\nAlex actionne la serrure, le panneau s'ouvre révélant des milliers de serveurs.\n\nStoryboard video prompt:\nAlex actionne la serrure de la porte blindée, celle-ci s'ouvre lentement révélant un espace étroit rempli de milliers de serveurs. La caméra se déplace doucement vers l'intérieur du panneau pour montrer les serveurs.\n\nCamera:\nCaméra à hauteur humaine, stable sur un trépied\n\nShot type:\nPlan moyen puis plan large\n\nCamera movement:\nStationnaire pour le plan moyen, lentement déplaçant la caméra vers l'intérieur du panneau pour le plan large\n\nLens:\nObjectif standard 50mm pour maintenir une perspective naturelle et réaliste\n\nLighting:\nÉclairage indirect et diffus, accentuant les ombres pour créer un sentiment de mystère et de tension\n\nMood:\nSombre et tendu, évoquant l'incertitude et la découverte inattendue\n\nColor grading:\nContraste élevé avec des tons de gris et de noir dominants, une petite touche d'orangé pour les éléments éclairés créant un contraste saisissant\n\nVisual style:\nRealiste avec des détails nets mais minimisant la saturation des couleurs pour garder l'atmosphère intense et réaliste\n\nFirst frame:\nAlex se penche devant la porte blindée, l'expression de surprise sur son visage. La lumière tamisée crée des ombres dramatiques sur le métal de la porte.\n\nLast frame:\nLa caméra est maintenant plongée dans l'espace rempli de serveurs, avec Alex dans l'ombre, regardant vers l'intérieur. Les serviteurs s'allument doucement.\n\nContinuity:\nAssurez-vous que la lumière tamisée reste cohérente tout au long du plan. L'action se déroule lentement pour créer une atmosphère de suspense et d'excitation.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "distorsion visuelle, artefacts d'IA"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/videos/scene_02.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 3,
+        "title": "La Découverte de la Connexion",
+        "location": "Salle de surveillance, ordinateur",
+        "time": "Nuit",
+        "description": "Alex s'installe devant un ordinateur pour examiner les données.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "Il y a quelque chose d'étrange ici..."
+          }
+        ],
+        "video_prompt": "Alex travaille sur l'ordinateur, ses doigts pianotent avec intensité.",
+        "music_prompt": "Musique dramatique et suspense",
+        "sound_effects": [
+          "cliquetis des claviers",
+          "bruit de ventilateurs"
+        ],
+        "directing": {
+          "camera": "Caméra fixe placée à hauteur du bureau, filmant l'ordinateur et le visage d'Alex.",
+          "shot_type": "Close-up",
+          "camera_movement": "Stable pour maintenir la tension.",
+          "lens": "Préférer un objectif de grande profondeur de champ pour garder à la fois les doigts d'Alex et l'écran en focus.",
+          "lighting": "Éclairage indirect provenant du haut, créant des ombres sous le menton d'Alex pour ajouter une touche dramatique. Les écrans environnants peuvent être éclairés faiblement pour souligner la concentration d'Alex.",
+          "mood": "Tension et suspense",
+          "color_grading": "Ton neutre avec des tons de gris, légèrement saturés pour accentuer l'intensité du moment.",
+          "visual_style": "Style réaliste, mettant en évidence les détails de l'ordinateur et les expressions faciales d'Alex.",
+          "director_notes": "Il est important de capturer la concentration d'Alex et le mouvement des doigts sur l'écran. Utilisez un zoom lent lorsque ses doigts interagissent avec l'ordinateur pour augmenter l'intensité."
+        },
+        "storyboard": {
+          "visual_description": "Alex s'installe devant un ordinateur dans une salle de surveillance sombre. Ses doigts pianotent avec intensité sur le clavier alors que sa concentration est totale.",
+          "image_prompt": "Alex, jeune homme aux cheveux courts, habillé d’un sweat-shirt noir et d’un pantalon bleu foncé, s’assoit devant un ordinateur dans une salle de surveillance. Ses doigts tapotent sur le clavier avec intensité. La lumière indirecte provenant du haut crée des ombres sous son menton, ajoutant une touche dramatique à l'expression de sa concentration.",
+          "video_prompt": "Alex travaille sur l'ordinateur, ses doigts pianotent avec intensité. La caméra fixe est placée à hauteur du bureau et filmant l'ordinateur ainsi que le visage d'Alex en close-up. Les doigts d'Alex interagissent lentement avec l'écran pour augmenter l'intensité, créant une tension dramatique.",
+          "negative_prompt": "neige, soleil, personnage souriant, background non pertinent, mauvaise qualité graphique, bruit d'arrière-plan",
+          "first_frame_description": "Alex s’installe devant un ordinateur dans une salle de surveillance sombre. Il porte un sweat-shirt noir et des lunettes noires. Ses doigts commencent à taper sur le clavier avec intensité.",
+          "last_frame_description": "Alex fixe l’écran, ses yeux concentrés sur les données qui s'affichent. Sa main droite est suspendue au-dessus du clavier, prête pour un mouvement rapide. Les ombres sous son menton sont plus prononcées.",
+          "continuity_notes": "Il est important de maintenir une tension et une concentration d'Alex tout au long de la scène. Utilisez des effets sonores tels que le cliquetis des claviers et les bruits de ventilateurs pour augmenter l'intensité du moment."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: La Découverte de la Connexion\nLocation: Salle de surveillance, ordinateur\nTime: Nuit\n\nMain action:\nAlex s'installe devant un ordinateur pour examiner les données.\n\nVisual content:\nAlex s'installe devant un ordinateur dans une salle de surveillance sombre. Ses doigts pianotent avec intensité sur le clavier alors que sa concentration est totale.\n\nOriginal scene prompt:\nAlex travaille sur l'ordinateur, ses doigts pianotent avec intensité.\n\nStoryboard video prompt:\nAlex travaille sur l'ordinateur, ses doigts pianotent avec intensité. La caméra fixe est placée à hauteur du bureau et filmant l'ordinateur ainsi que le visage d'Alex en close-up. Les doigts d'Alex interagissent lentement avec l'écran pour augmenter l'intensité, créant une tension dramatique.\n\nCamera:\nCaméra fixe placée à hauteur du bureau, filmant l'ordinateur et le visage d'Alex.\n\nShot type:\nClose-up\n\nCamera movement:\nStable pour maintenir la tension.\n\nLens:\nPréférer un objectif de grande profondeur de champ pour garder à la fois les doigts d'Alex et l'écran en focus.\n\nLighting:\nÉclairage indirect provenant du haut, créant des ombres sous le menton d'Alex pour ajouter une touche dramatique. Les écrans environnants peuvent être éclairés faiblement pour souligner la concentration d'Alex.\n\nMood:\nTension et suspense\n\nColor grading:\nTon neutre avec des tons de gris, légèrement saturés pour accentuer l'intensité du moment.\n\nVisual style:\nStyle réaliste, mettant en évidence les détails de l'ordinateur et les expressions faciales d'Alex.\n\nFirst frame:\nAlex s’installe devant un ordinateur dans une salle de surveillance sombre. Il porte un sweat-shirt noir et des lunettes noires. Ses doigts commencent à taper sur le clavier avec intensité.\n\nLast frame:\nAlex fixe l’écran, ses yeux concentrés sur les données qui s'affichent. Sa main droite est suspendue au-dessus du clavier, prête pour un mouvement rapide. Les ombres sous son menton sont plus prononcées.\n\nContinuity:\nIl est important de maintenir une tension et une concentration d'Alex tout au long de la scène. Utilisez des effets sonores tels que le cliquetis des claviers et les bruits de ventilateurs pour augmenter l'intensité du moment.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "neige, soleil, personnage souriant, background non pertinent, mauvaise qualité graphique, bruit d'arrière-plan"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/videos/scene_03.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 4,
+        "title": "La Découverte du Secret",
+        "location": "Salle d'écoute, chaise",
+        "time": "Nuit",
+        "description": "Alex découvre une vidéo mystérieuse enregistrée dans le serveur.",
+        "dialogues": [
+          {
+            "character": "Alex",
+            "line": "C'est impossible... ces rêves sont réels."
+          }
+        ],
+        "video_prompt": "Alex regarde la vidéo, ses yeux s'agrandissent d'étonnement.",
+        "music_prompt": "Musique haletante et intense",
+        "sound_effects": [
+          "bruit de respiration",
+          "silence dramatique"
+        ],
+        "directing": {
+          "camera": "Static cinematic camera",
+          "shot_type": "Medium shot",
+          "camera_movement": "Slow push in",
+          "lens": "50mm",
+          "lighting": "Cinematic soft lighting",
+          "mood": "Mysterious",
+          "color_grading": "Dark blue cinematic tones",
+          "visual_style": "Realistic cinematic style",
+          "director_notes": "Fallback generated because Director AI failed."
+        },
+        "storyboard": {
+          "visual_description": "Alex assis dans une chaise de bureau dans une salle d'écoute sombre. Ses yeux sont écarquillés, reflétant la surprise et l'étonnement face à ce qu'il voit sur l'écran.",
+          "image_prompt": "Alex, un jeune homme aux cheveux bruns légèrement désordonnés, assis dans une chaise de bureau en métal dans une salle d'écoute. Il regarde intensément une vidéo sur un écran de ordinateur, ses yeux s’agrandissent d'étonnement. La lumière tamisée du plafonnier crée des ombres dramatiques sur son visage.",
+          "video_prompt": "Alex se penche en avant pour regarder la vidéo qui apparaît à l’écran. Ses yeux s'agrandissent lentement de surprise et d'étonnement, tandis que la caméra fait un slow push in vers lui. Le cadre s'élargit progressivement jusqu'à ce qu'il soit dans le centre de l'image, sa respiration devient audible. Les murs sombres de la salle d’écoute sont vus en arrière-plan.",
+          "negative_prompt": "Brouillage, motion blur, artefacts numériques, mauvaise qualité, pixelation, maladjusté",
+          "first_frame_description": "Alex se penche vers l'écran, son visage illuminé par la lumière bleu clair de l'ordinateur. Ses yeux sont levés vers l'écran, prêts à voir ce qui s'y passe.",
+          "last_frame_description": "La caméra est maintenant tout près d’Alex, ses traits détaillés montrant sa surprise. Derrière lui, on peut distinguer les contours de la salle d'écoute avec des meubles en métal et un ordinateur moderne.",
+          "continuity_notes": "Assurez-vous que l'éclairage reste cohérent tout au long du cadre, avec une lumière tamisée et bleutée. Le visage d’Alex doit rester clair tandis qu'il examine la vidéo."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: La Découverte du Secret\nLocation: Salle d'écoute, chaise\nTime: Nuit\n\nMain action:\nAlex découvre une vidéo mystérieuse enregistrée dans le serveur.\n\nVisual content:\nAlex assis dans une chaise de bureau dans une salle d'écoute sombre. Ses yeux sont écarquillés, reflétant la surprise et l'étonnement face à ce qu'il voit sur l'écran.\n\nOriginal scene prompt:\nAlex regarde la vidéo, ses yeux s'agrandissent d'étonnement.\n\nStoryboard video prompt:\nAlex se penche en avant pour regarder la vidéo qui apparaît à l’écran. Ses yeux s'agrandissent lentement de surprise et d'étonnement, tandis que la caméra fait un slow push in vers lui. Le cadre s'élargit progressivement jusqu'à ce qu'il soit dans le centre de l'image, sa respiration devient audible. Les murs sombres de la salle d’écoute sont vus en arrière-plan.\n\nCamera:\nStatic cinematic camera\n\nShot type:\nMedium shot\n\nCamera movement:\nSlow push in\n\nLens:\n50mm\n\nLighting:\nCinematic soft lighting\n\nMood:\nMysterious\n\nColor grading:\nDark blue cinematic tones\n\nVisual style:\nRealistic cinematic style\n\nFirst frame:\nAlex se penche vers l'écran, son visage illuminé par la lumière bleu clair de l'ordinateur. Ses yeux sont levés vers l'écran, prêts à voir ce qui s'y passe.\n\nLast frame:\nLa caméra est maintenant tout près d’Alex, ses traits détaillés montrant sa surprise. Derrière lui, on peut distinguer les contours de la salle d'écoute avec des meubles en métal et un ordinateur moderne.\n\nContinuity:\nAssurez-vous que l'éclairage reste cohérent tout au long du cadre, avec une lumière tamisée et bleutée. Le visage d’Alex doit rester clair tandis qu'il examine la vidéo.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "Brouillage, motion blur, artefacts numériques, mauvaise qualité, pixelation, maladjusté"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/videos/scene_04.mp4",
+          "duration_seconds": 8
+        }
+      },
+      {
+        "scene_number": 5,
+        "title": "La Décision",
+        "location": "Hors cadre, voix off",
+        "time": "Nuit",
+        "description": "Alex prend une décision cruciale pour l'avenir des rêves.",
+        "dialogues": [
+          {
+            "character": "Alex (voix off)",
+            "line": "Je dois tout faire pour les protéger."
+          }
+        ],
+        "video_prompt": "Image floue de Alex, son visage s'estompe lentement.",
+        "music_prompt": "Musique puissante et émotive",
+        "sound_effects": [
+          "respiration régulière"
+        ],
+        "directing": {
+          "camera": "Cameraman en train de filmer Alex depuis un angle intime, presque personnel.",
+          "shot_type": "Close-up",
+          "camera_movement": "Lentement, la caméra se rapproche pour montrer l'intensité du moment sans trop déranger le personnage.",
+          "lens": "Privilégier un objectif de grand angle ou un zoom pour accentuer les expressions faciales.",
+          "lighting": "Éclairage indirect et doux, mettant en valeur les traits du visage d'Alex tandis qu'il se penche sur une décision importante.",
+          "mood": "Très introspectif, émotionnellement fort",
+          "color_grading": "Couleurs sombres avec des touches de rouge pour ajouter de la tension et de l’émotion à l'image floue.",
+          "visual_style": "Réaliste, mettant en avant les sentiments profonds d'Alex.",
+          "director_notes": "Il est important de capturer le moment où Alex réalise sa décision. Laissez suffisamment de temps pour que la tension monte et la voix off résonne."
+        },
+        "storyboard": {
+          "visual_description": "Alex se tient seul dans une pièce sombre, sa silhouette est floue. Ses traits sont marqués par la concentration et l'intensité de son choix.",
+          "image_prompt": "Image floue d'Alex, visage s'estompant lentement, respiration régulière, éclairage doux et indirect, expression intense",
+          "video_prompt": "Caméra qui se rapproche lentement d'Alex pour un close-up, filtre de flou progressif sur le visage, respiration régulière, mouvement de caméra subtil",
+          "negative_prompt": "brouillon, artificiel, mauvaise qualité, manque de détail, pixelisation, reflets incohérents, ombres artificielles",
+          "first_frame_description": "Alex se tient seul dans une pièce sombre. Sa silhouette est floue et se superpose progressivement à son visage qui s'assombrit lentement.",
+          "last_frame_description": "La caméra s'est rapprochée pour un close-up de l'intensité du moment, laissant apparaître des touches de rouge soulignant la tension émotionnelle. Le flou sur le reste du cadre se dissipe progressivement.",
+          "continuity_notes": "Maintenir une transition fluide entre les frames, utilisant un filtre de flou progressif pour donner l'impression que le visage d'Alex est l'unique élément en clair."
+        },
+        "final_video_prompt": {
+          "provider": "local_video_ai",
+          "target_models": [
+            "ltx-video",
+            "cogvideox",
+            "wan",
+            "hunyuanvideo"
+          ],
+          "duration_seconds": 8,
+          "fps": 24,
+          "resolution": "1280x720",
+          "prompt": "Scene title: La Décision\nLocation: Hors cadre, voix off\nTime: Nuit\n\nMain action:\nAlex prend une décision cruciale pour l'avenir des rêves.\n\nVisual content:\nAlex se tient seul dans une pièce sombre, sa silhouette est floue. Ses traits sont marqués par la concentration et l'intensité de son choix.\n\nOriginal scene prompt:\nImage floue de Alex, son visage s'estompe lentement.\n\nStoryboard video prompt:\nCaméra qui se rapproche lentement d'Alex pour un close-up, filtre de flou progressif sur le visage, respiration régulière, mouvement de caméra subtil\n\nCamera:\nCameraman en train de filmer Alex depuis un angle intime, presque personnel.\n\nShot type:\nClose-up\n\nCamera movement:\nLentement, la caméra se rapproche pour montrer l'intensité du moment sans trop déranger le personnage.\n\nLens:\nPrivilégier un objectif de grand angle ou un zoom pour accentuer les expressions faciales.\n\nLighting:\nÉclairage indirect et doux, mettant en valeur les traits du visage d'Alex tandis qu'il se penche sur une décision importante.\n\nMood:\nTrès introspectif, émotionnellement fort\n\nColor grading:\nCouleurs sombres avec des touches de rouge pour ajouter de la tension et de l’émotion à l'image floue.\n\nVisual style:\nRéaliste, mettant en avant les sentiments profonds d'Alex.\n\nFirst frame:\nAlex se tient seul dans une pièce sombre. Sa silhouette est floue et se superpose progressivement à son visage qui s'assombrit lentement.\n\nLast frame:\nLa caméra s'est rapprochée pour un close-up de l'intensité du moment, laissant apparaître des touches de rouge soulignant la tension émotionnelle. Le flou sur le reste du cadre se dissipe progressivement.\n\nContinuity:\nMaintenir une transition fluide entre les frames, utilisant un filtre de flou progressif pour donner l'impression que le visage d'Alex est l'unique élément en clair.\n\nRender style:\ncinematic, realistic, coherent character appearance, stable clothing, stable background, movie shot, high detail, natural motion, no text on screen",
+          "negative_prompt": "brouillon, artificiel, mauvaise qualité, manque de détail, pixelisation, reflets incohérents, ombres artificielles"
+        },
+        "video_render": {
+          "status": "rendered",
+          "type": "placeholder",
+          "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/videos/scene_05.mp4",
+          "duration_seconds": 8
+        }
+      }
+    ]
+  },
+  "silent_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/exports/final_movie_silent.mp4",
+    "scene_count": 5
+  },
+  "music": {
+    "status": "generated",
+    "type": "placeholder",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/music/placeholder_music.wav",
+    "duration_seconds": 40
+  },
+  "final_export": {
+    "status": "exported",
+    "format": "mp4",
+    "path": "/home/alexis/Projet_VSCODE/CineForgeAI/backend/projects/20260622_103515_serveur_des_rêves/exports/final_movie.mp4",
+    "has_music": true
+  }
+}
